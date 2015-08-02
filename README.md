@@ -1,0 +1,1 @@
+Farsan is a single-weight Gujarati + Latin typeface currently in development.
