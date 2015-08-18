@@ -1,6 +1,6 @@
 {
 copyright = "Copyright \U00A9 Pooja Saxena, 2015";
-date = "2015-08-17 17:50:49 +0000";
+date = "2015-08-18 17:17:04 +0000";
 designer = "Pooja Saxena";
 familyName = "Farsan";
 fontMaster = (
@@ -6231,24 +6231,107 @@ unicode = 0ACC;
 },
 {
 glyphname = "iivowel-gujarati";
-lastChange = "2015-07-09 10:07:32 +0000";
+lastChange = "2015-08-18 17:16:18 +0000";
 layers = (
 {
 layerId = "70F97C4B-94FA-40A4-8E29-E667CA674F9A";
 name = Regular;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"-68 758 OFFCURVE",
+"-26 846 OFFCURVE",
+"74 846 CURVE",
+"192 846 OFFCURVE",
+"189 710 OFFCURVE",
+"176 590 CURVE",
+"105 47 LINE",
+"124 67 OFFCURVE",
+"161 108 OFFCURVE",
+"171 108 CURVE",
+"184 108 OFFCURVE",
+"200 82 OFFCURVE",
+"200 66 CURVE",
+"200 51 OFFCURVE",
+"119 0 OFFCURVE",
+"79 0 CURVE",
+"63 0 OFFCURVE",
+"46 12 OFFCURVE",
+"46 36 CURVE",
+"46 62 OFFCURVE",
+"64 176 OFFCURVE",
+"116 579 CURVE",
+"132 714 OFFCURVE",
+"126 787 OFFCURVE",
+"69 787 CURVE",
+"13 787 OFFCURVE",
+"-5 740 OFFCURVE",
+"-28 667 CURVE",
+"-35 645 OFFCURVE",
+"-40 639 OFFCURVE",
+"-54 639 CURVE",
+"-65 639 OFFCURVE",
+"-92 646 OFFCURVE",
+"-88 667 CURVE"
+);
+}
+);
+width = 220;
 }
 );
 unicode = 0AC0;
 },
 {
 glyphname = "ivowel-gujarati";
-lastChange = "2015-07-09 10:07:32 +0000";
+lastChange = "2015-08-18 17:16:33 +0000";
 layers = (
 {
 layerId = "70F97C4B-94FA-40A4-8E29-E667CA674F9A";
 name = Regular;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"64 176 OFFCURVE",
+"46 62 OFFCURVE",
+"46 36 CURVE",
+"46 12 OFFCURVE",
+"63 0 OFFCURVE",
+"79 0 CURVE",
+"119 0 OFFCURVE",
+"200 51 OFFCURVE",
+"200 66 CURVE",
+"200 82 OFFCURVE",
+"184 108 OFFCURVE",
+"171 108 CURVE",
+"161 108 OFFCURVE",
+"124 67 OFFCURVE",
+"105 47 CURVE",
+"168 520 LINE",
+"192 680 OFFCURVE",
+"215 787 OFFCURVE",
+"319 787 CURVE",
+"397 787 OFFCURVE",
+"479 737 OFFCURVE",
+"564 652 CURVE SMOOTH",
+"578 638 OFFCURVE",
+"586 642 OFFCURVE",
+"596 652 CURVE",
+"607 663 LINE",
+"619 675 OFFCURVE",
+"622 682 OFFCURVE",
+"605 696 CURVE SMOOTH",
+"502 781 OFFCURVE",
+"424 846 OFFCURVE",
+"317 846 CURVE",
+"187 846 OFFCURVE",
+"139 741 OFFCURVE",
+"116 579 CURVE"
+);
+}
+);
+width = 221;
 }
 );
 unicode = 0ABF;
@@ -6328,12 +6411,48 @@ unicode = 0ACB;
 },
 {
 glyphname = "visarga-gujarati";
-lastChange = "2015-07-09 10:07:32 +0000";
+lastChange = "2015-08-18 17:16:46 +0000";
 layers = (
 {
 layerId = "70F97C4B-94FA-40A4-8E29-E667CA674F9A";
 name = Regular;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"97 406 OFFCURVE",
+"118 422 OFFCURVE",
+"118 450 CURVE SMOOTH",
+"118 472 OFFCURVE",
+"99 489 OFFCURVE",
+"79 489 CURVE SMOOTH",
+"56 489 OFFCURVE",
+"35 473 OFFCURVE",
+"35 446 CURVE SMOOTH",
+"35 423 OFFCURVE",
+"54 406 OFFCURVE",
+"75 406 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"77 178 OFFCURVE",
+"98 194 OFFCURVE",
+"98 222 CURVE SMOOTH",
+"98 244 OFFCURVE",
+"79 261 OFFCURVE",
+"59 261 CURVE SMOOTH",
+"36 261 OFFCURVE",
+"15 245 OFFCURVE",
+"15 218 CURVE SMOOTH",
+"15 195 OFFCURVE",
+"34 178 OFFCURVE",
+"55 178 CURVE SMOOTH"
+);
+}
+);
+width = 133;
 }
 );
 unicode = 0A83;
@@ -6401,12 +6520,31 @@ unicode = 0AC8;
 },
 {
 glyphname = "anusvara-gujarati";
-lastChange = "2015-07-09 10:07:32 +0000";
+lastChange = "2015-08-18 17:16:59 +0000";
 layers = (
 {
 layerId = "70F97C4B-94FA-40A4-8E29-E667CA674F9A";
 name = Regular;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"-31 688 OFFCURVE",
+"-9 705 OFFCURVE",
+"-9 734 CURVE SMOOTH",
+"-9 757 OFFCURVE",
+"-29 775 OFFCURVE",
+"-50 775 CURVE SMOOTH",
+"-74 775 OFFCURVE",
+"-96 758 OFFCURVE",
+"-96 730 CURVE SMOOTH",
+"-96 706 OFFCURVE",
+"-76 688 OFFCURVE",
+"-54 688 CURVE SMOOTH"
+);
+}
+);
+width = 0;
 }
 );
 unicode = 0A82;
