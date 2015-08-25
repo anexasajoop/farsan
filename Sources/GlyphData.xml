@@ -24,6 +24,9 @@
 	<glyph unicode="0A81" name="gjCandrabindu" category="Mark" subCategory="Nonspacing" script="gujarati" legacy="candrabindugujarati" description="GUJARATI SIGN CANDRABINDU" />
 	<glyph unicode="0A82" name="gjAnusvara" category="Mark" subCategory="Nonspacing" script="gujarati" legacy="anusvaragujarati" description="GUJARATI SIGN ANUSVARA" />
 	<glyph unicode="0A83" name="gjVisarga" category="Mark" subCategory="Spacing" script="gujarati" legacy="visargagujarati" description="GUJARATI SIGN VISARGA" />
+
+	<!-- vowels -->
+
 	<glyph unicode="0A85" name="gjA" category="Letter" script="gujarati" legacy="agujarati" description="GUJARATI LETTER A" />
 	<glyph unicode="0A86" name="gjAa" category="Letter" script="gujarati" legacy="aagujarati" description="GUJARATI LETTER AA" />
 	<glyph unicode="0A87" name="gjI" category="Letter" script="gujarati" legacy="igujarati" description="GUJARATI LETTER I" />
@@ -38,61 +41,72 @@
 	<glyph unicode="0A91" name="gjOcandra" category="Letter" script="gujarati" legacy="ocandragujarati" description="GUJARATI VOWEL CANDRA O" />
 	<glyph unicode="0A93" name="gjO" category="Letter" script="gujarati" legacy="ogujarati" description="GUJARATI LETTER O" />
 	<glyph unicode="0A94" name="gjAu" category="Letter" script="gujarati" legacy="augujarati" description="GUJARATI LETTER AU" />
-	<glyph unicode="0A95" name="gjKa" category="Letter" script="gujarati" legacy="kagujarati" description="GUJARATI LETTER KA" />
-	<glyph unicode="0A96" name="gjKha" category="Letter" script="gujarati" legacy="khagujarati" description="GUJARATI LETTER KHA" />
-	<glyph unicode="0A97" name="gjGa" category="Letter" script="gujarati" legacy="gagujarati" description="GUJARATI LETTER GA" />
-	<glyph unicode="0A98" name="gjGha" category="Letter" script="gujarati" legacy="ghagujarati" description="GUJARATI LETTER GHA" />
-	<glyph unicode="0A99" name="gjNga" category="Letter" script="gujarati" legacy="ngagujarati" description="GUJARATI LETTER NGA" />
-	<glyph unicode="0A9A" name="gjCa" category="Letter" script="gujarati" legacy="cagujarati" description="GUJARATI LETTER CA" />
-	<glyph unicode="0A9B" name="gjCha" category="Letter" script="gujarati" legacy="chagujarati" description="GUJARATI LETTER CHA" />
-	<glyph unicode="0A9C" name="gjJa" category="Letter" script="gujarati" legacy="jagujarati" description="GUJARATI LETTER JA" />
-	<glyph unicode="0A9D" name="gjJha" category="Letter" script="gujarati" legacy="jhagujarati" description="GUJARATI LETTER JHA" />
-	<glyph unicode="0A9E" name="gjNya" category="Letter" script="gujarati" legacy="nyagujarati" description="GUJARATI LETTER NYA" />
-	<glyph unicode="0A9F" name="gjTta" category="Letter" script="gujarati" legacy="ttagujarati" description="GUJARATI LETTER TTA" />
-	<glyph unicode="0AA0" name="gjTtha" category="Letter" script="gujarati" legacy="tthagujarati" description="GUJARATI LETTER TTHA" />
-	<glyph unicode="0AA1" name="gjDda" category="Letter" script="gujarati" legacy="ddagujarati" description="GUJARATI LETTER DDA" />
-	<glyph unicode="0AA2" name="gjDdha" category="Letter" script="gujarati" legacy="ddhagujarati" description="GUJARATI LETTER DDHA" />
-	<glyph unicode="0AA3" name="gjNna" category="Letter" script="gujarati" legacy="nnagujarati" description="GUJARATI LETTER NNA" />
-	<glyph unicode="0AA4" name="gjTa" category="Letter" script="gujarati" legacy="tagujarati" description="GUJARATI LETTER TA" />
-	<glyph unicode="0AA5" name="gjTha" category="Letter" script="gujarati" legacy="thagujarati" description="GUJARATI LETTER THA" />
-	<glyph unicode="0AA6" name="gjDa" category="Letter" script="gujarati" legacy="dagujarati" description="GUJARATI LETTER DA" />
-	<glyph unicode="0AA7" name="gjDha" category="Letter" script="gujarati" legacy="dhagujarati" description="GUJARATI LETTER DHA" />
-	<glyph unicode="0AA8" name="gjNa" category="Letter" script="gujarati" legacy="nagujarati" description="GUJARATI LETTER NA" />
-	<glyph unicode="0AAA" name="gjPa" category="Letter" script="gujarati" legacy="pagujarati" description="GUJARATI LETTER PA" />
-	<glyph unicode="0AAB" name="gjPha" category="Letter" script="gujarati" legacy="phagujarati" description="GUJARATI LETTER PHA" />
-	<glyph unicode="0AAC" name="gjBa" category="Letter" script="gujarati" legacy="bagujarati" description="GUJARATI LETTER BA" />
-	<glyph unicode="0AAD" name="gjBha" category="Letter" script="gujarati" legacy="bhagujarati" description="GUJARATI LETTER BHA" />
-	<glyph unicode="0AAE" name="gjMa" category="Letter" script="gujarati" legacy="magujarati" description="GUJARATI LETTER MA" />
-	<glyph unicode="0AAF" name="gjYa" category="Letter" script="gujarati" legacy="yagujarati" description="GUJARATI LETTER YA" />
-	<glyph unicode="0AB0" name="gjRa" category="Letter" script="gujarati" legacy="ragujarati" description="GUJARATI LETTER RA" />
-	<glyph unicode="0AB2" name="gjLa" category="Letter" script="gujarati" legacy="lagujarati" description="GUJARATI LETTER LA" />
-	<glyph unicode="0AB3" name="gjLla" category="Letter" script="gujarati" legacy="llagujarati" description="GUJARATI LETTER LLA" />
-	<glyph unicode="0AB5" name="gjVa" category="Letter" script="gujarati" legacy="vagujarati" description="GUJARATI LETTER VA" />
-	<glyph unicode="0AB6" name="gjSha" category="Letter" script="gujarati" legacy="shagujarati" description="GUJARATI LETTER SHA" />
-	<glyph unicode="0AB7" name="gjSsa" category="Letter" script="gujarati" legacy="ssagujarati" description="GUJARATI LETTER SSA" />
-	<glyph unicode="0AB8" name="gjSa" category="Letter" script="gujarati" legacy="sagujarati" description="GUJARATI LETTER SA" />
-	<glyph unicode="0AB9" name="gjHa" category="Letter" script="gujarati" legacy="hagujarati" description="GUJARATI LETTER HA" />
+	
+	<!-- consonants -->
+
+	<glyph unicode="0A95" name="gjKa" category="Letter" script="gujarati" legacy="kagujarati" description="GUJARATI LETTER KA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0A96" name="gjKha" category="Letter" script="gujarati" legacy="khagujarati" description="GUJARATI LETTER KHA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0A97" name="gjGa" category="Letter" script="gujarati" legacy="gagujarati" description="GUJARATI LETTER GA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0A98" name="gjGha" category="Letter" script="gujarati" legacy="ghagujarati" description="GUJARATI LETTER GHA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0A99" name="gjNga" category="Letter" script="gujarati" legacy="ngagujarati" description="GUJARATI LETTER NGA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0A9A" name="gjCa" category="Letter" script="gujarati" legacy="cagujarati" description="GUJARATI LETTER CA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0A9B" name="gjCha" category="Letter" script="gujarati" legacy="chagujarati" description="GUJARATI LETTER CHA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0A9C" name="gjJa" category="Letter" script="gujarati" legacy="jagujarati" description="GUJARATI LETTER JA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0A9D" name="gjJha" category="Letter" script="gujarati" legacy="jhagujarati" description="GUJARATI LETTER JHA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0A9E" name="gjNya" category="Letter" script="gujarati" legacy="nyagujarati" description="GUJARATI LETTER NYA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0A9F" name="gjTta" category="Letter" script="gujarati" legacy="ttagujarati" description="GUJARATI LETTER TTA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0AA0" name="gjTtha" category="Letter" script="gujarati" legacy="tthagujarati" description="GUJARATI LETTER TTHA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0AA1" name="gjDda" category="Letter" script="gujarati" legacy="ddagujarati" description="GUJARATI LETTER DDA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0AA2" name="gjDdha" category="Letter" script="gujarati" legacy="ddhagujarati" description="GUJARATI LETTER DDHA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0AA3" name="gjNna" category="Letter" script="gujarati" legacy="nnagujarati" description="GUJARATI LETTER NNA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0AA4" name="gjTa" category="Letter" script="gujarati" legacy="tagujarati" description="GUJARATI LETTER TA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0AA5" name="gjTha" category="Letter" script="gujarati" legacy="thagujarati" description="GUJARATI LETTER THA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0AA6" name="gjDa" category="Letter" script="gujarati" legacy="dagujarati" description="GUJARATI LETTER DA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0AA7" name="gjDha" category="Letter" script="gujarati" legacy="dhagujarati" description="GUJARATI LETTER DHA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0AA8" name="gjNa" category="Letter" script="gujarati" legacy="nagujarati" description="GUJARATI LETTER NA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign" />
+	<glyph unicode="0AAA" name="gjPa" category="Letter" script="gujarati" legacy="pagujarati" description="GUJARATI LETTER PA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0AAB" name="gjPha" category="Letter" script="gujarati" legacy="phagujarati" description="GUJARATI LETTER PHA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0AAC" name="gjBa" category="Letter" script="gujarati" legacy="bagujarati" description="GUJARATI LETTER BA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0AAD" name="gjBha" category="Letter" script="gujarati" legacy="bhagujarati" description="GUJARATI LETTER BHA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0AAE" name="gjMa" category="Letter" script="gujarati" legacy="magujarati" description="GUJARATI LETTER MA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0AAF" name="gjYa" category="Letter" script="gujarati" legacy="yagujarati" description="GUJARATI LETTER YA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0AB0" name="gjRa" category="Letter" script="gujarati" legacy="ragujarati" description="GUJARATI LETTER RA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0AB2" name="gjLa" category="Letter" script="gujarati" legacy="lagujarati" description="GUJARATI LETTER LA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0AB3" name="gjLla" category="Letter" script="gujarati" legacy="llagujarati" description="GUJARATI LETTER LLA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0AB5" name="gjVa" category="Letter" script="gujarati" legacy="vagujarati" description="GUJARATI LETTER VA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0AB6" name="gjSha" category="Letter" script="gujarati" legacy="shagujarati" description="GUJARATI LETTER SHA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0AB7" name="gjSsa" category="Letter" script="gujarati" legacy="ssagujarati" description="GUJARATI LETTER SSA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0AB8" name="gjSa" category="Letter" script="gujarati" legacy="sagujarati" description="GUJARATI LETTER SA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+	<glyph unicode="0AB9" name="gjHa" category="Letter" script="gujarati" legacy="hagujarati" description="GUJARATI LETTER HA" anchors="top, bottom" accents="gjEsign, gjAisign, gjEcandrasign, gjAnusvara, gjUsign, gjUusign, gjVirama, gjRrvocalsign, gjRvocalsign, gjLvocalsign, gjLlvocalsign"/>
+
+	<!-- marks -->
+
 	<glyph unicode="0ABC" name="gjNukta" category="Mark" subCategory="Nonspacing" script="gujarati" legacy="nuktagujarati" description="GUJARATI SIGN NUKTA" />
 	<glyph unicode="0ABD" name="gjAvagraha" category="Letter" script="gujarati" legacy="uni0ABD" description="GUJARATI SIGN AVAGRAHA" />
+	
 	<glyph unicode="0ABE" name="gjAasign" category="Mark" subCategory="Spacing" script="gujarati" legacy="aavowelsigngujarati" description="GUJARATI VOWEL SIGN AA" />
 	<glyph unicode="0ABF" name="gjIsign" category="Mark" subCategory="Spacing" script="gujarati" legacy="ivowelsigngujarati" description="GUJARATI VOWEL SIGN I" />
 	<glyph unicode="0AC0" name="gjIisign" category="Mark" subCategory="Spacing" script="gujarati" legacy="iivowelsigngujarati" description="GUJARATI VOWEL SIGN II" />
-	<glyph unicode="0AC1" name="gjUsign" category="Mark" subCategory="Nonspacing" script="gujarati" legacy="uvowelsigngujarati" description="GUJARATI VOWEL SIGN U" />
-	<glyph unicode="0AC2" name="gjUusign" category="Mark" subCategory="Nonspacing" script="gujarati" legacy="uuvowelsigngujarati" description="GUJARATI VOWEL SIGN UU" />
-	<glyph unicode="0AC3" name="gjRvocalsign" category="Mark" subCategory="Nonspacing" script="gujarati" legacy="rvocalicvowelsigngujarati" description="GUJARATI VOWEL SIGN VOCALIC R" />
-	<glyph unicode="0AC4" name="gjRrvocalsign" category="Mark" subCategory="Nonspacing" script="gujarati" legacy="rrvocalicvowelsigngujarati" description="GUJARATI VOWEL SIGN VOCALIC RR" />
-	<glyph unicode="0AC5" name="gjEcandrasign" category="Mark" subCategory="Nonspacing" script="gujarati" legacy="ecandravowelsigngujarati" description="GUJARATI VOWEL SIGN CANDRA E" />
-	<glyph unicode="0AC7" name="gjEsign" category="Mark" subCategory="Nonspacing" script="gujarati" legacy="evowelsigngujarati" description="GUJARATI VOWEL SIGN E" />
-	<glyph unicode="0AC8" name="gjAisign" category="Mark" subCategory="Nonspacing" script="gujarati" legacy="aivowelsigngujarati" description="GUJARATI VOWEL SIGN AI" />
+	<glyph unicode="0AC1" name="gjUsign" category="Mark" subCategory="Nonspacing" script="gujarati" legacy="uvowelsigngujarati" description="GUJARATI VOWEL SIGN U" anchors="_bottom"/>
+	<glyph unicode="0AC2" name="gjUusign" category="Mark" subCategory="Nonspacing" script="gujarati" legacy="uuvowelsigngujarati" description="GUJARATI VOWEL SIGN UU" anchors="_bottom"/>
+	<glyph unicode="0AC3" name="gjRvocalsign" category="Mark" subCategory="Nonspacing" script="gujarati" legacy="rvocalicvowelsigngujarati" description="GUJARATI VOWEL SIGN VOCALIC R" anchors="_bottom"/>
+	<glyph unicode="0AC4" name="gjRrvocalsign" category="Mark" subCategory="Nonspacing" script="gujarati" legacy="rrvocalicvowelsigngujarati" description="GUJARATI VOWEL SIGN VOCALIC RR" anchors="_bottom"/>
+	<glyph unicode="0AC5" name="gjEcandrasign" category="Mark" subCategory="Nonspacing" script="gujarati" legacy="ecandravowelsigngujarati" description="GUJARATI VOWEL SIGN CANDRA E" anchors="_top" />
+	<glyph unicode="0AC7" name="gjEsign" category="Mark" subCategory="Nonspacing" script="gujarati" legacy="evowelsigngujarati" description="GUJARATI VOWEL SIGN E" anchors="_top"/>
+	<glyph unicode="0AC8" name="gjAisign" category="Mark" subCategory="Nonspacing" script="gujarati" legacy="aivowelsigngujarati" description="GUJARATI VOWEL SIGN AI" anchors="_top"/>
 	<glyph unicode="0AC9" name="gjOcandrasign" category="Mark" subCategory="Spacing" script="gujarati" legacy="ocandravowelsigngujarati" description="GUJARATI VOWEL SIGN CANDRA O" />
 	<glyph unicode="0ACB" name="gjOsign" category="Mark" subCategory="Spacing" script="gujarati" legacy="ovowelsigngujarati" description="GUJARATI VOWEL SIGN O" />
 	<glyph unicode="0ACC" name="gjAusign" category="Mark" subCategory="Spacing" script="gujarati" legacy="auvowelsigngujarati" description="GUJARATI VOWEL SIGN AU" />
-	<glyph unicode="0ACD" name="gjVirama" category="Mark" subCategory="Nonspacing" script="gujarati" legacy="viramagujarati" description="GUJARATI SIGN VIRAMA" />
+	<glyph unicode="0ACD" name="gjVirama" category="Mark" subCategory="Nonspacing" script="gujarati" legacy="viramagujarati" description="GUJARATI SIGN VIRAMA" anchors="_bottom"/>
+
 	<glyph unicode="0AD0" name="gjOm" category="Letter" script="gujarati" legacy="omgujarati" description="GUJARATI OM" />
 	<glyph unicode="0AE0" name="gjRrvocal" category="Letter" script="gujarati" legacy="rrvocalicgujarati" description="GUJARATI LETTER VOCALIC RR" />
 	<glyph unicode="0AE1" name="gjLlvocal" category="Letter" script="gujarati" legacy="uni0AE1" description="GUJARATI LETTER VOCALIC LL" />
-	<glyph unicode="0AE2" name="gjLvocalsign" category="Mark" subCategory="Nonspacing" script="gujarati" legacy="uni0AE2" description="GUJARATI VOWEL SIGN VOCALIC L" />
-	<glyph unicode="0AE3" name="gjLlvocalsign" category="Mark" subCategory="Nonspacing" script="gujarati" legacy="uni0AE3" description="GUJARATI VOWEL SIGN VOCALIC LL" />
+	<glyph unicode="0AE2" name="gjLvocalsign" category="Mark" subCategory="Nonspacing" script="gujarati" legacy="uni0AE2" description="GUJARATI VOWEL SIGN VOCALIC L" anchors="_bottom"/>
+	<glyph unicode="0AE3" name="gjLlvocalsign" category="Mark" subCategory="Nonspacing" script="gujarati" legacy="uni0AE3" description="GUJARATI VOWEL SIGN VOCALIC LL" anchors="_bottom"/>
+
+	<!-- numbers -->
+
 	<glyph unicode="0AE6" name="gjZero" category="Number" subCategory="Decimal Digit" script="gujarati" legacy="zerogujarati" description="GUJARATI DIGIT ZERO" />
 	<glyph unicode="0AE7" name="gjOne" category="Number" subCategory="Decimal Digit" script="gujarati" legacy="onegujarati" description="GUJARATI DIGIT ONE" />
 	<glyph unicode="0AE8" name="gjTwo" category="Number" subCategory="Decimal Digit" script="gujarati" legacy="twogujarati" description="GUJARATI DIGIT TWO" />
