@@ -1,0 +1,781 @@
+space space 0020
+exclam exclam 0021
+quotedbl quotedbl 0022
+numbersign numbersign 0023
+dollar dollar 0024
+percent percent 0025
+ampersand ampersand 0026
+quotesingle quotesingle 0027
+parenleft parenleft 0028
+parenright parenright 0029
+asterisk asterisk 002A
+plus plus 002B
+comma comma 002C
+hyphen hyphen 002D
+period period 002E
+slash slash 002F
+zero zero 0030
+one one 0031
+two two 0032
+three three 0033
+four four 0034
+five five 0035
+six six 0036
+seven seven 0037
+eight eight 0038
+nine nine 0039
+colon colon 003A
+semicolon semicolon 003B
+less less 003C
+equal equal 003D
+greater greater 003E
+question question 003F
+at at 0040
+A A 0041
+B B 0042
+C C 0043
+D D 0044
+E E 0045
+F F 0046
+G G 0047
+H H 0048
+I I 0049
+J J 004A
+K K 004B
+L L 004C
+M M 004D
+N N 004E
+O O 004F
+P P 0050
+Q Q 0051
+R R 0052
+S S 0053
+T T 0054
+U U 0055
+V V 0056
+W W 0057
+X X 0058
+Y Y 0059
+Z Z 005A
+bracketleft bracketleft 005B
+backslash backslash 005C
+bracketright bracketright 005D
+asciicircum asciicircum 005E
+underscore underscore 005F
+grave grave 0060
+grave.cap grave.cap 
+a a 0061
+b b 0062
+c c 0063
+d d 0064
+e e 0065
+f f 0066
+g g 0067
+h h 0068
+i i 0069
+j j 006A
+k k 006B
+l l 006C
+m m 006D
+n n 006E
+o o 006F
+p p 0070
+q q 0071
+r r 0072
+s s 0073
+t t 0074
+u u 0075
+v v 0076
+w w 0077
+x x 0078
+y y 0079
+z z 007A
+braceleft braceleft 007B
+bar bar 007C
+braceright braceright 007D
+asciitilde asciitilde 007E
+nbspace nbspace 00A0
+exclamdown exclamdown 00A1
+cent cent 00A2
+sterling sterling 00A3
+currency currency 00A4
+yen yen 00A5
+brokenbar brokenbar 00A6
+section section 00A7
+dieresis dieresis 00A8
+dieresis.cap dieresis.cap 
+copyright copyright 00A9
+ordfeminine ordfeminine 00AA
+guillemotleft guillemetleft 00AB
+logicalnot logicalnot 00AC
+softhyphen softhyphen 00AD
+registered registered 00AE
+macron macron 00AF
+macron.cap macron.cap 
+degree degree 00B0
+plusminus plusminus 00B1
+twosuperior twosuperior 00B2
+threesuperior threesuperior 00B3
+acute acute 00B4
+acute.cap acute.cap 
+mu micro 00B5
+paragraph paragraph 00B6
+periodcentered periodcentered 00B7
+cedilla cedilla 00B8
+onesuperior onesuperior 00B9
+ordmasculine ordmasculine 00BA
+guillemotright guillemetright 00BB
+onequarter onequarter 00BC
+onehalf onehalf 00BD
+threequarters threequarters 00BE
+questiondown questiondown 00BF
+Agrave Agrave 00C0
+Aacute Aacute 00C1
+Acircumflex Acircumflex 00C2
+Atilde Atilde 00C3
+Adieresis Adieresis 00C4
+Aring Aring 00C5
+AE AE 00C6
+Ccedilla Ccedilla 00C7
+Egrave Egrave 00C8
+Eacute Eacute 00C9
+Ecircumflex Ecircumflex 00CA
+Edieresis Edieresis 00CB
+Igrave Igrave 00CC
+Iacute Iacute 00CD
+Icircumflex Icircumflex 00CE
+Idieresis Idieresis 00CF
+Eth Eth 00D0
+Ntilde Ntilde 00D1
+Ograve Ograve 00D2
+Oacute Oacute 00D3
+Ocircumflex Ocircumflex 00D4
+Otilde Otilde 00D5
+Odieresis Odieresis 00D6
+multiply multiply 00D7
+Oslash Oslash 00D8
+Ugrave Ugrave 00D9
+Uacute Uacute 00DA
+Ucircumflex Ucircumflex 00DB
+Udieresis Udieresis 00DC
+Yacute Yacute 00DD
+Thorn Thorn 00DE
+germandbls germandbls 00DF
+agrave agrave 0000
+aacute aacute 0000
+acircumflex acircumflex 0000
+atilde atilde 0000
+adieresis adieresis 0000
+aring aring 0000
+ae ae 0000
+ccedilla ccedilla 0000
+egrave egrave 0000
+eacute eacute 0000
+ecircumflex ecircumflex 00EA
+edieresis edieresis 00EB
+igrave igrave 00EC
+iacute iacute 00ED
+icircumflex icircumflex 00EE
+idieresis idieresis 00EF
+eth eth 00F0
+ntilde ntilde 00F1
+ograve ograve 00F2
+oacute oacute 00F3
+ocircumflex ocircumflex 00F4
+otilde otilde 00F5
+odieresis odieresis 00F6
+divide divide 00F7
+oslash oslash 00F8
+ugrave ugrave 00F9
+uacute uacute 00FA
+ucircumflex ucircumflex 00FB
+udieresis udieresis 00FC
+yacute yacute 00FD
+thorn thorn 00FE
+ydieresis ydieresis 00FF
+Amacron Amacron 0100
+amacron amacron 0101
+Abreve Abreve 0102
+abreve abreve 0103
+Aogonek Aogonek 0104
+aogonek aogonek 0105
+Cacute Cacute 0106
+cacute cacute 0107
+Ccircumflex Ccircumflex 0108
+ccircumflex ccircumflex 0109
+Cdotaccent Cdotaccent 010A
+cdotaccent cdotaccent 010B
+Ccaron Ccaron 010C
+ccaron ccaron 010D
+Dcaron Dcaron 010E
+dcaron dcaron 010F
+Dcroat Dcroat 0110
+dcroat dcroat 0111
+Emacron Emacron 0112
+emacron emacron 0113
+Ebreve Ebreve 0114
+ebreve ebreve 0115
+Edotaccent Edotaccent 0116
+edotaccent edotaccent 0117
+Eogonek Eogonek 0118
+eogonek eogonek 0119
+Ecaron Ecaron 011A
+ecaron ecaron 011B
+Gcircumflex Gcircumflex 011C
+gcircumflex gcircumflex 011D
+Gbreve Gbreve 011E
+gbreve gbreve 011F
+Gdotaccent Gdotaccent 0120
+gdotaccent gdotaccent 0121
+Gcommaaccent Gcommaaccent 0122
+gcommaaccent gcommaaccent 0123
+Hcircumflex Hcircumflex 0124
+hcircumflex hcircumflex 0125
+Hbar Hbar 0126
+hbar hbar 0127
+Itilde Itilde 0128
+itilde itilde 0129
+Imacron Imacron 012A
+imacron imacron 012B
+Iogonek Iogonek 012E
+iogonek iogonek 012F
+Idotaccent Idotaccent 0130
+dotlessi dotlessi 0131
+Jcircumflex Jcircumflex 0134
+jcircumflex jcircumflex 0135
+Kcommaaccent Kcommaaccent 0136
+kcommaaccent kcommaaccent 0137
+kgreenlandic kgreenlandic 0138
+Lacute Lacute 0139
+lacute lacute 013A
+Lcommaaccent Lcommaaccent 013B
+lcommaaccent lcommaaccent 013C
+Lcaron Lcaron 013D
+lcaron lcaron 013E
+Ldot Ldot 013F
+ldot ldot 0140
+Lslash Lslash 0141
+lslash lslash 0142
+Nacute Nacute 0143
+nacute nacute 0144
+Ncommaaccent Ncommaaccent 0145
+ncommaaccent ncommaaccent 0146
+Ncaron Ncaron 0147
+ncaron ncaron 0148
+napostrophe napostrophe 0149
+Omacron Omacron 014C
+omacron omacron 014D
+Ohungarumlaut Ohungarumlaut 0150
+ohungarumlaut ohungarumlaut 0151
+OE OE 0152
+oe oe 0153
+Racute Racute 0154
+racute racute 0155
+Rcommaaccent Rcommaaccent 0156
+rcommaaccent rcommaaccent 0157
+Rcaron Rcaron 0158
+rcaron rcaron 0159
+Sacute Sacute 015A
+sacute sacute 015B
+Scircumflex Scircumflex 015C
+scircumflex scircumflex 015D
+Scedilla Scedilla 015E
+scedilla scedilla 015F
+Scaron Scaron 0160
+scaron scaron 0161
+Tcedilla Tcedilla 0162
+tcedilla tcedilla 0163
+Tcaron Tcaron 0164
+tcaron tcaron 0165
+Utilde Utilde 0168
+utilde utilde 0169
+Umacron Umacron 016A
+umacron umacron 016B
+Ubreve Ubreve 016C
+ubreve ubreve 016D
+Uring Uring 016E
+uring uring 016F
+Uhungarumlaut Uhungarumlaut 0170
+uhungarumlaut uhungarumlaut 0171
+Uogonek Uogonek 0172
+uogonek uogonek 0173
+Wcircumflex Wcircumflex 0174
+wcircumflex wcircumflex 0175
+Ycircumflex Ycircumflex 0176
+ycircumflex ycircumflex 0177
+Ydieresis Ydieresis 0178
+Zacute Zacute 0179
+zacute zacute 017A
+Zdotaccent Zdotaccent 017B
+zdotaccent zdotaccent 017C
+Zcaron Zcaron 017D
+zcaron zcaron 017E
+Schwa Schwa 018F
+florin florin 0192
+Ohorn Ohorn 01A0
+ohorn ohorn 01A1
+Uhorn Uhorn 01AF
+uhorn uhorn 01B0
+Acaron Acaron 01CD
+acaron acaron 01CE
+Icaron Icaron 01CF
+icaron icaron 01D0
+Ocaron Ocaron 01D1
+ocaron ocaron 01D2
+Ucaron Ucaron 01D3
+ucaron ucaron 01D4
+Udieresismacron Udieresismacron 01D5
+udieresismacron udieresismacron 01D6
+Udieresisacute Udieresisacute 01D7
+udieresisacute udieresisacute 01D8
+Udieresiscaron Udieresiscaron 01D9
+udieresiscaron udieresiscaron 01DA
+Udieresisgrave Udieresisgrave 01DB
+udieresisgrave udieresisgrave 01DC
+Gcaron Gcaron 01e6
+gcaron gcaron 01e7
+Scommaaccent Scommaaccent 0218
+scommaaccent scommaaccent 0219
+uni021A Tcommaaccent 021A
+uni021B tcommaaccent 021B
+uni0237 dotlessj 0237
+ascript ascript 0251
+schwa schwa 0259
+gscript gscript 0261
+commaturnedmod commaturnedmod 02BB
+apostrophemod apostrophemod 02BC
+ringhalfright ringhalfright 02BE
+ringhalfleft ringhalfleft 02BF
+circumflex circumflex 02C6
+circumflex.cap circumflex.cap 
+caron caron 02C7
+caron.cap caron.cap 
+verticallinemod verticallinemod 02C8
+firsttonechinese firsttonechinese 02C9
+secondtonechinese secondtonechinese 02CA
+fourthtonechinese fourthtonechinese 02CB
+verticallinelowmod verticallinelowmod 02CC
+breve breve 02D8
+breve.cap breve.cap 
+dotaccent dotaccent 02D9
+dotaccent.cap dotaccent.cap 
+ring ring 02DA
+ring.cap ring.cap 
+ogonek ogonek 02DB
+tilde tilde 02DC
+tilde.cap tilde.cap 
+hungarumlaut hungarumlaut 02DD
+gravecomb gravecomb 0300
+acutecomb acutecomb 0301
+circumflexcmb circumflexcomb 0302
+tildecomb tildecomb 0303
+macroncmb macroncomb 0304
+brevecmb brevecomb 0306
+dotaccentcmb dotaccentcomb 0307
+dieresiscmb dieresiscomb 0308
+hookabovecomb hookabovecomb 0309
+hookabovecomb.cap hookabovecomb.cap 
+ringcmb ringcomb 030A
+hungarumlautcmb hungarumlautcomb 030B
+caroncmb caroncomb 030C
+horncmb horncomb 031B
+dotbelowcomb dotbelowcomb 0323
+dieresisbelowcmb dieresisbelowcomb 0324
+uni0326 commaaccent 0326
+cedillacmb cedillacomb 0327
+ogonekcmb ogonekcomb 0328
+brevebelowcmb brevebelowcomb 032E
+macronbelowcmb macronbelowcomb 0331
+pi pi 03C0
+Ddotbelow Ddotbelow 1E0C
+ddotbelow ddotbelow 1E0D
+Dlinebelow Dlinebelow 1E0E
+dlinebelow dlinebelow 1E0F
+Gmacron Gmacron 1E19
+gmacron gmacron 1E21
+Hdotbelow Hdotbelow 1E24
+hdotbelow hdotbelow 1E25
+Hbrevebelow Hbrevebelow 1E2A
+hbrevebelow hbrevebelow 1E2B
+Ldotbelow Ldotbelow 1E36
+ldotbelow ldotbelow 1E37
+Ldotbelowmacron Ldotbelowmacron 1E38
+ldotbelowmacron ldotbelowmacron 1E39
+Llinebelow Llinebelow 1E3A
+llinebelow llinebelow 1E3B
+Mdotbelow Mdotbelow 1E42
+mdotbelow mdotbelow 1E43
+Ndotaccent Ndotaccent 1E44
+ndotaccent ndotaccent 1E45
+Ndotbelow Ndotbelow 1E46
+ndotbelow ndotbelow 1E47
+Nlinebelow Nlinebelow 1E48
+nlinebelow nlinebelow 1E49
+Rdotbelow Rdotbelow 1E5A
+rdotbelow rdotbelow 1E5B
+Rdotbelowmacron Rdotbelowmacron 1E5C
+rdotbelowmacron rdotbelowmacron 1E5D
+Rlinebelow Rlinebelow 1E5E
+rlinebelow rlinebelow 1E5F
+Sdotaccent Sdotaccent 1E60
+sdotaccent sdotaccent 1E61
+Sdotbelow Sdotbelow 1E62
+sdotbelow sdotbelow 1E63
+Tdotbelow Tdotbelow 1E6C
+tdotbelow tdotbelow 1E6D
+Tlinebelow Tlinebelow 1E6E
+tlinebelow tlinebelow 1E6F
+Wgrave Wgrave 1E80
+wgrave wgrave 1E81
+Wacute Wacute 1E82
+wacute wacute 1E83
+Wdieresis Wdieresis 1E84
+wdieresis wdieresis 1E85
+Ydotaccent Ydotaccent 1E8E
+ydotaccent ydotaccent 1E8F
+Zdotbelow Zdotbelow 1E92
+zdotbelow zdotbelow 1E93
+tdieresis tdieresis 1E97
+uni1E9E Germandbls 1E9E
+Adotbelow Adotbelow 1EA0
+adotbelow adotbelow 1EA1
+Ahookabove Ahookabove 1EA2
+ahookabove ahookabove 1EA3
+Acircumflexacute Acircumflexacute 1EA4
+acircumflexacute acircumflexacute 1EA5
+Acircumflexgrave Acircumflexgrave 1EA6
+acircumflexgrave acircumflexgrave 1EA7
+Acircumflexhookabove Acircumflexhookabove 1EA8
+acircumflexhookabove acircumflexhookabove 1EA9
+Acircumflextilde Acircumflextilde 1EAA
+acircumflextilde acircumflextilde 1EAB
+Acircumflexdotbelow Acircumflexdotbelow 1EAC
+acircumflexdotbelow acircumflexdotbelow 1EAD
+Abreveacute Abreveacute 1EAE
+abreveacute abreveacute 1EAF
+Abrevegrave Abrevegrave 1EB0
+abrevegrave abrevegrave 1EB1
+Abrevehookabove Abrevehookabove 1EB2
+abrevehookabove abrevehookabove 1EB3
+Abrevetilde Abrevetilde 1EB4
+abrevetilde abrevetilde 1EB5
+Abrevedotbelow Abrevedotbelow 1EB6
+abrevedotbelow abrevedotbelow 1EB7
+Edotbelow Edotbelow 1EB8
+edotbelow edotbelow 1EB9
+Ehookabove Ehookabove 1EBA
+ehookabove ehookabove 1EBB
+Etilde Etilde 1EBC
+etilde etilde 1EBD
+Ecircumflexacute Ecircumflexacute 1EBE
+ecircumflexacute ecircumflexacute 1EBF
+Ecircumflexgrave Ecircumflexgrave 1EC0
+ecircumflexgrave ecircumflexgrave 1EC1
+Ecircumflexhookabove Ecircumflexhookabove 1EC2
+ecircumflexhookabove ecircumflexhookabove 1EC3
+Ecircumflextilde Ecircumflextilde 1EC4
+ecircumflextilde ecircumflextilde 1EC5
+Ecircumflexdotbelow Ecircumflexdotbelow 1EC6
+ecircumflexdotbelow ecircumflexdotbelow 1EC7
+Ihookabove Ihookabove 1EC8
+ihookabove ihookabove 1EC9
+Idotbelow Idotbelow 1ECA
+idotbelow idotbelow 1ECB
+Odotbelow Odotbelow 1ECC
+odotbelow odotbelow 1ECD
+Ohookabove Ohookabove 1ECE
+ohookabove ohookabove 1ECF
+Ocircumflexacute Ocircumflexacute 1ED0
+ocircumflexacute ocircumflexacute 1ED1
+Ocircumflexgrave Ocircumflexgrave 1ED2
+ocircumflexgrave ocircumflexgrave 1ED3
+Ocircumflexhookabove Ocircumflexhookabove 1ED4
+ocircumflexhookabove ocircumflexhookabove 1ED5
+Ocircumflextilde Ocircumflextilde 1ED6
+ocircumflextilde ocircumflextilde 1ED7
+Ocircumflexdotbelow Ocircumflexdotbelow 1ED8
+ocircumflexdotbelow ocircumflexdotbelow 1ED9
+Ohornacute Ohornacute 1EDA
+ohornacute ohornacute 1EDB
+Ohorngrave Ohorngrave 1EDC
+ohorngrave ohorngrave 1EDD
+Ohornhookabove Ohornhookabove 1EDE
+ohornhookabove ohornhookabove 1EDF
+Ohorntilde Ohorntilde 1EE0
+ohorntilde ohorntilde 1EE1
+Ohorndotbelow Ohorndotbelow 1EE2
+ohorndotbelow ohorndotbelow 1EE3
+Udotbelow Udotbelow 1EE4
+udotbelow udotbelow 1EE5
+Uhookabove Uhookabove 1EE6
+uhookabove uhookabove 1EE7
+Uhornacute Uhornacute 1EE8
+uhornacute uhornacute 1EE9
+Uhorngrave Uhorngrave 1EEA
+uhorngrave uhorngrave 1EEB
+Uhornhookabove Uhornhookabove 1EEC
+uhornhookabove uhornhookabove 1EED
+Uhorntilde Uhorntilde 1EEE
+uhorntilde uhorntilde 1EEF
+Uhorndotbelow Uhorndotbelow 1EF0
+uhorndotbelow uhorndotbelow 1EF1
+Ygrave Ygrave 1EF2
+ygrave ygrave 1EF3
+Ydotbelow Ydotbelow 1EF4
+ydotbelow ydotbelow 1EF5
+Yhookabove Yhookabove 1EF6
+yhookabove yhookabove 1EF7
+Ytilde Ytilde 1EF8
+ytilde ytilde 1EF9
+uni2007 figurespace 2007
+hyphentwo hyphentwo 2010
+figuredash figuredash 2012
+endash endash 2013
+emdash emdash 2014
+uni2015 horizontalbar 2015
+quoteleft quoteleft 2018
+quoteright quoteright 2019
+quotesinglbase quotesinglbase 201A
+quotedblleft quotedblleft 201C
+quotedblright quotedblright 201D
+quotedblbase quotedblbase 201E
+dagger dagger 2020
+daggerdbl daggerdbl 2021
+bullet bullet 2022
+ellipsis ellipsis 2026
+perthousand perthousand 2030
+minute minute 2032
+second second 2033
+guilsinglleft guilsinglleft 2039
+guilsinglright guilsinglright 203A
+fraction fraction 2044
+zerosuperior zero.superior 2070
+foursuperior four.superior 2074
+fivesuperior five.superior 2075
+sixsuperior six.superior 2076
+sevensuperior seven.superior 2077
+eightsuperior eight.superior 2078
+ninesuperior nine.superior 2079
+parenleftsuperior parenleft.superior 207D
+parenrightsuperior parenright.superior 207E
+nsuperior n.superior 207F
+zeroinferior zero.inferior 2080
+oneinferior one.inferior 2081
+twoinferior two.inferior 2082
+threeinferior three.inferior 2083
+fourinferior four.inferior 2084
+fiveinferior five.inferior 2085
+sixinferior six.inferior 2086
+seveninferior seven.inferior 2087
+eightinferior eight.inferior 2088
+nineinferior nine.inferior 2089
+parenleftinferior parenleft.inferior 208D
+parenrightinferior parenright.inferior 208E
+colonmonetary colonmonetary 20A1
+lira lira 20A4
+uni20A6 naira 20A6
+peseta peseta 20A7
+dong dong 20AB
+Euro euro 20AC
+uni20B1 peso 20B1
+uni20B2 guarani 20B2
+uni20B5 cedi 20B5
+uni20B9 rupeeIndian 20B9
+uni20BA liraTurkish 20BA
+uni20BD ruble 20BD
+lsquare literSign 2113
+uni2117 published 2117
+uni2120 servicemark 2120
+trademark trademark 2122
+Ohm Ohm 2126
+estimated estimated 212E
+onethird onethird 2153
+twothirds twothirds 2154
+oneeighth oneeighth 215B
+threeeighths threeeighths 215C
+fiveeighths fiveeighths 215D
+seveneighths seveneighths 215E
+arrowleft leftArrow 2190
+arrowup upArrow 2191
+arrowright rightArrow 2192
+arrowdown downArrow 2193
+partialdiff partialdiff 2202
+Delta increment 2206
+product product 220F
+summation summation 2211
+minus minus 2212
+divisionslash divisionslash 2215
+bulletoperator bulletoperator 2219
+radical radical 221A
+infinity infinity 221E
+integral integral 222B
+approxequal approxequal 2248
+notequal notequal 2260
+lessequal lessequal 2264
+greaterequal greaterequal 2265
+blacksquare blackSquare 25A0
+blackuppointingtriangle upBlackTriangle 25B2
+whiteuppointingtriangle upWhiteTriangle 25B3
+blackrightpointingtriangle rightBlackTriangle 25B6
+whiterightpointingtriangle rightWhiteTriangle 25B7
+blackdownpointingtriangle downBlackTriangle 25BC
+whitedownpointingtriangle downWhiteTriangle 25BD
+blackleftpointingtriangle leftBlackTriangle 25C0
+whiteleftpointingtriangle leftWhiteTriangle 25C1
+blackdiamond blackDiamond 25C6
+lozenge lozenge 25CA
+fi fi FB01
+fl fl FB02
+uni00470303 G_tildecomb 
+uni00670303 g_tildecomb 
+candrabindugujarati gjCandrabindu 0A81
+anusvaragujarati gjAnusvara 0A82
+visargagujarati gjVisarga 0A83
+agujarati gjA 0A85
+aagujarati gjAa 0A86
+igujarati gjI 0A87
+iigujarati gjIi 0A88
+ugujarati gjU 0A89
+uugujarati gjUu 0A8A
+rvocalicgujarati gjRvocal 0A8B
+uni0A8C gjLvocal 0A8C
+ecandragujarati gjEcandra 0A8D
+egujarati gjE 0A8F
+aigujarati gjAi 0A90
+ocandragujarati gjOcandra 0A91
+ogujarati gjO 0A93
+augujarati gjAu 0A94
+kagujarati gjKa 0A95
+khagujarati gjKha 0A96
+gagujarati gjGa 0A97
+ghagujarati gjGha 0A98
+ngagujarati gjNga 0A99
+cagujarati gjCa 0A9A
+chagujarati gjCha 0A9B
+jagujarati gjJa 0A9C
+jhagujarati gjJha 0A9D
+nyagujarati gjNya 0A9E
+ttagujarati gjTta 0A9F
+tthagujarati gjTtha 0AA0
+ddagujarati gjDda 0AA1
+ddhagujarati gjDdha 0AA2
+nnagujarati gjNna 0AA3
+tagujarati gjTa 0AA4
+thagujarati gjTha 0AA5
+dagujarati gjDa 0AA6
+dhagujarati gjDha 0AA7
+nagujarati gjNa 0AA8
+pagujarati gjPa 0AAA
+phagujarati gjPha 0AAB
+bagujarati gjBa 0AAC
+bhagujarati gjBha 0AAD
+magujarati gjMa 0AAE
+yagujarati gjYa 0AAF
+ragujarati gjRa 0AB0
+lagujarati gjLa 0AB2
+llagujarati gjLla 0AB3
+vagujarati gjVa 0AB5
+shagujarati gjSha 0AB6
+ssagujarati gjSsa 0AB7
+sagujarati gjSa 0AB8
+hagujarati gjHa 0AB9
+nuktagujarati gjNukta 0ABC
+aavowelsigngujarati gjAasign 0ABE
+ivowelsigngujarati gjIsign 0ABF
+ivowelsigngujarati.alt1 gjIsign.alt1 
+iivowelsigngujarati gjIisign 0AC0
+uvowelsigngujarati gjUsign 0AC1
+uuvowelsigngujarati gjUusign 0AC2
+rvocalicvowelsigngujarati gjRvocalsign 0AC3
+rrvocalicvowelsigngujarati gjRrvocalsign 0AC4
+ecandravowelsigngujarati gjEcandrasign 0AC5
+evowelsigngujarati gjEsign 0AC7
+aivowelsigngujarati gjAisign 0AC8
+ocandravowelsigngujarati gjOcandrasign 0AC9
+ovowelsigngujarati gjOsign 0ACB
+auvowelsigngujarati gjAusign 0ACC
+viramagujarati gjVirama 0ACD
+omgujarati gjOm 0AD0
+rrvocalicgujarati gjRrvocal 0AE0
+zerogujarati gjZero 0AE6
+onegujarati gjOne 0AE7
+twogujarati gjTwo 0AE8
+threegujarati gjThree 0AE9
+fourgujarati gjFour 0AEA
+fivegujarati gjFive 0AEB
+sixgujarati gjSix 0AEC
+sevengujarati gjSeven 0AED
+eightgujarati gjEight 0AEE
+ninegujarati gjNine 0AEF
+uni0A950ACD gjK 
+uni0A950ACD.alt1 gjK.alt1 
+uni0A950ACD.alt2 gjK.alt2 
+uni0A960ACD gjKh 
+uni0A960ACD.alt1 gjKh.alt1 
+uni0A960ACD.alt2 gjKh.alt2 
+uni0A970ACD gjG 
+uni0A980ACD gjGh 
+uni0A990ACD gjNg 
+uni0A9A0ACD gjC 
+uni0A9B0ACD gjCh 
+uni0A9C0ACD gjJ 
+uni0A9C0ACD.alt1 gjJ.alt1 
+uni0A9C0ACD.alt2 gjJ.alt2 
+uni0A9D0ACD gjJh 
+uni0A9E0ACD gjNy 
+uni0A9F0ACD gjTt 
+uni0AA00ACD gjTth 
+uni0AA10ACD gjDd 
+uni0AA20ACD gjDdh 
+uni0AA30ACD gjNn 
+uni0AA40ACD gjT 
+uni0AA40ACD.alt1 gjT.alt1 
+uni0AA50ACD gjTh 
+uni0AA60ACD gjD 
+uni0AA70ACD gjDh 
+uni0AA80ACD gjN 
+uni0AA80ACD.alt1 gjN.alt1 
+uni0AA80ACD.alt2 gjN.alt2 
+uni0AA80ACD.alt3 gjN.alt3 
+uni0AAA0ACD gjP 
+uni0AAB0ACD gjF 
+uni0AAC0ACD gjB 
+uni0AAD0ACD gjBh 
+uni0AAE0ACD gjM 
+uni0AAF0ACD gjY 
+uni0AB20ACD gjL 
+uni0AB20ACD.alt1 gjL.alt1 
+uni0AB20ACD.alt2 gjL.alt2 
+uni0AB20ACD.alt3 gjL.alt3 
+uni0AB20ACD.alt4 gjL.alt4 
+uni0AB30ACD gjLl 
+uni0AB50ACD gjV 
+uni0AB60ACD gjSh 
+uni0AB70ACD gjSs 
+uni0AB80ACD gjS 
+uni0AB90ACD gjH 
+uni0A950ACD0AB0 gjKRa 
+uni0A960ACD0AB0 gjKhRa 
+uni0A970ACD0AB0 gjGRa 
+uni0A980ACD0AB0 gjGhRa 
+uni0A990ACD0AB0 gjNgRa 
+uni0A9A0ACD0AB0 gjCRa 
+uni0A9B0ACD0AB0 gjChRa 
+uni0A9C0ACD0AB0 gjJRa 
+uni0A9F0ACD0AB0 gjTtRa 
+uni0AA00ACD0AB0 gjTthRa 
+uni0AA10ACD0AB0 gjDdRa 
+uni0AA20ACD0AB0 gjDdhRa 
+uni0AA30ACD0AB0 gjNnRa 
+uni0AA80ACD0AB0 gjNRa 
+uni0AAA0ACD0AB0 gjPRa 
+uni0AAD0ACD0AB0 gjBhRa 
+uni0AAE0ACD0AB0 gjMRa 
+uni0AAF0ACD0AB0 gjYRa 
+uni0AB50ACD0AB0 gjVRa 
+uni0AB70ACD0AB0 gjSsRa 
+uni0A950ACD0A95 gjKKa 
+uni0AB30ACD0AAF gjLlYa 
+uni0AB80ACD0A95 gjSKa 
+uni0A9C0ABE gjJa_mAa 
+gjRakar gjRakar

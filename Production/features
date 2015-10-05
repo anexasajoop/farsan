@@ -1,0 +1,53 @@
+languagesystem DFLT dflt;
+languagesystem gjr2 dflt;
+languagesystem gujr dflt;
+
+#include (gdef.fea)
+include (markclasses.fea);
+include (lookups.fea);
+
+
+#################
+# BASIC SHAPING #
+#################
+
+
+# CONJUNCTS
+############
+
+feature cjct {
+	lookup cjct;
+} cjct;
+
+
+# HALF FORMS
+#############
+
+feature half {
+
+	script DFLT;
+		lookup half;
+
+	script gjr2;
+		lookup half;
+
+	script gujr;
+		lookup half;
+
+} half;
+
+
+# HALANT FORMS
+###############
+
+feature haln {
+	lookup haln;
+} haln;
+
+
+# BELOW-BASE MARKS
+###################
+
+feature blwm {
+	lookup blwm;
+} blwm;

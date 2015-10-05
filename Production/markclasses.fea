@@ -1,0 +1,3 @@
+markClass [gjUsign] <anchor -147 0> @bottomMarks;
+markClass [gjUusign] <anchor -203 0> @bottomMarks;
+markClass [gjVirama] <anchor -203 0> @bottomMarks;

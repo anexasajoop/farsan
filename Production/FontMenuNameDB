@@ -1,0 +1,15 @@
+; Adobe Latin Font Conversion Database
+;
+; Pattern	Description                 name table name id      
+; --------  -------------------------- ---------------------
+; f=        Preferred Family             16 (Preferred Family)
+; s=        Subfamily                    17 (Preferred Subfamily)
+; l=        Compatible family            1 (Family) 
+; m=1,      Mac Compatible Full Name.    18 (Mac Compatible Full)
+;
+
+[Farsan-Regular]
+	f=Farsan
+	s=Regular
+	l=Farsan Regular
+	m=1,Farsan Regular

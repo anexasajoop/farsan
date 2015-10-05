@@ -1,0 +1,114 @@
+#################
+# BASIC SHAPING #
+#################
+
+
+# CONJUNCT FORMS
+
+lookup cjct {
+
+# BICONSONANTAL CONJUNCTS
+
+	sub gjKa gjVirama gjKa by gjKKa;
+
+	sub gjSa gjVirama gjKa by gjSKa;
+
+} cjct;
+
+
+# HALF FORMS
+
+lookup half {
+
+	sub gjKa gjVirama by gjK;
+	sub gjKha gjVirama by gjKh;
+	sub gjGa gjVirama by gjG;
+	sub gjGha gjVirama by gjGh;
+
+	sub gjCa gjVirama by gjC;
+	sub gjJa gjVirama by gjJ;
+	sub gjNya gjVirama by gjNy;
+
+	sub gjNna gjVirama by gjNn;
+
+	sub gjTa gjVirama by gjT;
+	sub gjTha gjVirama by gjTh;
+	sub gjDha gjVirama by gjDh;
+	sub gjNa gjVirama by gjN;
+
+	sub gjPa gjVirama by gjP;
+	sub gjBa gjVirama by gjB;
+	sub gjBha gjVirama by gjBh;
+	sub gjMa gjVirama by gjM;
+
+	sub gjYa gjVirama by gjY;
+	sub gjLa gjVirama by gjL;
+	sub gjLla gjVirama by gjLl;
+	sub gjVa gjVirama by gjV;
+
+	sub gjSha gjVirama by gjSh;
+	sub gjSsa gjVirama by gjSs;
+	sub gjSa gjVirama by gjS;
+
+} half;
+
+
+# HALANT FORMS
+
+lookup haln {
+	
+	sub gjTta gjVirama by gjTt;
+	sub gjTtha gjVirama by gjTth;
+	sub gjDda gjVirama by gjDd;
+	sub gjDdha gjVirama by gjDdh;
+
+	sub gjHa gjVirama by gjH;
+
+} haln;
+
+
+# BELOW-BASE MARKS
+
+lookup blwm {
+
+	pos base [gjKa] <anchor 196 0> mark @bottomMarks;
+	pos base [gjKha] <anchor 414 0> mark @bottomMarks;
+	pos base [gjGa] <anchor 312 0> mark @bottomMarks;
+	pos base [gjGha] <anchor 291 0> mark @bottomMarks;
+	pos base [gjNga] <anchor 196 0> mark @bottomMarks;
+
+	pos base [gjCa] <anchor 363 0> mark @bottomMarks;
+	pos base [gjCha] <anchor 216 0> mark @bottomMarks;
+	pos base [gjJa] <anchor 306 0> mark @bottomMarks;
+	pos base [gjJha] <anchor 286 0> mark @bottomMarks;
+	pos base [gjNya] <anchor 358 0> mark @bottomMarks;
+
+	pos base [gjTta] <anchor 226 0> mark @bottomMarks;
+	pos base [gjTtha] <anchor 216 0> mark @bottomMarks;
+	pos base [gjDda] <anchor 196 0> mark @bottomMarks;
+	pos base [gjDdha] <anchor 226 0> mark @bottomMarks;
+	pos base [gjNna] <anchor 449 -50> mark @bottomMarks;
+
+	pos base [gjTa] <anchor 275 0> mark @bottomMarks;
+	pos base [gjTha] <anchor 300 0> mark @bottomMarks;
+	pos base [gjDa] <anchor 191 0> mark @bottomMarks;
+	pos base [gjDha] <anchor 301 0> mark @bottomMarks;
+	pos base [gjNa] <anchor 226 0> mark @bottomMarks;
+
+	pos base [gjPa] <anchor 269 0> mark @bottomMarks;
+	pos base [gjPha] <anchor 200 -60> mark @bottomMarks;
+	pos base [gjBa] <anchor 407 0> mark @bottomMarks;
+	pos base [gjBha] <anchor 426 0> mark @bottomMarks;
+	pos base [gjMa] <anchor 285 0> mark @bottomMarks;
+
+	pos base [gjYa] <anchor 280 0> mark @bottomMarks;
+	pos base [gjLa] <anchor 334 0> mark @bottomMarks;
+	pos base [gjLla] <anchor 394 0> mark @bottomMarks;
+	pos base [gjVa] <anchor 248 0> mark @bottomMarks;
+
+	pos base [gjSha] <anchor 372 0> mark @bottomMarks;
+	pos base [gjSsa] <anchor 291 0> mark @bottomMarks;
+	pos base [gjSa] <anchor 382 0> mark @bottomMarks;
+	pos base [gjHa] <anchor 196 0> mark @bottomMarks;
+
+} blwm;

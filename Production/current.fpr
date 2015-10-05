@@ -1,0 +1,4 @@
+FeaturePath	./features
+FontMenuDBPath	./FontMenuNameDB
+InputFontPath	./font.pfa
+OutputFontPath	./Farsan-Regular.ttf
