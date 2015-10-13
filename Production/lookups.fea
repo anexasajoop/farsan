@@ -112,3 +112,28 @@ lookup blwm {
 	pos base [gjHa] <anchor 196 0> mark @bottomMarks;
 
 } blwm;
+
+
+# CONTEXTUAL ALTERNATES FOR HALF FORMS
+
+lookup halfForm_calt {
+	
+	sub gjK' [gjTa gjTta] by gjK.alt1;
+	sub gjK' [gjNa gjMa gjSha gjSa] by gjK.alt2;
+
+	sub gjKh' [gjJa] by gjKh.alt1;
+	sub gjKh' [gjTta gjDda] by gjKh.alt2;
+
+	sub gjJ' [gjYa] by gjJ.alt1;
+	sub gjJ' [gjMa] by gjJ.alt2;
+
+	sub gjT' [gjKa gjMa gjPha] by gjT.alt1;
+
+	sub gjN' [gjKa gjJa gjDda gjPha gjMa] by gjN.alt1;
+
+	sub gjL' [gjKa gjNga gjDda gjPha] by gjL.alt1;
+	sub gjL' [gjJa] by gjL.alt2;
+	sub gjL' [gjTa] by gjL.alt3;
+	sub gjL' [gjMa gjSha gjSa] by gjL.alt4;
+
+} halfForm_calt;

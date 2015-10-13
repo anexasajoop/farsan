@@ -51,3 +51,10 @@ feature haln {
 feature blwm {
 	lookup blwm;
 } blwm;
+
+# CONTEXTUAL ATERNATES
+#######################
+
+feature calt {
+	lookup halfForm_calt;
+} calt;
