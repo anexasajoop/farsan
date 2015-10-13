@@ -549,29 +549,29 @@ second second 2033
 guilsinglleft guilsinglleft 2039
 guilsinglright guilsinglright 203A
 fraction fraction 2044
-zerosuperior zero.superior 2070
-foursuperior four.superior 2074
-fivesuperior five.superior 2075
-sixsuperior six.superior 2076
-sevensuperior seven.superior 2077
-eightsuperior eight.superior 2078
-ninesuperior nine.superior 2079
-parenleftsuperior parenleft.superior 207D
-parenrightsuperior parenright.superior 207E
-nsuperior n.superior 207F
-zeroinferior zero.inferior 2080
-oneinferior one.inferior 2081
-twoinferior two.inferior 2082
-threeinferior three.inferior 2083
-fourinferior four.inferior 2084
-fiveinferior five.inferior 2085
-sixinferior six.inferior 2086
-seveninferior seven.inferior 2087
-eightinferior eight.inferior 2088
-nineinferior nine.inferior 2089
-parenleftinferior parenleft.inferior 208D
-parenrightinferior parenright.inferior 208E
-colonmonetary colonmonetary 20A1
+zerosuperior zerosuperior 2070
+foursuperior foursuperior 2074
+fivesuperior fivesuperior 2075
+sixsuperior sixsuperior 2076
+sevensuperior sevensuperior 2077
+eightsuperior eightsuperior 2078
+ninesuperior ninesuperior 2079
+parenleftsuperior parenleftsuperior 207D
+parenrightsuperior parenrightsuperior 207E
+nsuperior nmod 207F
+zeroinferior zeroinferior 2080
+oneinferior oneinferior 2081
+twoinferior twoinferior 2082
+threeinferior threeinferior 2083
+fourinferior fourinferior 2084
+fiveinferior fiveinferior 2085
+sixinferior sixinferior 2086
+seveninferior seveninferior 2087
+eightinferior eightinferior 2088
+nineinferior nineinferior 2089
+parenleftinferior parenleftinferior 208D
+parenrightinferior parenrightinferior 208E
+colonmonetary colonsign 20A1
 lira lira 20A4
 uni20A6 naira 20A6
 peseta peseta 20A7
@@ -778,4 +778,4 @@ uni0A950ACD0A95 gjKKa
 uni0AB30ACD0AAF gjLlYa 
 uni0AB80ACD0A95 gjSKa 
 uni0A9C0ABE gjJa_mAa 
-gjRakar gjRakar
+uni0ACD0ABO gjRakar
