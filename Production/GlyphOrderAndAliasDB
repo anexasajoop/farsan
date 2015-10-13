@@ -709,7 +709,6 @@ eightgujarati gjEight 0AEE
 ninegujarati gjNine 0AEF
 uni0A950ACD gjK 
 uni0A950ACD.alt1 gjK.alt1 
-uni0A950ACD.alt2 gjK.alt2 
 uni0A960ACD gjKh 
 uni0A960ACD.alt1 gjKh.alt1 
 uni0A960ACD.alt2 gjKh.alt2 
@@ -775,7 +774,17 @@ uni0AAF0ACD0AB0 gjYRa
 uni0AB50ACD0AB0 gjVRa 
 uni0AB70ACD0AB0 gjSsRa 
 uni0A950ACD0A95 gjKKa 
+uni0A950ACD0A9B gjKCha 
+uni0A950ACD0A9D gjKJha 
+uni0A950ACD0A9F gjKTta 
+uni0A950ACD0AA4 gjKTa 
+uni0A950ACD0AA8 gjKNa 
+uni0A950ACD0AAB gjKPha 
+uni0A960ACD0A96 gjKhKha 
+uni0A960ACD0AA4 gjKhTa 
+uni0A960ACD0AA6 gjKhDa 
+uni0A960ACD0AAE gjKhMa 
 uni0AB30ACD0AAF gjLlYa 
 uni0AB80ACD0A95 gjSKa 
 uni0A9C0ABE gjJa_mAa 
-uni0ACD0ABO gjRakar
+uni0ACD0ABO gjRakar 
