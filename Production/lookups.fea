@@ -31,6 +31,18 @@ lookup cjct {
 
 	sub gjNya gjVirama gjJa by gjNyJa;
 
+	sub gjTa gjVirama gjTa by gjTta;
+	sub gjTa gjVirama gjSha by gjTSha;
+	sub gjTa gjVirama gjSa by gjTSa;
+
+	sub gjNa gjVirama gjGa by gjNGa;
+	sub gjNa gjVirama gjJha by gjNJha;
+	sub gjNa gjVirama gjTta by gjNTta;
+	sub gjNa gjVirama gjTa by gjNTa;
+	sub gjNa gjVirama gjSha by gjNSha;
+	sub gjNa gjVirama gjSa by gjNSa;
+	sub gjNa gjVirama gjHa by gjNHa;
+
 	sub gjSa gjVirama gjKa by gjSKa;
 
 } cjct;
@@ -86,6 +98,27 @@ lookup haln {
 	sub gjHa gjVirama by gjH;
 
 } haln;
+
+
+# DISTANCE
+
+lookup dist {
+
+	pos gjT gjKha 17;
+	pos gjT gjTha 22;
+	pos gjT gjBa 30;
+	pos gjT gjYa 27;
+	pos gjT gjLa 27;
+	pos gjT gjVa 27;
+	pos gjT.alt1 gjMa 25;
+
+	pos gjN gjDha -12;
+	pos gjN.alt1 gjKa -65;
+	pos gjN.alt1 gjDda -65;
+	pos gjN.alt1 gjPha -65;
+	pos gjN.alt1 gjMa -40;
+
+} dist;
 
 
 # BELOW-BASE MARKS

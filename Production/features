@@ -45,6 +45,13 @@ feature haln {
 } haln;
 
 
+# DISTANCE
+###########
+
+feature dist {
+	lookup dist;
+} dist;
+
 # BELOW-BASE MARKS
 ###################
 
