@@ -22,6 +22,15 @@ lookup cjct {
 	sub gjKha gjVirama gjDa by gjDa;
 	sub gjKha gjVirama gjMa by gjKhMa;
 
+	sub gjCa gjVirama gjCha by gjCCha;
+	sub gjCa gjVirama gjNa by gjCNa;
+
+	sub gjCha gjVirama gjYa by gjChYa;
+
+	sub gjJa gjVirama gjJha by gjJJha;
+
+	sub gjNya gjVirama gjJa by gjNyJa;
+
 	sub gjSa gjVirama gjKa by gjSKa;
 
 } cjct;
@@ -38,6 +47,7 @@ lookup half {
 
 	sub gjCa gjVirama by gjC;
 	sub gjJa gjVirama by gjJ;
+	sub gjJha gjVirama by gjJh;
 	sub gjNya gjVirama by gjNy;
 
 	sub gjNna gjVirama by gjNn;
@@ -135,7 +145,8 @@ lookup halfForm_calt {
 	sub gjKh' [gjTta gjDda] by gjKh.alt2;
 
 	sub gjJ' [gjYa] by gjJ.alt1;
-	sub gjJ' [gjMa] by gjJ.alt2;
+	sub gjJ' [gjKa gjDda gjMa] by gjJ.alt2;
+	sub gjJ' [gjTta gjTa gjNa] by gjJ.alt3;
 
 	sub gjT' [gjKa gjMa gjPha] by gjT.alt1;
 
