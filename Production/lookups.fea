@@ -64,7 +64,20 @@ lookup cjct {
 	sub gjMa gjVirama gjSha by gjMSha;
 	sub gjMa gjVirama gjHa by gjMHa;
 
+	sub gjSsa gjVirama gjKa by gjSsKa;
+	sub gjSsa gjVirama gjGa by gjSsGa;
+	sub gjSsa gjVirama gjTta by gjSsTta;
+	sub gjSsa gjVirama gjTtha by gjSsTtha;
+	sub gjSsa gjVirama gjPha by gjSsPha;
+
 	sub gjSa gjVirama gjKa by gjSKa;
+	sub gjSa gjVirama gjJa by gjSJa;
+	sub gjSa gjVirama gjTta by gjSTta;
+	sub gjSa gjVirama gjDda by gjSDda;
+	sub gjSa gjVirama gjTha by gjSTha;
+	sub gjSa gjVirama gjPha by gjSPha;
+	sub gjSa gjVirama gjMa by gjSMa;
+	sub gjSa gjVirama gjYa by gjSYa;
 
 } cjct;
 
@@ -158,6 +171,14 @@ lookup dist {
 	pos gjM gjYa 42;
 	pos gjM gjLa 25;
 	pos gjM gjSa 20;
+
+	pos gjSs gjKha 15;
+
+	pos gjS gjKha 10;
+	pos gjS gjCa 20;
+	pos gjS gjBa 25;
+	pos gjS gjLa 20;
+	pos gjS gjVa 15;
 
 } dist;
 
