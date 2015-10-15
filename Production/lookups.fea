@@ -7,6 +7,15 @@
 
 lookup cjct {
 
+# TRICONSONANTAL CONJUNCTS
+
+	sub gjKa gjVirama gjTa gjVirama gjYa by gjKTYa;
+	sub gjKa gjVirama gjTa gjVirama gjVa by gjKTVa;
+	sub gjKa gjVirama gjPa gjVirama gjRa by gjKPRa;
+	sub gjKa gjVirama gjSa gjVirama gjTta by gjKSTta;
+	sub gjKa gjVirama gjSa gjVirama gjDda by gjKSDda;
+	sub gjKa gjVirama gjSa gjVirama gjTa by gjKSTa;
+
 # BICONSONANTAL CONJUNCTS
 
 	sub gjKa gjVirama gjKa by gjKKa;
