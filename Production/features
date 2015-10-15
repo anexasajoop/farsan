@@ -12,12 +12,41 @@ include (lookups.fea);
 #################
 
 
-# CONJUNCTS
-############
+feature blwf { # Below-Base Forms
 
-feature cjct {
-	lookup cjct;
-} cjct;
+script DFLT;
+	language dflt;
+		lookup blwf_gjr2 {
+			sub gjVirama gjRa by gjRakar;
+		} blwf_gjr2;
+
+		lookup blwf_gujr {
+			sub gjRa gjVirama by gjRakar;
+		} blwf_gujr;
+
+script gjr2;
+	language dflt;
+		lookup blwf_gjr2;
+
+script gujr;
+	language dflt;
+		lookup blwf_gujr;
+
+} blwf;
+
+
+# RAKAR FORMS
+##############
+
+feature rkrf {
+
+	script DFLT;
+		lookup rkrf_new;
+
+	script gjr2;
+		lookup rkrf_new;
+
+} rkrf;
 
 
 # HALF FORMS
@@ -37,12 +66,60 @@ feature half {
 } half;
 
 
+# CONJUNCTS
+############
+
+feature cjct {
+	lookup cjct;
+} cjct;
+
+# MANDATORY PRESENTATION FORMS 
+
+feature pres {
+	lookup pres;
+} pres;
+
+
 # HALANT FORMS
 ###############
 
 feature haln {
 	lookup haln;
 } haln;
+
+
+# BELOW-BASE SUBSTITUTIONS
+###########################
+
+feature blws {
+	
+	sub gjKa gjRakar by gjKRa;
+	sub gjKha gjRakar by gjKhRa;
+	sub gjGa gjRakar by gjGRa;
+	sub gjGha gjRakar by gjGhRa;
+	sub gjNga gjRakar by gjNgRa;
+
+	sub gjCa gjRakar by gjCRa;
+	sub gjCha gjRakar by gjChRa;
+	sub gjJa gjRakar by  gjJRa;
+
+	sub gjTta gjRakar by gjTtRa;
+	sub gjTtha gjRakar by gjTthRa;
+	sub gjDda gjRakar by gjDdRa;
+	sub gjDdha gjRakar by gjDdhRa;
+	sub gjNna gjRakar by gjNnRa;
+
+	sub gjNa gjRakar by gjNRa;
+
+	sub gjPa gjRakar by gjPRa;
+	sub gjBha gjRakar by gjBhRa;
+	sub gjMa gjRakar by gjMRa;
+
+	sub gjYa gjRakar by gjYRa;
+	sub gjVa gjRakar by gjVRa;
+	sub gjSsa gjRakar by gjSsRa;
+
+} blws;
 
 
 # DISTANCE
