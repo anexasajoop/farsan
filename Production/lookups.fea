@@ -90,7 +90,6 @@ lookup cjct {
 
 } cjct;
 
-
 # HALF FORMS
 
 lookup half {
@@ -190,6 +189,54 @@ lookup dist {
 	pos gjS gjVa 15;
 
 } dist;
+
+
+# ABOVE-BASE MARKS
+
+lookup abvm {
+
+	pos base [gjKa] <anchor 294 628> mark @topMarks;
+	pos base [gjKha] <anchor 532 628> mark @topMarks;
+	pos base [gjGa] <anchor 431 628> mark @topMarks;
+	pos base [gjGha] <anchor 411 628> mark @topMarks;
+	pos base [gjNga] <anchor 294 628> mark @topMarks;
+
+	pos base [gjCa] <anchor 483 628> mark @topMarks;
+	pos base [gjCha] <anchor 464 628> mark @topMarks;
+	pos base [gjJa] <anchor 574 628> mark @topMarks;
+	pos base [gjJha] <anchor 474 628> mark @topMarks;
+	pos base [gjNya] <anchor 477 628> mark @topMarks;
+
+	pos base [gjTta] <anchor 309 628> mark @topMarks;
+	pos base [gjTtha] <anchor 289 628> mark @topMarks;
+	pos base [gjDda] <anchor 294 628> mark @topMarks;
+	pos base [gjDdha] <anchor 309 628> mark @topMarks;
+	pos base [gjNna] <anchor 568 628> mark @topMarks;
+
+	pos base [gjTa] <anchor 394 628> mark @topMarks;
+	pos base [gjTha] <anchor 422 628> mark @topMarks;
+	pos base [gjDa] <anchor 264 628> mark @topMarks;
+	pos base [gjDha] <anchor 423 628> mark @topMarks;
+	pos base [gjNa] <anchor 345 628> mark @topMarks;
+
+	pos base [gjPa] <anchor 388 628> mark @topMarks;
+	pos base [gjPha] <anchor 304 628> mark @topMarks;
+	pos base [gjBa] <anchor 529 628> mark @topMarks;
+	pos base [gjBha] <anchor 545 628> mark @topMarks;
+	pos base [gjMa] <anchor 404 628> mark @topMarks;
+
+	pos base [gjYa] <anchor 402 628> mark @topMarks;
+	pos base [gjRa] <anchor 284 628> mark @topMarks;
+	pos base [gjLa] <anchor 453 628> mark @topMarks;
+	pos base [gjLla] <anchor 534 628> mark @topMarks;
+	pos base [gjVa] <anchor 370 628> mark @topMarks;
+
+	pos base [gjSha] <anchor 491 628> mark @topMarks;
+	pos base [gjSsa] <anchor 413 628> mark @topMarks;
+	pos base [gjSa] <anchor 501 628> mark @topMarks;
+	pos base [gjHa] <anchor 294 628> mark @topMarks;
+	
+} abvm;
 
 
 # BELOW-BASE MARKS

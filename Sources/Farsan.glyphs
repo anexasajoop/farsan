@@ -4038,7 +4038,7 @@ unicode = 0040;
 },
 {
 glyphname = A;
-lastChange = "2015-10-08 06:52:09 +0000";
+lastChange = "2015-10-15 10:41:38 +0000";
 layers = (
 {
 anchors = (
@@ -59809,7 +59809,7 @@ width = 435;
 },
 {
 glyphname = gjKRa;
-lastChange = "2015-09-25 21:02:19 +0000";
+lastChange = "2015-10-15 10:23:35 +0000";
 layers = (
 {
 anchors = (

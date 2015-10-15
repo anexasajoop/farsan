@@ -52,6 +52,15 @@ feature dist {
 	lookup dist;
 } dist;
 
+
+# ABOVE_BASE MARKS
+###################
+
+feature abvm {
+	lookup abvm;
+} abvm;
+
+
 # BELOW-BASE MARKS
 ###################
 
