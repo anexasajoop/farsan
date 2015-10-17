@@ -88,6 +88,7 @@ lookup pres {
 	sub gjK gjJha by gjKJha;
 	sub gjK gjTta by gjKTta;
 	sub gjK gjTa by gjKTa;
+	sub gjK gjDa by gjKDa;
 	sub gjK gjNa by gjKNa;
 	sub gjK gjPha by gjKPha;
 
@@ -141,6 +142,10 @@ lookup pres {
 	sub gjM gjPha by gjMPha;
 	sub gjM gjSha by gjMSha;
 	sub gjM gjHa by gjMHa;
+
+	sub gjL gjDa by gjLDa;
+
+	sub gjLl gjYa by gjLlYa;
 
 	sub gjSs gjKa by gjSsKa;
 	sub gjSs gjGa by gjSsGa;
@@ -334,10 +339,10 @@ lookup halfForm_calt {
 
 	sub gjT' [gjKa gjMa gjPha] by gjT.alt1;
 
-	sub gjN' [gjKa gjJa gjDda gjPha gjMa] by gjN.alt1;
+	sub gjN' [gjKa gjJa gjDa gjDda gjPha gjMa] by gjN.alt1;
 
 	sub gjL' [gjKa gjNga gjDda gjPha] by gjL.alt1;
-	sub gjL' [gjJa] by gjL.alt2;
+	sub gjL' [gjJa gjDa] by gjL.alt2;
 	sub gjL' [gjTa] by gjL.alt3;
 	sub gjL' [gjMa gjSha gjSa] by gjL.alt4;
 
