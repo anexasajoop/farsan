@@ -105,6 +105,7 @@ lookup pres {
 
 	sub gjT gjTa by gjTta;
 	sub gjT gjSha by gjTSha;
+	sub gjT gjNa by gjTNa;
 	sub gjT gjSa by gjTSa;
 
 	sub gjN gjT gjRa by gjNTRa;
@@ -112,12 +113,14 @@ lookup pres {
 	sub gjN gjJha by gjNJha;
 	sub gjN gjTta by gjNTta;
 	sub gjN gjTa by gjNTa;
+	sub gjN gjNa by gjNNa;
 	sub gjN gjSha by gjNSha;
 	sub gjN gjSa by gjNSa;
 	sub gjN gjHa by gjNHa;
 
 	sub gjP gjKa by gjPKa;
 	sub gjP gjTta by gjPTta;
+	sub gjP gjNa by gjPNa;
 	sub gjP gjPha by gjPPha;
 	sub gjP gjMa by gjPMa;
 	sub gjP gjHa by gjPHa;
@@ -129,10 +132,12 @@ lookup pres {
 	sub gjB gjJa by gjBJa;
 	sub gjB gjJha by gjBJha;
 	sub gjB gjDda by gjBDda;
+	sub gjB gjNa by gjBNa;
 
 	sub gjBh gjYa by gjBhYa;
 
 	sub gjM gjKa by gjMKa;
+	sub gjM gjNa by gjMNa;
 	sub gjM gjPha by gjMPha;
 	sub gjM gjSha by gjMSha;
 	sub gjM gjHa by gjMHa;
@@ -148,6 +153,7 @@ lookup pres {
 	sub gjS gjTta by gjSTta;
 	sub gjS gjDda by gjSDda;
 	sub gjS gjTha by gjSTha;
+	sub gjS gjNa by gjSNa;
 	sub gjS gjPha by gjSPha;
 	sub gjS gjMa by gjSMa;
 	sub gjS gjYa by gjSYa;
