@@ -77,6 +77,7 @@ lookup cjct {
 lookup pres {
 	
 	sub gjK gjT gjYa by gjKTYa;
+	sub gjK gjT gjRa by gjKTRa;
 	sub gjK gjT gjVa by gjKTVa;
 	sub gjK gjP gjRa by gjKPRa;
 	sub gjK gjS gjTta by gjKSTta;
@@ -106,6 +107,7 @@ lookup pres {
 	sub gjT gjSha by gjTSha;
 	sub gjT gjSa by gjTSa;
 
+	sub gjN gjT gjRa by gjNTRa;
 	sub gjN gjGa by gjNGa;
 	sub gjN gjJha by gjNJha;
 	sub gjN gjTta by gjNTta;

@@ -161,16 +161,16 @@ Udieresis Udieresis 00DC
 Yacute Yacute 00DD
 Thorn Thorn 00DE
 germandbls germandbls 00DF
-agrave agrave 0000
-aacute aacute 0000
-acircumflex acircumflex 0000
-atilde atilde 0000
-adieresis adieresis 0000
-aring aring 0000
-ae ae 0000
-ccedilla ccedilla 0000
-egrave egrave 0000
-eacute eacute 0000
+agrave agrave 00E0
+aacute aacute 00E1
+acircumflex acircumflex 00E2
+atilde atilde 00E3
+adieresis adieresis 00E4
+aring aring 00E5
+ae ae 00E6
+ccedilla ccedilla 00E7
+egrave egrave 00E8
+eacute eacute 00E9
 ecircumflex ecircumflex 00EA
 edieresis edieresis 00EB
 igrave igrave 00EC
@@ -197,7 +197,7 @@ Amacron Amacron 0100
 amacron amacron 0101
 Abreve Abreve 0102
 abreve abreve 0103
-Aogonek Aogonek 0104
+Aogonek Aogonek 104
 aogonek aogonek 0105
 Cacute Cacute 0106
 cacute cacute 0107
@@ -332,8 +332,8 @@ Udieresiscaron Udieresiscaron 01D9
 udieresiscaron udieresiscaron 01DA
 Udieresisgrave Udieresisgrave 01DB
 udieresisgrave udieresisgrave 01DC
-Gcaron Gcaron 01e6
-gcaron gcaron 01e7
+Gcaron Gcaron 01E6
+gcaron gcaron 01E7
 Scommaaccent Scommaaccent 0218
 scommaaccent scommaaccent 0219
 uni021A Tcommaaccent 021A
@@ -391,7 +391,7 @@ Ddotbelow Ddotbelow 1E0C
 ddotbelow ddotbelow 1E0D
 Dlinebelow Dlinebelow 1E0E
 dlinebelow dlinebelow 1E0F
-Gmacron Gmacron 1E19
+Gmacron Gmacron 1E20
 gmacron gmacron 1E21
 Hdotbelow Hdotbelow 1E24
 hdotbelow hdotbelow 1E25
@@ -762,13 +762,20 @@ uni0A990ACD0AB0 gjNgRa
 uni0A9A0ACD0AB0 gjCRa 
 uni0A9B0ACD0AB0 gjChRa 
 uni0A9C0ACD0AB0 gjJRa 
+uni0A9D0ACD0AB0 gjJhRa 
+uni0A9E0ACD0AB0 gjNyRa 
 uni0A9F0ACD0AB0 gjTtRa 
 uni0AA00ACD0AB0 gjTthRa 
 uni0AA10ACD0AB0 gjDdRa 
 uni0AA20ACD0AB0 gjDdhRa 
 uni0AA30ACD0AB0 gjNnRa 
+uni0AA40ACD0AB0 gjTRa 
+uni0AA50ACD0AB0 gjThRa 
+uni0AA70ACD0AB0 gjDhRa 
 uni0AA80ACD0AB0 gjNRa 
 uni0AAA0ACD0AB0 gjPRa 
+uni0AAB0ACD0AB0 gjPhRa 
+uni0AAC0ACD0AB0 gjBRa 
 uni0AAD0ACD0AB0 gjBhRa 
 uni0AAE0ACD0AB0 gjMRa 
 uni0AAF0ACD0AB0 gjYRa 
@@ -832,9 +839,11 @@ uni0AB80ACD0AAF gjSYa
 uni0AB30ACD0AAF gjLlYa 
 uni0A950ACD0AA40ACD0AAF gjKTYa 
 uni0A950ACD0AA40ACD0AB5 gjKTVa 
+uni0A950ACD0AA40ACD0AB0 gjKTRa 
 uni0A950ACD0AAA0ACD0AB0 gjKPRa 
 uni0A950ACD0AB80ACD0A9F gjKSTta 
 uni0A950ACD0AB80ACD0AA1 gjKSDda 
 uni0A950ACD0AB80ACD0AA4 gjKSTa 
+uni0AA80ACD0AA40ACD0AB0 gjNTRa 
 uni0A9C0ABE gjJa_mAa 
 uni0ACD0ABO gjRakar

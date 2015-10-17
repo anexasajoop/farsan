@@ -102,6 +102,8 @@ feature blws {
 	sub gjCa gjRakar by gjCRa;
 	sub gjCha gjRakar by gjChRa;
 	sub gjJa gjRakar by  gjJRa;
+	sub gjJha gjRakar by gjJhRa;
+	sub gjNya gjRakar by gjNyRa;
 
 	sub gjTta gjRakar by gjTtRa;
 	sub gjTtha gjRakar by gjTthRa;
@@ -109,9 +111,14 @@ feature blws {
 	sub gjDdha gjRakar by gjDdhRa;
 	sub gjNna gjRakar by gjNnRa;
 
+	sub gjTa gjRakar by gjTRa;
+	sub gjTha gjRakar by gjThRa;
+	sub gjDha gjRakar by gjDhRa;
 	sub gjNa gjRakar by gjNRa;
 
 	sub gjPa gjRakar by gjPRa;
+	sub gjPha gjRakar by gjPhRa;
+	sub gjBa gjRakar by gjBRa;
 	sub gjBha gjRakar by gjBhRa;
 	sub gjMa gjRakar by gjMRa;
 
