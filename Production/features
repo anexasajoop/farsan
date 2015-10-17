@@ -113,6 +113,7 @@ feature blws {
 
 	sub gjTa gjRakar by gjTRa;
 	sub gjTha gjRakar by gjThRa;
+	sub gjDa gjRakar by gjDRa;
 	sub gjDha gjRakar by gjDhRa;
 	sub gjNa gjRakar by gjNRa;
 
@@ -123,8 +124,12 @@ feature blws {
 	sub gjMa gjRakar by gjMRa;
 
 	sub gjYa gjRakar by gjYRa;
+	sub gjLa gjRakar by gjLRa;
 	sub gjVa gjRakar by gjVRa;
+	sub gjSha gjRakar by gjShRa;
 	sub gjSsa gjRakar by gjSsRa;
+	sub gjSa gjRakar by gjSRa;
+	sub gjHa gjRakar by gjHRa;
 
 } blws;
 
