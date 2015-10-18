@@ -281,11 +281,11 @@ lookup abvm {
 
 lookup blwm {
 
-	pos base [gjKa] <anchor 196 0> mark @bottomMarks;
+	pos base [gjKa] <anchor 126 0> mark @bottomMarks;
 	pos base [gjKha] <anchor 414 0> mark @bottomMarks;
 	pos base [gjGa] <anchor 312 0> mark @bottomMarks;
 	pos base [gjGha] <anchor 291 0> mark @bottomMarks;
-	pos base [gjNga] <anchor 196 0> mark @bottomMarks;
+	pos base [gjNga] <anchor 126 0> mark @bottomMarks;
 
 	pos base [gjCa] <anchor 363 0> mark @bottomMarks;
 	pos base [gjCha] <anchor 216 0> mark @bottomMarks;
@@ -293,10 +293,10 @@ lookup blwm {
 	pos base [gjJha] <anchor 286 0> mark @bottomMarks;
 	pos base [gjNya] <anchor 358 0> mark @bottomMarks;
 
-	pos base [gjTta] <anchor 226 0> mark @bottomMarks;
-	pos base [gjTtha] <anchor 216 0> mark @bottomMarks;
-	pos base [gjDda] <anchor 196 0> mark @bottomMarks;
-	pos base [gjDdha] <anchor 226 0> mark @bottomMarks;
+	pos base [gjTta] <anchor 176 0> mark @bottomMarks;
+	pos base [gjTtha] <anchor 186 0> mark @bottomMarks;
+	pos base [gjDda] <anchor 126 0> mark @bottomMarks;
+	pos base [gjDdha] <anchor 186 0> mark @bottomMarks;
 	pos base [gjNna] <anchor 449 -50> mark @bottomMarks;
 
 	pos base [gjTa] <anchor 275 0> mark @bottomMarks;
@@ -319,7 +319,7 @@ lookup blwm {
 	pos base [gjSha] <anchor 372 0> mark @bottomMarks;
 	pos base [gjSsa] <anchor 291 0> mark @bottomMarks;
 	pos base [gjSa] <anchor 382 0> mark @bottomMarks;
-	pos base [gjHa] <anchor 196 0> mark @bottomMarks;
+	pos base [gjHa] <anchor 166 0> mark @bottomMarks;
 
 } blwm;
 
