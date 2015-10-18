@@ -2,6 +2,12 @@
 # BASIC SHAPING #
 #################
 
+# REPH FORMS
+
+lookup rphf {
+	sub gjRa gjVirama by gjReph;
+} rphf;
+
 
 # RAKAR FORMS
 

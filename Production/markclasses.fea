@@ -7,3 +7,4 @@ markClass [gjVirama] <anchor -203 0> @bottomMarks;
 markClass [gjEsign] <anchor -56 628> @topMarks;
 markClass [gjAisign] <anchor -56 628> @topMarks;
 markClass [gjEcandrasign] <anchor -56 628> @topMarks;
+markClass [gjReph] <anchor -56 628> @topMarks;

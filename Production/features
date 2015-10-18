@@ -12,6 +12,17 @@ include (lookups.fea);
 #################
 
 
+# REPH
+#######
+
+feature rphf {
+	lookup rphf;
+} rphf;
+
+
+# RAKAR FORMS
+##############
+
 feature blwf { # Below-Base Forms
 
 script DFLT;
