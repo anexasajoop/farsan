@@ -46,20 +46,6 @@ script gujr;
 } blwf;
 
 
-# RAKAR FORMS
-##############
-
-feature rkrf {
-
-	script DFLT;
-		lookup rkrf_new;
-
-	script gjr2;
-		lookup rkrf_new;
-
-} rkrf;
-
-
 # HALF FORMS
 #############
 
@@ -84,7 +70,9 @@ feature cjct {
 	lookup cjct;
 } cjct;
 
+
 # MANDATORY PRESENTATION FORMS 
+###############################
 
 feature pres {
 	lookup pres;
@@ -103,6 +91,20 @@ feature haln {
 ###########################
 
 feature blws {
+
+
+	# TRICONSONANTAL CONJUNCTS
+
+	sub gjK gjPa gjRakar by gjKPRa;
+
+	sub gjSsKa gjRakar by gjSsKRa;
+	sub gjSsTta gjRakar by gjSsTtRa;
+
+	sub gjSKa gjRakar by gjSKRa;
+	sub gjS gjTa gjRakar by gjSTRa;
+
+
+	# BICONSONANTAL CONJUNCTS
 	
 	sub gjKa gjRakar by gjKRa;
 	sub gjKha gjRakar by gjKhRa;
@@ -167,6 +169,7 @@ feature abvm {
 feature blwm {
 	lookup blwm;
 } blwm;
+
 
 # CONTEXTUAL ATERNATES
 #######################

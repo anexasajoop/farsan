@@ -2,20 +2,12 @@
 # BASIC SHAPING #
 #################
 
+
 # REPH FORMS
 
 lookup rphf {
 	sub gjRa gjVirama by gjReph;
 } rphf;
-
-
-# RAKAR FORMS
-
-lookup rkrf_new {
-	
-	sub gjKa gjRakar by gjKRa;
-
-} rkrf_new;
 
 
 # HALF FORMS
@@ -70,10 +62,15 @@ lookup cjct {
 	sub gjKa gjVirama gjSa gjVirama gjTta by gjKSTta;
 	sub gjKa gjVirama gjSa gjVirama gjDda by gjKSDda;
 	sub gjKa gjVirama gjSa gjVirama gjTa by gjKSTa;
+	sub gjT gjT gjVa by gjTTVa;
+	sub gjTa gjRakar gjVirama gjYa by gjTRYa;
+	sub gjN gjM gjYa by gjNMYa;
 
 # BICONSONANTAL CONJUNCTS
 
 	sub gjCha gjVirama gjYa by gjChYa;
+
+	sub gjTtha gjVirama gjYa by gjTthYa;
 
 } cjct;
 
@@ -110,7 +107,7 @@ lookup pres {
 
 	sub gjNy gjJa by gjNyJa;
 
-	sub gjT gjTa by gjTta;
+	sub gjT gjTa by gjTTa;
 	sub gjT gjSha by gjTSha;
 	sub gjT gjNa by gjTNa;
 	sub gjT gjSa by gjTSa;
@@ -156,8 +153,10 @@ lookup pres {
 	sub gjSs gjKa by gjSsKa;
 	sub gjSs gjGa by gjSsGa;
 	sub gjSs gjTta by gjSsTta;
+	sub gjSs gjTthYa by gjSsTthYa;
 	sub gjSs gjTtha by gjSsTtha;
 	sub gjSs gjPha by gjSsPha;
+
 
 	sub gjS gjKa by gjSKa;
 	sub gjS gjJa by gjSJa;
