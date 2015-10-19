@@ -77,6 +77,8 @@ lookup cjct {
 	sub gjTta gjVirama gjYa by gjTtYa;
 	sub gjTta gjVirama gjVa by gjTtVa;
 
+	sub gjTtha gjVirama gjTtha by gjTthTtha;
+
 	sub gjTtha gjVirama gjYa by gjTthYa;
 
 } cjct;
