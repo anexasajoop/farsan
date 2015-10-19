@@ -14,6 +14,8 @@ lookup rphf {
 
 lookup half {
 
+	sub gjTRa gjVirama by gjTR;
+
 	sub gjKa gjVirama by gjK;
 	sub gjKha gjVirama by gjKh;
 	sub gjGa gjVirama by gjG;
@@ -69,6 +71,11 @@ lookup cjct {
 # BICONSONANTAL CONJUNCTS
 
 	sub gjCha gjVirama gjYa by gjChYa;
+
+	sub gjTta gjVirama gjTta by gjTtTta;
+	sub gjTta gjVirama gjTtha by gjTtTtha;
+	sub gjTta gjVirama gjYa by gjTtYa;
+	sub gjTta gjVirama gjVa by gjTtVa;
 
 	sub gjTtha gjVirama gjYa by gjTthYa;
 
@@ -152,6 +159,7 @@ lookup pres {
 
 	sub gjSs gjKa by gjSsKa;
 	sub gjSs gjGa by gjSsGa;
+	sub gjSs gjTtYa by gjSsTtYa;
 	sub gjSs gjTta by gjSsTta;
 	sub gjSs gjTthYa by gjSsTthYa;
 	sub gjSs gjTtha by gjSsTtha;

@@ -46,47 +46,6 @@ script gujr;
 } blwf;
 
 
-# HALF FORMS
-#############
-
-feature half {
-
-	script DFLT;
-		lookup half;
-
-	script gjr2;
-		lookup half;
-
-	script gujr;
-		lookup half;
-
-} half;
-
-
-# CONJUNCTS
-############
-
-feature cjct {
-	lookup cjct;
-} cjct;
-
-
-# MANDATORY PRESENTATION FORMS 
-###############################
-
-feature pres {
-	lookup pres;
-} pres;
-
-
-# HALANT FORMS
-###############
-
-feature haln {
-	lookup haln;
-} haln;
-
-
 # BELOW-BASE SUBSTITUTIONS
 ###########################
 
@@ -145,6 +104,47 @@ feature blws {
 	sub gjHa gjRakar by gjHRa;
 
 } blws;
+
+
+# HALF FORMS
+#############
+
+feature half {
+
+	script DFLT;
+		lookup half;
+
+	script gjr2;
+		lookup half;
+
+	script gujr;
+		lookup half;
+
+} half;
+
+
+# CONJUNCTS
+############
+
+feature cjct {
+	lookup cjct;
+} cjct;
+
+
+# MANDATORY PRESENTATION FORMS 
+###############################
+
+feature pres {
+	lookup pres;
+} pres;
+
+
+# HALANT FORMS
+###############
+
+feature haln {
+	lookup haln;
+} haln;
 
 
 # DISTANCE
