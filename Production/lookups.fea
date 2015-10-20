@@ -78,8 +78,15 @@ lookup cjct {
 	sub gjTta gjVirama gjVa by gjTtVa;
 
 	sub gjTtha gjVirama gjTtha by gjTthTtha;
-
 	sub gjTtha gjVirama gjYa by gjTthYa;
+
+	sub gjDda gjVirama gjDda by gjDdDda;
+	sub gjDda gjVirama gjDdha by gjDdDdha;
+	sub gjDda gjVirama gjYa by gjDdYa;
+	sub gjDda gjVirama gjVa by gjDdVa;
+
+	sub gjDdha gjVirama gjDdha by gjDdhDdha;
+	sub gjDdha gjVirama gjYa by gjDdhYa;
 
 } cjct;
 
