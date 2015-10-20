@@ -74,6 +74,10 @@ lookup cjct {
 	sub gjB gjJ gjYa by gjBJYa;
 	sub gjL gjK gjYa by gjLKYa;
 	sub gjL gjV gjDda by gjLVDda;
+	sub gjSs gjM gjYa by gjSsMYa;
+	sub gjS gjK gjVa by gjSKVa;
+	sub gjS gjM gjYa by gjSMYa;
+	sub gjS gjTh gjYa by gjSThYa;
 
 # BICONSONANTAL CONJUNCTS
 
@@ -206,10 +210,12 @@ lookup pres {
 	sub gjSs gjKa by gjSsKa;
 	sub gjSs gjGa by gjSsGa;
 	sub gjSs gjTtYa by gjSsTtYa;
+	sub gjSs gjTtVa by gjSsTtVa;
 	sub gjSs gjTta by gjSsTta;
 	sub gjSs gjTthYa by gjSsTthYa;
 	sub gjSs gjTtha by gjSsTtha;
 	sub gjSs gjPha by gjSsPha;
+	sub gjSs gjMa by gjSsMa;
 
 	sub gjS gjKa by gjSKa;
 	sub gjS gjJa by gjSJa;
@@ -291,6 +297,10 @@ lookup dist {
 	pos gjY gjNa 20;
 
 	pos gjSs gjKha 15;
+	pos gjSs gjNna 25;
+	pos gjSs gjNn 25;
+	pos gjSs gjYa 30;
+	pos gjSs gjVa 30;
 
 	pos gjS gjKha 10;
 	pos gjS gjCa 20;
