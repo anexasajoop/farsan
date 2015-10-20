@@ -14,8 +14,6 @@ lookup rphf {
 
 lookup half {
 
-	sub gjTRa gjVirama by gjTR;
-
 	sub gjKa gjVirama by gjK;
 	sub gjKha gjVirama by gjKh;
 	sub gjGa gjVirama by gjG;
@@ -51,7 +49,6 @@ lookup half {
 } half;
 
 
-
 # CONJUNCT FORMS
 
 lookup cjct {
@@ -60,13 +57,19 @@ lookup cjct {
 
 	sub gjKa gjVirama gjTa gjVirama gjYa by gjKTYa;
 	sub gjKa gjVirama gjTa gjVirama gjVa by gjKTVa;
-#	sub gjKa gjVirama gjPa gjVirama gjRa by gjKPRa;
-#	sub gjKa gjVirama gjTa gjVirama gjRa by gjKTRa;
 	sub gjKa gjVirama gjSa gjVirama gjTta by gjKSTta;
 	sub gjKa gjVirama gjSa gjVirama gjDda by gjKSDda;
 	sub gjKa gjVirama gjSa gjVirama gjTa by gjKSTa;
 	sub gjT gjT gjVa by gjTTVa;
-	sub gjTa gjRakar gjVirama gjYa by gjTRYa;
+	sub gjT gjT gjYa by gjTTYa;
+	sub gjT gjN gjYa by gjTNYa;
+	sub gjT gjS gjNa by gjTSNa;
+	sub gjT gjS gjYa by gjTSYa;
+	sub gjT gjS gjVa by gjTSVa;
+#	sub gjTa gjRakar gjVirama gjYa by gjTRYa;
+	sub gjN gjT gjSa by gjNTSa;
+	sub gjN gjT gjYa by gjNTYa;
+	sub gjN gjN gjYa by gjNNYa;
 	sub gjN gjM gjYa by gjNMYa;
 
 # BICONSONANTAL CONJUNCTS
@@ -223,12 +226,22 @@ lookup dist {
 	pos gjT gjLa 27;
 	pos gjT gjVa 27;
 	pos gjT.alt1 gjMa 25;
+	pos gjT.alt1 gjM 25;
 
 	pos gjN gjDha -12;
+	pos gjN gjDh -12;
+	pos gjN gjDhRa -12;
 	pos gjN.alt1 gjKa -65;
+	pos gjN.alt1 gjK -65;
+	pos gjN.alt1 gjK.alt1 -65;
+	pos gjN.alt1 gjCha -10;
 	pos gjN.alt1 gjDda -65;
+	pos gjN gjPa -20;
+	pos gjN gjP -20;
+	pos gjN gjPRa -20;
 	pos gjN.alt1 gjPha -65;
 	pos gjN.alt1 gjMa -40;
+	pos gjN gjVa 5;
 
 	pos gjP gjCa 40;
 	pos gjP gjTa -10;
@@ -368,9 +381,9 @@ lookup halfForm_calt {
 	sub gjJ' [gjKa gjDda gjMa] by gjJ.alt2;
 	sub gjJ' [gjTta gjTa gjNa] by gjJ.alt3;
 
-	sub gjT' [gjKa gjMa gjPha] by gjT.alt1;
+	sub gjT' [gjKa gjKRa gjK gjMa gjM gjPha] by gjT.alt1;
 
-	sub gjN' [gjKa gjJa gjDa gjDda gjPha gjMa] by gjN.alt1;
+	sub gjN' [gjKa gjK gjK.alt1 gjCha gjJa gjDa gjDda gjPha gjMa] by gjN.alt1;
 
 	sub gjL' [gjKa gjNga gjDda gjPha] by gjL.alt1;
 	sub gjL' [gjJa gjDa] by gjL.alt2;
