@@ -55,6 +55,7 @@ feature blws {
 	# TRICONSONANTAL CONJUNCTS
 
 	sub gjK gjPa gjRakar by gjKPRa;
+	sub gjKTa gjRakar by gjKTRa; 
 
 	sub gjSsKa gjRakar by gjSsKRa;
 	sub gjSsTta gjRakar by gjSsTtRa;
