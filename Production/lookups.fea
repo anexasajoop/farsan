@@ -72,6 +72,8 @@ lookup cjct {
 	sub gjN gjN gjYa by gjNNYa;
 	sub gjN gjM gjYa by gjNMYa;
 	sub gjB gjJ gjYa by gjBJYa;
+	sub gjL gjK gjYa by gjLKYa;
+	sub gjL gjV gjDda by gjLVDda;
 
 # BICONSONANTAL CONJUNCTS
 
@@ -112,6 +114,7 @@ lookup pres {
 	sub gjK gjS gjTta by gjKSTta;
 	sub gjK gjS gjDda by gjKSDda;
 	sub gjK gjS gjTa by gjKSTa;
+
 	sub gjK gjKa by gjKKa;
 	sub gjK gjCha by gjKCha;
 	sub gjK gjJa by gjKJa;
@@ -182,7 +185,21 @@ lookup pres {
 	sub gjM gjSha by gjMSha;
 	sub gjM gjHa by gjMHa;
 
+	sub gjL gjKa by gjLKa;
+	sub gjL gjGa by gjLGa;
+	sub gjL gjTta by gjLTta;
+	sub gjL gjTtha by gjLTtha;
+	sub gjL gjDda by gjLDda;
+	sub gjL gjDdha by gjLDdha;
 	sub gjL gjDa by gjLDa;
+	sub gjL gjPa by gjLPa;
+	sub gjL gjPha by gjLPha;
+	sub gjL gjHa by gjLHa;
+
+	sub gjV gjJa by gjVJa;
+	sub gjV gjDda by gjVDda;
+	sub gjV gjNa by gjVNa;
+	sub gjV gjHa by gjVHa;
 
 	sub gjLl gjYa by gjLlYa;
 
@@ -270,6 +287,8 @@ lookup dist {
 	pos gjM gjLa 25;
 	pos gjM gjVa 30;
 	pos gjM gjSa 20;
+
+	pos gjY gjNa 20;
 
 	pos gjSs gjKha 15;
 
@@ -396,7 +415,7 @@ lookup halfForm_calt {
 
 	sub gjPh' [gjSha gjSa] by gjPh.alt1;
 
-	sub gjL' [gjKa gjNga gjDda gjPha] by gjL.alt1;
+	sub gjL' [gjNga] by gjL.alt1;
 	sub gjL' [gjJa gjDa] by gjL.alt2;
 	sub gjL' [gjTa] by gjL.alt3;
 	sub gjL' [gjMa gjSha gjSa] by gjL.alt4;
