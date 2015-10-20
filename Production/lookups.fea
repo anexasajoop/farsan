@@ -71,6 +71,7 @@ lookup cjct {
 # BICONSONANTAL CONJUNCTS
 
 	sub gjCha gjVirama gjYa by gjChYa;
+	sub gjCha gjVirama gjVa by gjChVa;
 
 	sub gjTta gjVirama gjTta by gjTtTta;
 	sub gjTta gjVirama gjTtha by gjTtTtha;
@@ -116,6 +117,7 @@ lookup pres {
 	sub gjKh gjDa by gjDa;
 	sub gjKh gjMa by gjKhMa;
 
+	sub gjC gjChVa by gjCChVa;
 	sub gjC gjCha by gjCCha;
 	sub gjC gjNa by gjCNa;
 
