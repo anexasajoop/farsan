@@ -103,6 +103,15 @@ lookup cjct {
 	sub gjDdha gjVirama gjDdha by gjDdhDdha;
 	sub gjDdha gjVirama gjYa by gjDdhYa;
 
+	sub gjDa gjVirama gjGha by gjDGha;
+	sub gjDa gjVirama gjDa by gjDDa;
+	sub gjDa gjVirama gjDha by gjDDha;
+	sub gjDa gjVirama gjNa by gjDNa;
+	sub gjDa gjVirama gjBha by gjDBha;
+	sub gjDa gjVirama gjMa by gjDMa;
+	sub gjDa gjVirama gjYa by gjDYa;
+	sub gjDa gjVirama gjVa by gjDVa;
+
 } cjct;
 
 
