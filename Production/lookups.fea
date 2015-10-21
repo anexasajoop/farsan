@@ -124,6 +124,11 @@ lookup cjct {
 	sub gjDa gjVirama gjYa by gjDYa;
 	sub gjDa gjVirama gjVa by gjDVa;
 
+	sub gjHa gjVirama gjNa by gjHNa;
+	sub gjHa gjVirama gjMa by gjHMa;
+	sub gjHa gjVirama gjYa by gjHYa;
+	sub gjHa gjVirama gjVa by gjHVa;
+
 } cjct;
 
 
