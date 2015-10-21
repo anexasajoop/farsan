@@ -12,6 +12,14 @@ include (lookups.fea);
 #################
 
 
+# AKHAND FORMS
+################
+
+feature akhn {
+	lookup akhn;
+} akhn;
+
+
 # REPH
 #######
 

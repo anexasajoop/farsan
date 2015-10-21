@@ -3,6 +3,16 @@
 #################
 
 
+# AKHAND FORMS
+
+lookup akhn {
+	
+	sub gjJa gjVirama gjNya by gjJNya;
+
+} akhn;
+
+
+
 # REPH FORMS
 
 lookup rphf {
@@ -13,6 +23,8 @@ lookup rphf {
 # HALF FORMS
 
 lookup half {
+
+	sub gjJNya gjVirama by gjJNy;
 
 	sub gjKa gjVirama by gjK;
 	sub gjKha gjVirama by gjKh;
