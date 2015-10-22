@@ -84,6 +84,7 @@ lookup cjct {
 	sub gjN gjT gjSa by gjNTSa;
 	sub gjN gjT gjYa by gjNTYa;
 	sub gjN gjN gjYa by gjNNYa;
+	sub gjN gjD gjVa by gjNDVa;
 	sub gjN gjM gjYa by gjNMYa;
 	sub gjB gjJ gjYa by gjBJYa;
 	sub gjL gjK gjYa by gjLKYa;

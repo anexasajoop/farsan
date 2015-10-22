@@ -66,6 +66,9 @@ feature blws {
 	sub gjKTa gjRakar by gjKTRa; 
 
 	sub gjNTa gjRakar by gjNTRa;
+	sub gjN gjDa gjRakar by gjNDRa;
+
+	sub gjLDa gjRakar by gjLDRa;
 
 	sub gjSsKa gjRakar by gjSsKRa;
 	sub gjSsTta gjRakar by gjSsTtRa;
