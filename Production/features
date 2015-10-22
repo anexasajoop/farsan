@@ -116,7 +116,37 @@ feature blws {
 	sub gjSa gjRakar by gjSRa;
 	sub gjHa gjRakar by gjHRa;
 
+	# RAKAR HALF FORMS
+
+	sub gjK gjRakar by gjKR;
+	sub gjKh gjRakar by gjKhR;
+	sub gjG gjRakar by gjGR;
+	sub gjGh gjRakar by gjGhR;
+
+	sub gjC gjRakar by gjCR;
+	sub gjJ gjRakar by gjJR;
+	sub gjJh gjRakar by gjJhR;
+
+	sub gjTt gjRakar by gjTtR;
+	sub gjTth gjRakar by gjTthR;
+	sub gjDd gjRakar by gjDdR;
+	sub gjDdh gjRakar by gjDdhR;
+
 	sub gjT gjRakar by gjTR;
+	sub gjTh gjRakar by gjThR;
+	sub gjD gjRakar by gjDR;
+	sub gjDh gjRakar by gjDhR;
+	sub gjN gjRakar by gjNR;
+
+	sub gjP gjRakar by gjPR;
+	sub gjPh gjRakar by gjPhR;
+	sub gjB gjRakar by gjBR;
+	sub gjBh gjRakar by gjBhR;
+	sub gjM gjRakar by gjMR;
+
+	sub gjY gjRakar by gjYR;
+	sub gjV gjRakar by gjVR;
+	sub gjS gjRakar by gjSR;
 
 } blws;
 
