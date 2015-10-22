@@ -7,6 +7,7 @@
 
 lookup akhn {
 	
+	sub gjKa gjVirama gjSsa by gjKSsa;
 	sub gjJa gjVirama gjNya by gjJNya;
 
 } akhn;
@@ -24,6 +25,7 @@ lookup rphf {
 
 lookup half {
 
+	sub gjKSsa gjVirama by gjKSs;
 	sub gjJNya gjVirama by gjJNy;
 
 	sub gjKa gjVirama by gjK;
@@ -144,6 +146,8 @@ lookup pres {
 	sub gjK gjS gjTta by gjKSTta;
 	sub gjK gjS gjDda by gjKSDda;
 	sub gjK gjS gjTa by gjKSTa;
+	sub gjKSs gjM gjYa by gjKSsMYa;
+	sub gjKSs gjMa by gjKSsMa;
 
 	sub gjK gjKa by gjKKa;
 	sub gjK gjCha by gjKCha;
@@ -173,6 +177,7 @@ lookup pres {
 	sub gjT gjSha by gjTSha;
 	sub gjT gjNa by gjTNa;
 	sub gjT gjSa by gjTSa;
+	sub gjT gjKSsa by gjTKSsa;
 
 	sub gjN gjT gjRa by gjNTRa;
 	sub gjN gjGa by gjNGa;
