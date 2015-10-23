@@ -3,7 +3,8 @@
 #################
 
 
-# AKHAND FORMS
+# AKHAND LIGATURES
+###################
 
 lookup akhn {
 	
@@ -14,19 +15,83 @@ lookup akhn {
 
 
 
-# REPH FORMS
+# REPH
+#######
 
 lookup rphf {
+
 	sub gjRa gjVirama by gjReph;
+
 } rphf;
 
 
+# RAKAR FORMS
+##############
+
+lookup rkrf_new {
+
+	sub gjKa gjVirama gjRa by gjKRa;
+	sub gjKha gjVirama gjRa by gjKhRa;
+	sub gjGa gjVirama gjRa by gjGRa;
+	sub gjGha gjVirama gjRa by gjGhRa;
+	sub gjNga gjVirama gjRa by gjNgRa;
+
+	sub gjCa gjVirama gjRa by gjCRa;
+	sub gjCha gjVirama gjRa by gjChRa;
+	sub gjJa gjVirama gjRa by  gjJRa;
+	sub gjJha gjVirama gjRa by gjJhRa;
+	sub gjNya gjVirama gjRa by gjNyRa;
+
+	sub gjTta gjVirama gjRa by gjTtRa;
+	sub gjTtha gjVirama gjRa by gjTthRa;
+	sub gjDda gjVirama gjRa by gjDdRa;
+	sub gjDdha gjVirama gjRa by gjDdhRa;
+	sub gjNna gjVirama gjRa by gjNnRa;
+
+	sub gjTa gjVirama gjRa by gjTRa;
+	sub gjTha gjVirama gjRa by gjThRa;
+	sub gjDa gjVirama gjRa by gjDRa;
+	sub gjDha gjVirama gjRa by gjDhRa;
+	sub gjNa gjVirama gjRa by gjNRa;
+
+	sub gjPa gjVirama gjRa by gjPRa;
+	sub gjPha gjVirama gjRa by gjPhRa;
+	sub gjBa gjVirama gjRa by gjBRa;
+	sub gjBha gjVirama gjRa by gjBhRa;
+	sub gjMa gjVirama gjRa by gjMRa;
+
+	sub gjYa gjVirama gjRa by gjYRa;
+	sub gjLa gjVirama gjRa by gjLRa;
+	sub gjVa gjVirama gjRa by gjVRa;
+	sub gjSha gjVirama gjRa by gjShRa;
+	sub gjSsa gjVirama gjRa by gjSsRa;
+	sub gjSa gjVirama gjRa by gjSRa;
+	sub gjHa gjVirama gjRa by gjHRa;
+	
+} rkrf_new;
+
+
+# BELOW-BASE FORMS
+###################
+
+lookup blwf_new {
+
+	sub gjVirama gjRa by gjRakar;
+
+} blwf_new;
+
+
+lookup blwf_old {
+
+	sub gjRa gjVirama by gjRakar;
+
+} blwf_old;
+
+
 # HALF FORMS
+#############
 
 lookup half {
-
-	sub gjKSsa gjVirama by gjKSs;
-	sub gjJNya gjVirama by gjJNy;
 
 	sub gjKa gjVirama by gjK;
 	sub gjKha gjVirama by gjKh;
@@ -52,6 +117,7 @@ lookup half {
 	sub gjMa gjVirama by gjM;
 
 	sub gjYa gjVirama by gjY;
+	sub gjRa gjVirama by gjR;
 	sub gjLa gjVirama by gjL;
 	sub gjLla gjVirama by gjLl;
 	sub gjVa gjVirama by gjV;
@@ -60,41 +126,147 @@ lookup half {
 	sub gjSsa gjVirama by gjSs;
 	sub gjSa gjVirama by gjS;
 
+	sub gjKSsa gjVirama by gjKSs;
+	sub gjJNya gjVirama by gjJNy;
+
 } half;
 
 
-# CONJUNCT FORMS
+lookup half_new {
 
-lookup cjct {
+	sub gjKRa gjVirama by gjKR;
+	sub gjKhRa gjVirama by gjKhR;
+	sub gjGRa gjVirama by gjGR;
+	sub gjGhRa gjVirama by gjGhR;
 
-# TRICONSONANTAL CONJUNCTS
+	sub gjCRa gjVirama by gjCR;
+	sub gjJRa gjVirama by gjJR;
+	sub gjJhRa gjVirama by gjJhR;
+	
+	sub gjTtRa gjVirama by gjTtR;
+	sub gjTthRa gjVirama by gjTthR;
+	sub gjDdRa gjVirama by gjDdR;
+	sub gjDdhRa gjVirama by gjDdhR;
 
-	sub gjKa gjVirama gjTa gjVirama gjYa by gjKTYa;
-	sub gjKa gjVirama gjTa gjVirama gjVa by gjKTVa;
-	sub gjKa gjVirama gjSa gjVirama gjTta by gjKSTta;
-	sub gjKa gjVirama gjSa gjVirama gjDda by gjKSDda;
-	sub gjKa gjVirama gjSa gjVirama gjTa by gjKSTa;
-	sub gjT gjT gjVa by gjTTVa;
-	sub gjT gjT gjYa by gjTTYa;
-	sub gjT gjN gjYa by gjTNYa;
-	sub gjT gjS gjNa by gjTSNa;
-	sub gjT gjS gjYa by gjTSYa;
-	sub gjT gjS gjVa by gjTSVa;
-#	sub gjTa gjRakar gjVirama gjYa by gjTRYa;
-	sub gjN gjT gjSa by gjNTSa;
-	sub gjN gjT gjYa by gjNTYa;
-	sub gjN gjN gjYa by gjNNYa;
-	sub gjN gjD gjVa by gjNDVa;
-	sub gjN gjM gjYa by gjNMYa;
-	sub gjB gjJ gjYa by gjBJYa;
-	sub gjL gjK gjYa by gjLKYa;
-	sub gjL gjV gjDda by gjLVDda;
-	sub gjSs gjM gjYa by gjSsMYa;
-	sub gjS gjK gjVa by gjSKVa;
-	sub gjS gjM gjYa by gjSMYa;
-	sub gjS gjTh gjYa by gjSThYa;
+	sub gjTRa gjVirama by gjTR;
+	sub gjThRa gjVirama by gjThR;
+	sub gjDRa gjVirama by gjDR;
+	sub gjDhRa gjVirama by gjDhR;
+	sub gjNRa gjVirama by gjNR;
 
-# BICONSONANTAL CONJUNCTS
+	sub gjPRa gjVirama by gjPR;
+	sub gjPhRa gjVirama by gjPhR;
+	sub gjBRa gjVirama by gjBR;
+	sub gjBhRa gjVirama by gjBhR;
+	sub gjMRa gjVirama by gjMR;
+
+	sub gjYRa gjVirama by gjYR;
+	sub gjVRa gjVirama by gjVR;
+	sub gjSRa gjVirama by gjSR;
+	
+} half_new;
+
+
+lookup half_old {
+	
+	sub gjNga gjVirama by gjNg;
+	sub gjCha gjVirama by gjCh;
+	sub gjTta gjVirama by gjTt;
+	sub gjTtha gjVirama by gjTth;
+	sub gjDda gjVirama by gjDd;
+	sub gjDdha gjVirama by gjDdh;
+	sub gjDa gjVirama by gjD;
+	sub gjHa gjVirama by gjH;
+
+} half_old;
+
+
+
+# VATTU VARIANTS
+#################
+
+lookup vatu_old {
+
+	sub gjKa gjRakar by gjKRa;
+	sub gjKha gjRakar by gjKhRa;
+	sub gjGa gjRakar by gjGRa;
+	sub gjGha gjRakar by gjGhRa;
+#	sub gjNga gjRakar by gjNgRa;
+
+	sub gjCa gjRakar by gjCRa;
+	sub gjCha gjRakar by gjChRa;
+	sub gjJa gjRakar by  gjJRa;
+	sub gjJha gjRakar by gjJhRa;
+#	sub gjNya gjRakar by gjNyRa;
+
+	sub gjTta gjRakar by gjTtRa;
+	sub gjTtha gjRakar by gjTthRa;
+	sub gjDda gjRakar by gjDdRa;
+	sub gjDdha gjRakar by gjDdhRa;
+	sub gjNna gjRakar by gjNnRa;
+
+	sub gjTa gjRakar by gjTRa;
+	sub gjTha gjRakar by gjThRa;
+	sub gjDa gjRakar by gjDRa;
+	sub gjDha gjRakar by gjDhRa;
+	sub gjNa gjRakar by gjNRa;
+
+	sub gjPa gjRakar by gjPRa;
+	sub gjPha gjRakar by gjPhRa;
+	sub gjBa gjRakar by gjBRa;
+	sub gjBha gjRakar by gjBhRa;
+	sub gjMa gjRakar by gjMRa;
+
+	sub gjYa gjRakar by gjYRa;
+	sub gjLa gjRakar by gjLRa;
+	sub gjVa gjRakar by gjVRa;
+	sub gjSha gjRakar by gjShRa;
+	sub gjSsa gjRakar by gjSsRa;
+	sub gjSa gjRakar by gjSRa;
+	sub gjHa gjRakar by gjHRa;
+
+
+	# HALF FORMS
+
+	sub gjK gjRakar by gjKR;
+	sub gjKh gjRakar by gjKhR;
+	sub gjG gjRakar by gjGR;
+	sub gjGh gjRakar by gjGhR;
+
+	sub gjC gjRakar by gjCR;
+	sub gjJ gjRakar by gjJR;
+	sub gjJh gjRakar by gjJhR;
+
+	sub gjTt gjRakar by gjTtR;
+	sub gjTth gjRakar by gjTthR;
+	sub gjDd gjRakar by gjDdR;
+	sub gjDdh gjRakar by gjDdhR;
+
+	sub gjT gjRakar by gjTR;
+	sub gjTh gjRakar by gjThR;
+	sub gjD gjRakar by gjDR;
+	sub gjDh gjRakar by gjDhR;
+	sub gjN gjRakar by gjNR;
+
+	sub gjP gjRakar by gjPR;
+	sub gjPh gjRakar by gjPhR;
+	sub gjB gjRakar by gjBR;
+	sub gjBh gjRakar by gjBhR;
+	sub gjM gjRakar by gjMR;
+
+	sub gjY gjRakar by gjYR;
+	sub gjV gjRakar by gjVR;
+	sub gjS gjRakar by gjSR;
+
+} vatu_old;
+
+
+
+# CONJUNCTS
+############
+
+lookup cjct_new {
+
 
 	sub gjNga gjVirama gjKa by gjNgKa;
 	sub gjNga gjVirama gjMa by gjNgMa;
@@ -132,23 +304,27 @@ lookup cjct {
 	sub gjHa gjVirama gjYa by gjHYa;
 	sub gjHa gjVirama gjVa by gjHVa;
 
-} cjct;
+} cjct_new;
 
 
-# MANDATORY PRESENTATION FORMS
+
+################################
+# MANDATORY PRESENTATION FORMS #
+################################
+
 
 lookup pres {
 	
-#	sub gjK gjTRa by gjKTRa;
-	sub gjK gjT gjYa by gjKTYa;
-	sub gjK gjT gjVa by gjKTVa;
-#	sub gjK gjP gjRa by gjKPRa;
-#	sub gjK gjT gjRa by gjKTRa;
-	sub gjK gjS gjTta by gjKSTta;
-	sub gjK gjS gjDda by gjKSDda;
-	sub gjK gjS gjTa by gjKSTa;
-	sub gjKSs gjM gjYa by gjKSsMYa;
-	sub gjKSs gjMa by gjKSsMa;
+#	sub gjK gjTRa by gjKTRa; !
+#	sub gjK gjT gjYa by gjKTYa; !
+#	sub gjK gjT gjVa by gjKTVa; !
+#	sub gjK gjP gjRa by gjKPRa; !
+#	sub gjK gjT gjRa by gjKTRa; !
+#	sub gjK gjS gjTta by gjKSTta; !
+#	sub gjK gjS gjDda by gjKSDda; !
+#	sub gjK gjS gjTa by gjKSTa; !
+#	sub gjKSs gjM gjYa by gjKSsMYa; !
+#	sub gjKSs gjMa by gjKSsMa; !
 
 	sub gjK gjKa by gjKKa;
 	sub gjK gjCha by gjKCha;
@@ -157,9 +333,18 @@ lookup pres {
 	sub gjK gjTta by gjKTta;
 	sub gjK gjDda by gjKDda;
 	sub gjK gjTa by gjKTa;
+	sub gjK gjT gjYa by gjKTYa; # Triconsonantal
+	sub gjK gjTRa by gjKTRa; # Rakar
+	sub gjK gjT gjVa by gjKTVa; # Triconsonantal
 	sub gjK gjDa by gjKDa;
 	sub gjK gjNa by gjKNa;
+	sub gjK gjPRa by gjKPRa; # Rakar
 	sub gjK gjPha by gjKPha;
+	sub gjKSs gjMa by gjKSsMa; # Triconsonantal
+	sub gjKSs gjM gjYa by gjKSsMYa; # Quadriconsonantal
+	sub gjK gjS gjTta by gjKSTta; # Triconsonantal
+	sub gjK gjS gjDda by gjKSDda; # Triconsonantal
+	sub gjK gjS gjTa by gjKSTa; # Triconsonantal
 
 	sub gjKh gjKha by gjKhKha;
 	sub gjKh gjTa by gjKhTa;
@@ -175,17 +360,29 @@ lookup pres {
 	sub gjNy gjJa by gjNyJa;
 
 	sub gjT gjTa by gjTTa;
-	sub gjT gjSha by gjTSha;
+	sub gjT gjT gjVa by gjTTVa; # Triconsonantal
+	sub gjT gjT gjYa by gjTTYa; # Triconsonantal
 	sub gjT gjNa by gjTNa;
+	sub gjT gjN gjYa by gjTNYa; # Triconsonantal
+	sub gjT gjSha by gjTSha;
 	sub gjT gjSa by gjTSa;
+	sub gjT gjS gjNa by gjTSNa; # Triconsonantal
+	sub gjT gjS gjYa by gjTSYa; # Triconsonantal
+	sub gjT gjS gjVa by gjTSVa; # Triconsonantal
 	sub gjT gjKSsa by gjTKSsa;
 
-	sub gjN gjT gjRa by gjNTRa;
 	sub gjN gjGa by gjNGa;
 	sub gjN gjJha by gjNJha;
 	sub gjN gjTta by gjNTta;
 	sub gjN gjTa by gjNTa;
+	sub gjN gjT gjSa by gjNTSa; # Triconsonantal
+	sub gjN gjT gjYa by gjNTYa; # Triconsonantal
+	sub gjN gjTRa by gjNTRa; # Rakar
+	sub gjN gjDRa by gjNDRa; # Rakar
 	sub gjN gjNa by gjNNa;
+	sub gjN gjN gjYa by gjNNYa; # Triconsonantal
+	sub gjN gjD gjVa by gjNDVa; # Triconsonantal
+	sub gjN gjM gjYa by gjNMYa; # Triconsonantal
 	sub gjN gjSha by gjNSha;
 	sub gjN gjSa by gjNSa;
 	sub gjN gjHa by gjNHa;
@@ -205,6 +402,7 @@ lookup pres {
 
 	sub gjB gjKa by gjBKa;
 	sub gjB gjJa by gjBJa;
+	sub gjB gjJ gjYa by gjBJYa; # Triconsonantal
 	sub gjB gjJha by gjBJha;
 	sub gjB gjDda by gjBDda;
 	sub gjB gjDa by gjBDa;
@@ -222,14 +420,17 @@ lookup pres {
 	sub gjM gjHa by gjMHa;
 
 	sub gjL gjKa by gjLKa;
+	sub gjL gjK gjYa by gjLKYa; # Triconsonantal
 	sub gjL gjGa by gjLGa;
 	sub gjL gjTta by gjLTta;
 	sub gjL gjTtha by gjLTtha;
 	sub gjL gjDda by gjLDda;
 	sub gjL gjDdha by gjLDdha;
 	sub gjL gjDa by gjLDa;
+	sub gjL gjDRa by gjLDRa; # Rakar
 	sub gjL gjPa by gjLPa;
 	sub gjL gjPha by gjLPha;
+	sub gjL gjV gjDda by gjLVDda; # Triconsonantal
 	sub gjL gjHa by gjLHa;
 
 	sub gjV gjJa by gjVJa;
@@ -240,30 +441,123 @@ lookup pres {
 	sub gjLl gjYa by gjLlYa;
 
 	sub gjSs gjKa by gjSsKa;
+	sub gjSs gjKRa by gjSsKRa; # Rakar
 	sub gjSs gjGa by gjSsGa;
 	sub gjSs gjTtYa by gjSsTtYa;
+	sub gjSs gjTtRa by gjSsTtRa; # Rakar
 	sub gjSs gjTtVa by gjSsTtVa;
 	sub gjSs gjTta by gjSsTta;
 	sub gjSs gjTthYa by gjSsTthYa;
+	sub gjSs gjTthRa by gjSsTthRa; # Rakar
 	sub gjSs gjTtha by gjSsTtha;
 	sub gjSs gjPha by gjSsPha;
 	sub gjSs gjMa by gjSsMa;
+	sub gjSs gjM gjYa by gjSsMYa; # Triconsonantal
 
 	sub gjS gjKa by gjSKa;
+	sub gjS gjKRa by gjSKRa; # Rakar
+	sub gjS gjK gjVa by gjSKVa; # Triconsonantal
 	sub gjS gjJa by gjSJa;
 	sub gjS gjTta by gjSTta;
+	sub gjS gjTtRa by gjSTtRa; # Rakar
 	sub gjS gjDda by gjSDda;
+	sub gjS gjTRa by gjSTRa; # Rakar
 	sub gjS gjTha by gjSTha;
+	sub gjS gjTh gjYa by gjSThYa; # Triconsonantal
 	sub gjS gjNa by gjSNa;
 	sub gjS gjPha by gjSPha;
 	sub gjS gjMa by gjSMa;
+	sub gjS gjM gjYa by gjSMYa; # Triconsonantal
 	sub gjS gjYa by gjSYa;
 
 } pres;
 
 
+lookup pres_new {
+
+	sub gjC gjChVa by gjCChVa;
+
+	sub gjN gjDVa by gjNDVa;
+
+	sub gjSs gjTtYa by gjSsTtYa;
+	sub gjSs gjTtVa by gjSsTtVa;
+	sub gjSs gjTthYa by gjSsTthYa;
+
+} pres_new;
+
+
+lookup pres_old {
+	
+	# cjct_new
+
+	sub gjNg gjKa by gjNgKa;
+	sub gjNg gjMa by gjNgMa;
+
+	sub gjCh gjYa by gjChYa;
+	sub gjCh gjVa by gjChVa;
+
+	sub gjTt gjTta by gjTtTta;
+	sub gjTt gjTtha by gjTtTtha;
+	sub gjTt gjYa by gjTtYa;
+	sub gjTt gjVa by gjTtVa;
+
+	sub gjTth gjTtha by gjTthTtha;
+	sub gjTth gjYa by gjTthYa;
+
+	sub gjDd gjDda by gjDdDda;
+	sub gjDd gjDdha by gjDdDdha;
+	sub gjDd gjYa by gjDdYa;
+	sub gjDd gjVa by gjDdVa;
+
+	sub gjDdh gjDdha by gjDdhDdha;
+	sub gjDdh gjYa by gjDdhYa;
+
+	sub gjD gjGha by gjDGha;
+	sub gjD gjDa by gjDDa;
+	sub gjD gjDha by gjDDha;
+	sub gjD gjNa by gjDNa;
+	sub gjD gjBha by gjDBha;
+	sub gjD gjMa by gjDMa;
+	sub gjD gjYa by gjDYa;
+	sub gjD gjVa by gjDVa;
+
+	sub gjH gjNa by gjHNa;
+	sub gjH gjMa by gjHMa;
+	sub gjH gjYa by gjHYa;
+	sub gjH gjVa by gjHVa;
+
+	# pres_new
+
+	sub gjC gjCh gjVa by gjCChVa;
+
+	sub gjN gjD gjVa by gjNDVa;
+
+	sub gjSs gjTt gjYa by gjSsTtYa;
+	sub gjSs gjTt gjVa by gjSsTtVa;
+	sub gjSs gjTth gjYa by gjSsTthYa;
+
+} pres_old;
+
+
+# BELOW-BASE SUBSTITUTIONS
+###########################
+
+
+# POST-BASE SUBSTITUTION
+#########################
+
+lookup psts {
+	
+	sub gjJa gjAasign by gjJa_mAa;
+	sub gjJa gjIisign by gjJa_mIi;
+	sub gjJRa gjAasign by gjJRa_mAa;
+	sub gjJRa gjIisign by gjJRa_mIi;
+
+} psts;
+
 
 # HALANT FORMS
+###############
 
 lookup haln {
 	
@@ -277,7 +571,48 @@ lookup haln {
 } haln;
 
 
+####################################
+# DISCRETIONARY PRESENTATION FORMS #
+####################################
+
+
+# CONTEXTUAL ATERNATES
+#######################
+
+
+lookup halfForm_calt {
+	
+	sub gjK' [gjMa gjSha gjSa gjS] by gjK.alt1;
+
+	sub gjKh' [gjJa] by gjKh.alt1;
+	sub gjKh' [gjTta gjDda] by gjKh.alt2;
+
+	sub gjJ' [gjYa] by gjJ.alt1;
+	sub gjJ' [gjKa gjDda gjMa] by gjJ.alt2;
+	sub gjJ' [gjTta gjTa gjNa] by gjJ.alt3;
+
+	sub gjT' [gjKa gjKRa gjK gjMa gjM gjPha] by gjT.alt1;
+
+	sub gjN' [gjKa gjK gjK.alt1 gjCha gjJa gjDa gjDda gjPha gjMa] by gjN.alt1;
+
+	sub gjPh' [gjSha gjSa] by gjPh.alt1;
+
+	sub gjL' [gjNga] by gjL.alt1;
+	sub gjL' [gjJa gjDa] by gjL.alt2;
+	sub gjL' [gjTa] by gjL.alt3;
+	sub gjL' [gjMa gjSha gjSa] by gjL.alt4;
+
+} halfForm_calt;
+
+
+
+###############
+# POSITIONING #
+###############
+
+
 # DISTANCE
+###########
 
 lookup dist {
 
@@ -344,6 +679,7 @@ lookup dist {
 
 
 # ABOVE-BASE MARKS
+###################
 
 lookup abvm {
 
@@ -392,6 +728,7 @@ lookup abvm {
 
 
 # BELOW-BASE MARKS
+###################
 
 lookup blwm {
 
@@ -436,30 +773,3 @@ lookup blwm {
 	pos base [gjHa] <anchor 166 0> mark @bottomMarks;
 
 } blwm;
-
-
-# CONTEXTUAL ALTERNATES FOR HALF FORMS
-
-lookup halfForm_calt {
-	
-	sub gjK' [gjMa gjSha gjSa gjS] by gjK.alt1;
-
-	sub gjKh' [gjJa] by gjKh.alt1;
-	sub gjKh' [gjTta gjDda] by gjKh.alt2;
-
-	sub gjJ' [gjYa] by gjJ.alt1;
-	sub gjJ' [gjKa gjDda gjMa] by gjJ.alt2;
-	sub gjJ' [gjTta gjTa gjNa] by gjJ.alt3;
-
-	sub gjT' [gjKa gjKRa gjK gjMa gjM gjPha] by gjT.alt1;
-
-	sub gjN' [gjKa gjK gjK.alt1 gjCha gjJa gjDa gjDda gjPha gjMa] by gjN.alt1;
-
-	sub gjPh' [gjSha gjSa] by gjPh.alt1;
-
-	sub gjL' [gjNga] by gjL.alt1;
-	sub gjL' [gjJa gjDa] by gjL.alt2;
-	sub gjL' [gjTa] by gjL.alt3;
-	sub gjL' [gjMa gjSha gjSa] by gjL.alt4;
-
-} halfForm_calt;
