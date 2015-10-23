@@ -155,9 +155,9 @@ feature pres {
 # BELOW-BASE SUBSTITUTIONS
 ###########################
 
-# feature blws {
-#	lookup blws;
-# } blws;
+feature blws {
+	lookup blws;
+} blws;
 
 
 # POST-BASE SUBSTITUTION

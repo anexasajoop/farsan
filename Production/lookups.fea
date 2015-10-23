@@ -542,6 +542,16 @@ lookup pres_old {
 # BELOW-BASE SUBSTITUTIONS
 ###########################
 
+lookup blws {
+
+	sub gjRa  gjUsign  by gjRa_mU;
+	sub gjRa  gjUusign by gjRa_mUu;
+	sub gjDa  gjRvocalsign by gjDa_mR;
+	sub gjSha gjRvocalsign by gjSha_mR;
+	sub gjHa  gjRvocalsign by gjHa_mR;
+
+ } blws;
+
 
 # POST-BASE SUBSTITUTION
 #########################
