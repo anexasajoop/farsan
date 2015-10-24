@@ -566,6 +566,32 @@ lookup psts {
 } psts;
 
 
+# IKAR MATCHING
+
+lookup ikar_matching {
+
+	sub gjIsign' [gjKa gjNga gjTta gjTtha gjDda gjDdha gjDa gjPha gjRa gjHa] by gjIsign.alt1;
+
+	sub gjIsign' [gjNa] by gjIsign.alt2;
+
+	sub gjIsign' [gjLa] by gjIsign.alt3;
+
+	sub gjIsign' [gjKha gjCa gjCha gjJa gjNya gjBa gjMa gjLla gjSha gjSa] by gjIsign.alt4;
+
+	sub gjIsign' [gjNna] by gjIsign.alt5;
+
+} ikar_matching;
+
+
+# IIKAR MATCHING
+
+lookup iikar_matching {
+
+	sub [gjTta gjTtha gjDdha gjRa gjHa] gjIisign' by gjIisign.alt1;
+	
+} iikar_matching;
+
+
 # HALANT FORMS
 ###############
 

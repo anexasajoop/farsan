@@ -683,7 +683,12 @@ nuktagujarati gjNukta 0ABC
 aavowelsigngujarati gjAasign 0ABE
 ivowelsigngujarati gjIsign 0ABF
 ivowelsigngujarati.alt1 gjIsign.alt1 
+ivowelsigngujarati.alt2 gjIsign.alt2 
+ivowelsigngujarati.alt3 gjIsign.alt3 
+ivowelsigngujarati.alt4 gjIsign.alt4 
+ivowelsigngujarati.alt5 gjIsign.alt5 
 iivowelsigngujarati gjIisign 0AC0
+iivowelsigngujarati.alt1 gjIisign.alt1 
 uvowelsigngujarati gjUsign 0AC1
 uuvowelsigngujarati gjUusign 0AC2
 rvocalicvowelsigngujarati gjRvocalsign 0AC3
