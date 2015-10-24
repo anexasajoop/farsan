@@ -693,46 +693,46 @@ lookup dist {
 
 lookup abvm {
 
-	pos base [gjKa] <anchor 294 628> mark @topMarks;
-	pos base [gjKha] <anchor 532 628> mark @topMarks;
-	pos base [gjGa] <anchor 431 628> mark @topMarks;
-	pos base [gjGha] <anchor 411 628> mark @topMarks;
-	pos base [gjNga] <anchor 294 628> mark @topMarks;
+	pos base [gjKa] <anchor 294 628> mark @topMarks <anchor 252 628> mark @candraMarks; 
+	pos base [gjKha] <anchor 532 628> mark @topMarks <anchor 529 628> mark @candraMarks;
+	pos base [gjGa] <anchor 431 628> mark @topMarks <anchor 428 628> mark @candraMarks;
+	pos base [gjGha] <anchor 411 628> mark @topMarks <anchor 408 628> mark @candraMarks;
+	pos base [gjNga] <anchor 294 628> mark @topMarks <anchor 252 628> mark @candraMarks;
 
-	pos base [gjCa] <anchor 483 628> mark @topMarks;
-	pos base [gjCha] <anchor 464 628> mark @topMarks;
-	pos base [gjJa] <anchor 574 628> mark @topMarks;
-	pos base [gjJha] <anchor 474 628> mark @topMarks;
-	pos base [gjNya] <anchor 477 628> mark @topMarks;
+	pos base [gjCa] <anchor 483 628> mark @topMarks <anchor 480 628> mark @candraMarks;
+	pos base [gjCha] <anchor 464 628> mark @topMarks <anchor 302 628> mark @candraMarks;
+	pos base [gjJa] <anchor 574 628> mark @topMarks <anchor 369 628> mark @candraMarks;
+	pos base [gjJha] <anchor 474 628> mark @topMarks <anchor 453 628> mark @candraMarks;
+	pos base [gjNya] <anchor 477 628> mark @topMarks <anchor 474 628> mark @candraMarks;
 
-	pos base [gjTta] <anchor 309 628> mark @topMarks;
-	pos base [gjTtha] <anchor 289 628> mark @topMarks;
-	pos base [gjDda] <anchor 294 628> mark @topMarks;
-	pos base [gjDdha] <anchor 309 628> mark @topMarks;
-	pos base [gjNna] <anchor 568 628> mark @topMarks;
+	pos base [gjTta] <anchor 309 628> mark @topMarks <anchor 242 628> mark @candraMarks;
+	pos base [gjTtha] <anchor 289 628> mark @topMarks <anchor 250 628> mark @candraMarks;
+	pos base [gjDda] <anchor 294 628> mark @topMarks <anchor 252 628> mark @candraMarks;
+	pos base [gjDdha] <anchor 309 628> mark @topMarks <anchor 234 628> mark @candraMarks;
+	pos base [gjNna] <anchor 568 628> mark @topMarks <anchor 565 628> mark @candraMarks;
 
-	pos base [gjTa] <anchor 394 628> mark @topMarks;
-	pos base [gjTha] <anchor 422 628> mark @topMarks;
-	pos base [gjDa] <anchor 264 628> mark @topMarks;
-	pos base [gjDha] <anchor 423 628> mark @topMarks;
-	pos base [gjNa] <anchor 345 628> mark @topMarks;
+	pos base [gjTa] <anchor 394 628> mark @topMarks <anchor 391 628> mark @candraMarks;
+	pos base [gjTha] <anchor 422 628> mark @topMarks <anchor 419 628> mark @candraMarks;
+	pos base [gjDa] <anchor 264 628> mark @topMarks <anchor 195 628> mark @candraMarks;
+	pos base [gjDha] <anchor 423 628> mark @topMarks <anchor 420 628> mark @candraMarks;
+	pos base [gjNa] <anchor 345 628> mark @topMarks <anchor 342 628> mark @candraMarks;
 
-	pos base [gjPa] <anchor 388 628> mark @topMarks;
-	pos base [gjPha] <anchor 304 628> mark @topMarks;
-	pos base [gjBa] <anchor 529 628> mark @topMarks;
-	pos base [gjBha] <anchor 545 628> mark @topMarks;
-	pos base [gjMa] <anchor 404 628> mark @topMarks;
+	pos base [gjPa] <anchor 388 628> mark @topMarks <anchor 385 628> mark @candraMarks;
+	pos base [gjPha] <anchor 304 628> mark @topMarks <anchor 252 628> mark @candraMarks;
+	pos base [gjBa] <anchor 529 628> mark @topMarks <anchor 526 628> mark @candraMarks;
+	pos base [gjBha] <anchor 545 628> mark @topMarks <anchor 542 628> mark @candraMarks;
+	pos base [gjMa] <anchor 404 628> mark @topMarks <anchor 401 628> mark @candraMarks;
 
-	pos base [gjYa] <anchor 402 628> mark @topMarks;
-	pos base [gjRa] <anchor 284 628> mark @topMarks;
-	pos base [gjLa] <anchor 453 628> mark @topMarks;
-	pos base [gjLla] <anchor 534 628> mark @topMarks;
-	pos base [gjVa] <anchor 370 628> mark @topMarks;
+	pos base [gjYa] <anchor 402 628> mark @topMarks <anchor 399 628> mark @candraMarks;
+	pos base [gjRa] <anchor 284 628> mark @topMarks <anchor 284 628> mark @candraMarks;
+	pos base [gjLa] <anchor 453 628> mark @topMarks <anchor 450 628> mark @candraMarks;
+	pos base [gjLla] <anchor 534 628> mark @topMarks <anchor 420 628> mark @candraMarks;
+	pos base [gjVa] <anchor 370 628> mark @topMarks <anchor 367 628> mark @candraMarks;
 
-	pos base [gjSha] <anchor 491 628> mark @topMarks;
-	pos base [gjSsa] <anchor 413 628> mark @topMarks;
-	pos base [gjSa] <anchor 501 628> mark @topMarks;
-	pos base [gjHa] <anchor 294 628> mark @topMarks;
+	pos base [gjSha] <anchor 491 628> mark @topMarks <anchor 488 628> mark @candraMarks;
+	pos base [gjSsa] <anchor 413 628> mark @topMarks <anchor 410 628> mark @candraMarks;
+	pos base [gjSa] <anchor 501 628> mark @topMarks <anchor 498 628> mark @candraMarks;
+	pos base [gjHa] <anchor 294 628> mark @topMarks <anchor 252 628> mark @candraMarks;
 	
 } abvm;
 

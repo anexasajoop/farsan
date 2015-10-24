@@ -4,6 +4,9 @@ markClass [gjRvocalsign] <anchor -203 0> @bottomMarks;
 markClass [gjRrvocalsign] <anchor -203 0> @bottomMarks;
 markClass [gjVirama] <anchor -203 0> @bottomMarks;
 
+markClass [gjAnusvara] <anchor -54 628> @candraMarks;
+markClass [gjCandrabindu] <anchor -57 628> @candraMarks;
+
 markClass [gjEsign] <anchor -56 628> @topMarks;
 markClass [gjAisign] <anchor -56 628> @topMarks;
 markClass [gjEcandrasign] <anchor -56 628> @topMarks;
