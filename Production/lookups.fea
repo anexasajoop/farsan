@@ -546,6 +546,7 @@ lookup abvs {
 
 	# REPH-ANUSVARA
 
+	sub gjIisign gjReph gjAnusvara by gjIisignRephAnusvara;
 	sub gjReph gjAnusvara by gjRephAnusvara;
 	sub gjEsign gjReph gjAnusvara by gjEsignRephAnusvara;
 	sub gjAisign gjReph gjAnusvara by gjAisignRephAnusvara;
@@ -555,6 +556,7 @@ lookup abvs {
 
 	# REPH
 
+	sub gjIisign gjReph by gjIisignReph;
 	sub gjEsign gjReph by gjEsignReph;
 	sub gjAisign gjReph by gjAisignReph;
 	sub gjOsign gjReph by gjOsignReph;
@@ -575,6 +577,8 @@ lookup abvs {
 
 lookup abvs_J {
 	
+	sub gjJa gjIisignRephAnusvara by gjJa_mIiRephAnusvara;
+	sub gjJa gjIisignReph by gjJa_mIiReph;
 	sub gjJa gjIisignAnusvara by gjJa_mIiAnusvara;
 
 } abvs_J;
@@ -642,7 +646,7 @@ lookup ikar_matching {
 
 lookup iikar_matching {
 
-	sub [gjTta gjTtha gjDdha gjRa gjHa] [gjIisign gjIisignAnusvara]' by [gjIisign.alt1 gjIisignAnusvara.alt1];
+	sub [gjTta gjTtha gjDdha gjRa gjHa] [gjIisign gjIisignAnusvara gjIisignRephAnusvara gjIisignReph]' by [gjIisign.alt1 gjIisignAnusvara.alt1 gjIisignRephAnusvara.alt1 gjIisignReph.alt1];
 	
 } iikar_matching;
 

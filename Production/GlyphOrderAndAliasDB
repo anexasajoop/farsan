@@ -693,8 +693,12 @@ ivowelsigngujarati.alt4 gjIsign.alt4
 ivowelsigngujarati.alt5 gjIsign.alt5 
 iivowelsigngujarati gjIisign 0AC0
 uni0AC00A82 gjIisignAnusvara 
+uni0AC00A820ACD gjIisignReph 
+uni0AC00A820ACD0A82 gjIisignRephAnusvara 
 iivowelsigngujarati.alt1 gjIisign.alt1 
 uni0AC00A82.alt1 gjIisignAnusvara.alt1 
+uni0AC00A820ACD.alt1 gjIisignReph.alt1 
+uni0AC00A820ACD0A82.alt1 gjIisignRephAnusvara.alt1 
 uvowelsigngujarati gjUsign 0AC1
 uuvowelsigngujarati gjUusign 0AC2
 rvocalicvowelsigngujarati gjRvocalsign 0AC3
@@ -1000,6 +1004,8 @@ uni0AB80ACD0AAE0ACD0AAF gjSMYa
 uni0A9C0ABE gjJa_mAa 
 uni0A9C0AC0 gjJa_mIi 
 uni0A9C0AC00A82 gjJa_mIiAnusvara 
+uni0A9C0AC00AB00ACD gjJa_mIiReph 
+uni0A9C0AC00AB00ACD0A82 gjJa_mIiRephAnusvara 
 uni0A9C0ACD0AB00ABE gjJRa_mAa 
 uni0A9C0ACD0AB00AC0 gjJRa_mIi 
 uni0AA60AC3 gjDa_mR 
@@ -1013,3 +1019,4 @@ uni0AB60AC3 gjSha_mR
 uni0AB90AC3 gjHa_mR 
 uni0ACD0AB0 gjRakar 
 uni0AB00ACD gjReph 
+uni0AB00ACD0A82 gjRephAnusvara
