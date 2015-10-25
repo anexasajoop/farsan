@@ -686,11 +686,17 @@ nuktagujarati gjNukta 0ABC
 aavowelsigngujarati gjAasign 0ABE
 ivowelsigngujarati gjIsign 0ABF
 uni0ABF0A82 gjIsignAnusvara 
+uni0ABF0A820ACD gjIsignReph 
 ivowelsigngujarati.alt1 gjIsign.alt1 
+uni0ABF0A820ACD.alt1 gjIsignReph.alt1 
 ivowelsigngujarati.alt2 gjIsign.alt2 
+uni0ABF0A820ACD.alt2 gjIsignReph.alt2 
 ivowelsigngujarati.alt3 gjIsign.alt3 
+uni0ABF0A820ACD.alt3 gjIsignReph.alt3 
 ivowelsigngujarati.alt4 gjIsign.alt4 
+uni0ABF0A820ACD.alt4 gjIsignReph.alt4 
 ivowelsigngujarati.alt5 gjIsign.alt5 
+uni0ABF0A820ACD.alt5 gjIsignReph.alt5 
 iivowelsigngujarati gjIisign 0AC0
 uni0AC00A82 gjIisignAnusvara 
 uni0AC00A820ACD gjIisignReph 

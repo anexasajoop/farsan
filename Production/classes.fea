@@ -1,3 +1,47 @@
+@FULLFORMS = [
+
+	gjKa
+	gjKha
+	gjGa
+	gjGha
+	gjNga
+
+	gjCa
+	gjCha
+	gjJa
+	gjJha
+	gjNya
+
+	gjTta
+	gjTtha
+	gjDda
+	gjDdha
+	gjNna
+
+	gjTa
+	gjTha
+	gjDa
+	gjDha
+	gjNa
+
+	gjPa
+	gjPha
+	gjBa
+	gjBha
+	gjMa
+
+	gjYa
+	gjRa
+	gjLa
+	gjLla
+	gjVa
+	gjSha
+	gjSsa
+	gjSa
+	gjHa
+
+];
+
 @IKAR = [
 	
 	gjIsign
@@ -9,8 +53,18 @@
 
 ];
 
+@IKARREPH = [
+	
+	gjIsignReph
+	gjIsignReph.alt1
+	gjIsignReph.alt2
+	gjIsignReph.alt3
+	gjIsignReph.alt4
+	gjIsignReph.alt5
 
-@ikarFULLFORM1 = [
+];
+
+@ikarANUSVARA1 = [
 
 	gjKa
 	gjNga
@@ -23,7 +77,7 @@
 
 ];
 
-@ikarFULLFORM2 = [
+@ikarANUSVARA2 = [
 
 #	gjKa
 	gjKha
@@ -67,7 +121,7 @@
 
 ];
 
-@ikarFULLFORM3 = [
+@ikarANUSVARA3 = [
 
 	gjHa
 

@@ -150,7 +150,15 @@ feature abvs {
 #	lookup abvs_ra_matra_vocalic_liquids;
 	lookup abvs;
 	lookup abvs_J;
+
+#  lookup removeReph {
+#    sub gjGa gjReph by gjGa;
+#  }
+
 	lookup abvs_ikar;
+  lookup abvs_ikar_reph;
+  lookup abvs_removeReph;
+
 } abvs;
 
 

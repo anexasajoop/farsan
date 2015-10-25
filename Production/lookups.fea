@@ -583,11 +583,65 @@ lookup abvs_J {
 
 } abvs_J;
 
+
+lookup abvs_ikar_reph {
+	
+	sub gjIsign' @FULLFORMS gjReph by gjIsignReph;
+
+} abvs_ikar_reph;
+
+
+lookup abvs_removeReph {
+	
+	sub gjKa gjReph by gjKa;
+	sub gjKha gjReph by gjKha;
+	sub gjGa gjReph by gjGa;
+	sub gjGha gjReph by gjGha;
+	sub gjNga gjReph by gjNga;
+
+	sub gjCa gjReph by gjCa;
+	sub gjCha gjReph by gjCha;
+	sub gjJa gjReph by gjJa;
+	sub gjJha gjReph by gjJha;
+	sub gjNya gjReph by gjNya;
+
+	sub gjTta gjReph by gjTta;
+	sub gjTtha gjReph by gjTtha;
+	sub gjDda gjReph by gjDda;
+	sub gjDdha gjReph by gjDdha;
+	sub gjNna gjReph by gjNna;
+
+	sub gjTa gjReph by gjTa;
+	sub gjTha gjReph by gjTha;
+	sub gjDa gjReph by gjDa;
+	sub gjDha gjReph by gjDha;
+	sub gjNa gjReph by gjNa;
+
+	sub gjPa gjReph by gjPa;
+	sub gjPha gjReph by gjPha;
+	sub gjBa gjReph by gjBa;
+	sub gjBha gjReph by gjBha;
+	sub gjMa gjReph by gjMa;
+
+	sub gjYa gjReph by gjYa;
+	sub gjRa gjReph by gjRa;
+	sub gjLa gjReph by gjLa;
+	sub gjLla gjReph by gjLla;
+	sub gjVa gjReph by gjVa;
+
+	sub gjSha gjReph by gjSha;
+	sub gjSsa gjReph by gjSsa;
+	sub gjSa gjReph by gjSa;
+	sub gjHa gjReph by gjHa;
+
+} abvs_removeReph;
+
+
 lookup abvs_ikar {
 
-	sub @IKAR @ikarFULLFORM1 gjAnusvara' by gjAnusvara.alt1;
-	sub @IKAR @ikarFULLFORM2 gjAnusvara' by gjAnusvara.alt2;
-	sub @IKAR @ikarFULLFORM3 gjAnusvara' by gjAnusvara.alt3;
+	sub @IKAR @ikarANUSVARA1 gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR @ikarANUSVARA2 gjAnusvara' by gjAnusvara.alt2;
+	sub @IKAR @ikarANUSVARA3 gjAnusvara' by gjAnusvara.alt3;
 
 } abvs_ikar;
 
@@ -629,15 +683,15 @@ lookup psts {
 
 lookup ikar_matching {
 
-	sub gjIsign' [gjKa gjNga gjTta gjTtha gjDda gjDdha gjDa gjPha gjRa gjHa] by gjIsign.alt1;
+	sub [gjIsign gjIsignReph]' [gjKa gjNga gjTta gjTtha gjDda gjDdha gjDa gjPha gjRa gjHa] by [gjIsign.alt1 gjIsignReph.alt1];
 
-	sub gjIsign' [gjNa] by gjIsign.alt2;
+	sub [gjIsign gjIsignReph]' [gjNa] by [gjIsign.alt2 gjIsignReph.alt2];
 
-	sub gjIsign' [gjLa] by gjIsign.alt3;
+	sub [gjIsign gjIsignReph]' [gjLa] by [gjIsign.alt3 gjIsignReph.alt3];
 
-	sub gjIsign' [gjKha gjCa gjCha gjJa gjNya gjBa gjBha gjLla gjSha gjSa] by gjIsign.alt4;
+	sub [gjIsign gjIsignReph]' [gjKha gjCa gjCha gjJa gjNya gjBa gjBha gjLla gjSha gjSa] by [gjIsign.alt4 gjIsignReph.alt4];
 
-	sub gjIsign' [gjNna] by gjIsign.alt5;
+	sub [gjIsign gjIsignReph]' [gjNna] by [gjIsign.alt5 gjIsignReph.alt5];
 
 } ikar_matching;
 
