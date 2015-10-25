@@ -544,6 +544,15 @@ lookup pres_old {
 
 lookup abvs {
 
+	# REPH-ANUSVARA
+
+	sub gjReph gjAnusvara by gjRephAnusvara;
+	sub gjEsign gjReph gjAnusvara by gjEsignRephAnusvara;
+	sub gjAisign gjReph gjAnusvara by gjAisignRephAnusvara;
+	sub gjOsign gjReph gjAnusvara by gjOsignRephAnusvara;
+	sub gjAusign gjReph gjAnusvara by gjAusignRephAnusvara;
+
+
 	# REPH
 
 	sub gjEsign gjReph by gjEsignReph;

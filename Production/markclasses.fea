@@ -10,9 +10,14 @@ markClass [gjCandrabindu] <anchor -57 628> @candraMarks;
 markClass [gjEsign] <anchor -56 628> @topMarks;
 markClass [gjEsignAnusvara] <anchor -56 628> @topMarks;
 markClass [gjEsignReph] <anchor -56 628> @topMarks;
+markClass [gjEsignRephAnusvara] <anchor -56 628> @topMarks;
+
 markClass [gjAisign] <anchor -56 628> @topMarks;
 markClass [gjAisignAnusvara] <anchor -56 628> @topMarks;
 markClass [gjAisignReph] <anchor -56 628> @topMarks;
+markClass [gjAisignRephAnusvara] <anchor -56 628> @topMarks;
 
 markClass [gjEcandrasign] <anchor -56 628> @topMarks;
+
 markClass [gjReph] <anchor -56 628> @topMarks;
+markClass [gjRephAnusvara] <anchor -56 628> @topMarks;
