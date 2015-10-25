@@ -574,11 +574,17 @@ lookup abvs_ikar {
 
 lookup blws {
 
-	sub gjRa  gjUsign  by gjRa_mU;
-	sub gjRa  gjUusign by gjRa_mUu;
-	sub gjDa  gjRvocalsign by gjDa_mR;
+	sub gjRa gjUsign  by gjRa_mU;
+	sub gjRa gjUusign by gjRa_mUu;
+
+	sub gjPha gjUsign  by gjPha_mU;
+	sub gjPha gjUusign by gjPha_mUu;
+	sub gjPha gjRvocalsign  by gjPha_mR;
+	sub gjPha gjRrvocalsign by gjPha_mRr;
+
+	sub gjDa gjRvocalsign by gjDa_mR;
 	sub gjSha gjRvocalsign by gjSha_mR;
-	sub gjHa  gjRvocalsign by gjHa_mR;
+	sub gjHa gjRvocalsign by gjHa_mR;
 
  } blws;
 
@@ -792,9 +798,17 @@ lookup abvm {
 	pos base [gjSa] <anchor 501 628> mark @topMarks <anchor 498 628> mark @candraMarks;
 	pos base [gjHa] <anchor 294 628> mark @topMarks <anchor 252 628> mark @candraMarks;
 
+
+	# PRECOMPOSED CONSONANT-MATRA FORMS
+
 	pos base [gjJa_mAa] <anchor 705 628> mark @candraMarks;
 
 	pos base [gjDa_mR] <anchor 252 628> mark @candraMarks;
+
+	pos base [gjPha_mU] <anchor 252 628> mark @candraMarks;
+	pos base [gjPha_mUu] <anchor 252 628> mark @candraMarks;
+	pos base [gjPha_mR] <anchor 252 628> mark @candraMarks;
+	pos base [gjPha_mRr] <anchor 252 628> mark @candraMarks;
 
 	pos base [gjRa_mU] <anchor 234 628> mark @candraMarks;
 	pos base [gjRa_mUu] <anchor 234 628> mark @candraMarks;
