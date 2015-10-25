@@ -687,16 +687,22 @@ aavowelsigngujarati gjAasign 0ABE
 ivowelsigngujarati gjIsign 0ABF
 uni0ABF0A82 gjIsignAnusvara 
 uni0ABF0A820ACD gjIsignReph 
+uni0ABF0AB00ACD0A82 gjIsignRephAnusvara 
 ivowelsigngujarati.alt1 gjIsign.alt1 
 uni0ABF0A820ACD.alt1 gjIsignReph.alt1 
+uni0ABF0AB00ACD0A82.alt1 gjIsignRephAnusvara.alt1 
 ivowelsigngujarati.alt2 gjIsign.alt2 
 uni0ABF0A820ACD.alt2 gjIsignReph.alt2 
+uni0ABF0AB00ACD0A82.alt2 gjIsignRephAnusvara.alt2 
 ivowelsigngujarati.alt3 gjIsign.alt3 
 uni0ABF0A820ACD.alt3 gjIsignReph.alt3 
+uni0ABF0AB00ACD0A82.alt3 gjIsignRephAnusvara.alt3 
 ivowelsigngujarati.alt4 gjIsign.alt4 
 uni0ABF0A820ACD.alt4 gjIsignReph.alt4 
+uni0ABF0AB00ACD0A82.alt4 gjIsignRephAnusvara.alt4 
 ivowelsigngujarati.alt5 gjIsign.alt5 
 uni0ABF0A820ACD.alt5 gjIsignReph.alt5 
+uni0ABF0AB00ACD0A82.alt5 gjIsignRephAnusvara.alt5 
 iivowelsigngujarati gjIisign 0AC0
 uni0AC00A82 gjIisignAnusvara 
 uni0AC00A820ACD gjIisignReph 
@@ -1025,4 +1031,5 @@ uni0AB60AC3 gjSha_mR
 uni0AB90AC3 gjHa_mR 
 uni0ACD0AB0 gjRakar 
 uni0AB00ACD gjReph 
+uni0AB00ACD.I gjRephI 
 uni0AB00ACD0A82 gjRephAnusvara

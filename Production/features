@@ -151,11 +151,7 @@ feature abvs {
 	lookup abvs;
 	lookup abvs_J;
 
-#  lookup removeReph {
-#    sub gjGa gjReph by gjGa;
-#  }
-
-	lookup abvs_ikar;
+  lookup abvs_ikar_reph_anusvara;
   lookup abvs_ikar_reph;
   lookup abvs_removeReph;
 
@@ -221,6 +217,7 @@ feature dist {
 
 feature abvm {
 	lookup abvm;
+#  lookup abvm_reph;
 } abvm;
 
 
