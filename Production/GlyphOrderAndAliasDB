@@ -703,14 +703,18 @@ ecandravowelsigngujarati gjEcandrasign 0AC5
 uni0AC50A82 gjEcandrasignAnusvara 
 evowelsigngujarati gjEsign 0AC7
 uni0AC70A82 gjEsignAnusvara 
+uni0AC70AB00ACD gjEsignReph 
 aivowelsigngujarati gjAisign 0AC8
 uni0AC80A82 gjAisignAnusvara 
+uni0AC80AB00ACD gjAisignReph 
 ocandravowelsigngujarati gjOcandrasign 0AC9
 uni0AC90A82 gjOcandrasignAnusvara 
 ovowelsigngujarati gjOsign 0ACB
 uni0ACB0A82 gjOsignAnusvara 
+uni0ACB0AB00ACD gjOsignReph 
 auvowelsigngujarati gjAusign 0ACC
 uni0ACC0A82 gjAusignAnusvara 
+uni0ACC0AB00ACD gjAusignReph 
 viramagujarati gjVirama 0ACD
 omgujarati gjOm 0AD0
 rrvocalicgujarati gjRrvocal 0AE0
