@@ -630,6 +630,9 @@ uni00470303 G_tildecomb
 uni00670303 g_tildecomb 
 candrabindugujarati gjCandrabindu 0A81
 anusvaragujarati gjAnusvara 0A82
+uni0A82.alt1 gjAnusvara.alt1 
+uni0A82.alt2 gjAnusvara.alt2 
+uni0A82.alt3 gjAnusvara.alt3 
 visargagujarati gjVisarga 0A83
 agujarati gjA 0A85
 aagujarati gjAa 0A86
@@ -682,23 +685,32 @@ hagujarati gjHa 0AB9
 nuktagujarati gjNukta 0ABC
 aavowelsigngujarati gjAasign 0ABE
 ivowelsigngujarati gjIsign 0ABF
+uni0ABF0A82 gjIsignAnusvara 
 ivowelsigngujarati.alt1 gjIsign.alt1 
 ivowelsigngujarati.alt2 gjIsign.alt2 
 ivowelsigngujarati.alt3 gjIsign.alt3 
 ivowelsigngujarati.alt4 gjIsign.alt4 
 ivowelsigngujarati.alt5 gjIsign.alt5 
 iivowelsigngujarati gjIisign 0AC0
+uni0AC00A82 gjIisignAnusvara 
 iivowelsigngujarati.alt1 gjIisign.alt1 
+uni0AC00A82.alt1 gjIisignAnusvara.alt1 
 uvowelsigngujarati gjUsign 0AC1
 uuvowelsigngujarati gjUusign 0AC2
 rvocalicvowelsigngujarati gjRvocalsign 0AC3
 rrvocalicvowelsigngujarati gjRrvocalsign 0AC4
 ecandravowelsigngujarati gjEcandrasign 0AC5
+uni0AC50A82 gjEcandrasignAnusvara 
 evowelsigngujarati gjEsign 0AC7
+uni0AC70A82 gjEsignAnusvara 
 aivowelsigngujarati gjAisign 0AC8
+uni0AC80A82 gjAisignAnusvara 
 ocandravowelsigngujarati gjOcandrasign 0AC9
+uni0AC90A82 gjOcandrasignAnusvara 
 ovowelsigngujarati gjOsign 0ACB
+uni0ACB0A82 gjOsignAnusvara 
 auvowelsigngujarati gjAusign 0ACC
+uni0ACC0A82 gjAusignAnusvara 
 viramagujarati gjVirama 0ACD
 omgujarati gjOm 0AD0
 rrvocalicgujarati gjRrvocal 0AE0
@@ -979,6 +991,7 @@ uni0AB80ACD0AA50ACD0AAF gjSThYa
 uni0AB80ACD0AAE0ACD0AAF gjSMYa 
 uni0A9C0ABE gjJa_mAa 
 uni0A9C0AC0 gjJa_mIi 
+uni0A9C0AC00A82 gjJa_mIiAnusvara 
 uni0A9C0ACD0AB00ABE gjJRa_mAa 
 uni0A9C0ACD0AB00AC0 gjJRa_mIi 
 uni0AA60AC3 gjDa_mR 

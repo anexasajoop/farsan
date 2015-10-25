@@ -3,6 +3,7 @@ languagesystem gjr2 dflt;
 languagesystem gujr dflt;
 
 include (markclasses.fea);
+include (classes.fea);
 include (lookups.fea);
 
 
@@ -145,11 +146,12 @@ feature pres {
 # ABOVE-BASE SUBSTITUTION
 ##########################
 
-# feature abvs {
+feature abvs {
 #	lookup abvs_ra_matra_vocalic_liquids;
-#	lookup abvs;
-#	lookup abvs_marks_for_matra_i;
-# } abvs;
+	lookup abvs;
+	lookup abvs_J;
+	lookup abvs_ikar;
+} abvs;
 
 
 # BELOW-BASE SUBSTITUTIONS

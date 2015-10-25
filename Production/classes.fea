@@ -1,0 +1,74 @@
+@IKAR = [
+	
+	gjIsign
+	gjIsign.alt1
+	gjIsign.alt2
+	gjIsign.alt3
+	gjIsign.alt4
+	gjIsign.alt5
+
+];
+
+
+@ikarFULLFORM1 = [
+
+	gjKa
+	gjNga
+	gjDda
+	gjDa
+	gjNa
+	gjPha
+	gjRa
+	gjVa
+
+];
+
+@ikarFULLFORM2 = [
+
+#	gjKa
+	gjKha
+	gjGa
+	gjGha
+#	gjNga
+
+	gjCa
+	gjCha
+	gjJa
+	gjJha
+	gjNya
+
+	gjTta
+	gjTtha
+#	gjDda
+	gjDdha
+	gjNna
+
+	gjTa
+	gjTha
+#	gjDa
+	gjDha
+#	gjNa
+
+	gjPa
+#	gjPha
+	gjBa
+	gjBha
+	gjMa
+
+	gjYa
+#	gjRa
+	gjLa
+	gjLla
+#	gjVa
+	gjSha
+	gjSsa
+	gjSa
+#	gjHa
+
+];
+
+@ikarFULLFORM3 = [
+
+	gjHa
+
+];

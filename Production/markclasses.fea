@@ -8,6 +8,9 @@ markClass [gjAnusvara] <anchor -54 628> @candraMarks;
 markClass [gjCandrabindu] <anchor -57 628> @candraMarks;
 
 markClass [gjEsign] <anchor -56 628> @topMarks;
+markClass [gjEsignAnusvara] <anchor -56 628> @topMarks;
 markClass [gjAisign] <anchor -56 628> @topMarks;
+markClass [gjAisignAnusvara] <anchor -56 628> @topMarks;
+
 markClass [gjEcandrasign] <anchor -56 628> @topMarks;
 markClass [gjReph] <anchor -56 628> @topMarks;

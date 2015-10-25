@@ -539,6 +539,36 @@ lookup pres_old {
 } pres_old;
 
 
+# ABOVE-BASE SUBSTITUTION
+##########################
+
+lookup abvs {
+		
+	sub gjIisign gjAnusvara by gjIisignAnusvara;
+	sub gjEcandrasign gjAnusvara by gjEcandrasignAnusvara;
+	sub gjEsign gjAnusvara by gjEsignAnusvara;
+	sub gjAisign gjAnusvara by gjAisignAnusvara;
+	sub gjOcandrasign gjAnusvara by gjOcandrasignAnusvara;
+	sub gjOsign gjAnusvara by gjOsignAnusvara;
+	sub gjAusign gjAnusvara by gjAusignAnusvara;
+
+} abvs;
+
+lookup abvs_J {
+	
+	sub gjJa gjIisignAnusvara by gjJa_mIiAnusvara;
+
+} abvs_J;
+
+lookup abvs_ikar {
+
+	sub @IKAR @ikarFULLFORM1 gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR @ikarFULLFORM2 gjAnusvara' by gjAnusvara.alt2;
+	sub @IKAR @ikarFULLFORM3 gjAnusvara' by gjAnusvara.alt3;
+
+} abvs_ikar;
+
+
 # BELOW-BASE SUBSTITUTIONS
 ###########################
 
@@ -576,7 +606,7 @@ lookup ikar_matching {
 
 	sub gjIsign' [gjLa] by gjIsign.alt3;
 
-	sub gjIsign' [gjKha gjCa gjCha gjJa gjNya gjBa gjMa gjLla gjSha gjSa] by gjIsign.alt4;
+	sub gjIsign' [gjKha gjCa gjCha gjJa gjNya gjBa gjBha gjLla gjSha gjSa] by gjIsign.alt4;
 
 	sub gjIsign' [gjNna] by gjIsign.alt5;
 
@@ -587,7 +617,7 @@ lookup ikar_matching {
 
 lookup iikar_matching {
 
-	sub [gjTta gjTtha gjDdha gjRa gjHa] gjIisign' by gjIisign.alt1;
+	sub [gjTta gjTtha gjDdha gjRa gjHa] [gjIisign gjIisignAnusvara]' by [gjIisign.alt1 gjIisignAnusvara.alt1];
 	
 } iikar_matching;
 
@@ -719,6 +749,8 @@ lookup dist {
 
 lookup abvm {
 
+	pos base [gjAasign] <anchor 162 628> mark @candraMarks;
+
 	pos base [gjKa] <anchor 294 628> mark @topMarks <anchor 252 628> mark @candraMarks; 
 	pos base [gjKha] <anchor 532 628> mark @topMarks <anchor 529 628> mark @candraMarks;
 	pos base [gjGa] <anchor 431 628> mark @topMarks <anchor 428 628> mark @candraMarks;
@@ -750,7 +782,7 @@ lookup abvm {
 	pos base [gjMa] <anchor 404 628> mark @topMarks <anchor 401 628> mark @candraMarks;
 
 	pos base [gjYa] <anchor 402 628> mark @topMarks <anchor 399 628> mark @candraMarks;
-	pos base [gjRa] <anchor 284 628> mark @topMarks <anchor 284 628> mark @candraMarks;
+	pos base [gjRa] <anchor 284 628> mark @topMarks <anchor 234 628> mark @candraMarks;
 	pos base [gjLa] <anchor 453 628> mark @topMarks <anchor 450 628> mark @candraMarks;
 	pos base [gjLla] <anchor 534 628> mark @topMarks <anchor 420 628> mark @candraMarks;
 	pos base [gjVa] <anchor 370 628> mark @topMarks <anchor 367 628> mark @candraMarks;
@@ -759,6 +791,17 @@ lookup abvm {
 	pos base [gjSsa] <anchor 413 628> mark @topMarks <anchor 410 628> mark @candraMarks;
 	pos base [gjSa] <anchor 501 628> mark @topMarks <anchor 498 628> mark @candraMarks;
 	pos base [gjHa] <anchor 294 628> mark @topMarks <anchor 252 628> mark @candraMarks;
+
+	pos base [gjJa_mAa] <anchor 705 628> mark @candraMarks;
+
+	pos base [gjDa_mR] <anchor 252 628> mark @candraMarks;
+
+	pos base [gjRa_mU] <anchor 234 628> mark @candraMarks;
+	pos base [gjRa_mUu] <anchor 234 628> mark @candraMarks;
+
+	pos base [gjSha_mR] <anchor 450 628> mark @candraMarks;
+
+	pos base [gjHa_mR] <anchor 252 628> mark @candraMarks;
 	
 } abvm;
 
