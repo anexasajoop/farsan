@@ -933,7 +933,7 @@ lookup abvm {
 #----------------------------------------------------------------------------
 
 
-	# CONJUNCTS FORMS
+	# BICONSONANTAL CONJUNCTS FORMS
 
 	# KA
 
@@ -1132,6 +1132,78 @@ lookup abvm {
 
 
 #----------------------------------------------------------------------------
+
+	
+	# TRI and QUADRICONSONANTAL CONJUNCTS FORMS
+
+	# KA
+
+	pos base [gjKTYa] <anchor 972 628> mark @topMarks <anchor 969 628> mark @candraMarks;
+	pos base [gjKTVa] <anchor 950 628> mark @topMarks <anchor 947 628> mark @candraMarks;
+	pos base [gjKTRa] <anchor 717 628> mark @topMarks <anchor 714 628> mark @candraMarks;
+	pos base [gjKPRa] <anchor 758 628> mark @topMarks <anchor 755 628> mark @candraMarks;
+	pos base [gjKSsMa] <anchor 744 628> mark @topMarks <anchor 741 628> mark @candraMarks;
+	pos base [gjKSsMYa] <anchor 1032 628> mark @topMarks <anchor 1029 628> mark @candraMarks;
+	pos base [gjKSTta] <anchor 1029 628> mark @topMarks <anchor 962 628> mark @candraMarks;
+	pos base [gjKSDda] <anchor 1024 628> mark @topMarks <anchor 982 628> mark @candraMarks;
+	pos base [gjKSTa] <anchor 1104 628> mark @topMarks <anchor 1101 628> mark @candraMarks;
+
+	#CA
+
+	pos base [gjCChVa] <anchor 464 628> mark @topMarks <anchor 302 628> mark @candraMarks;
+
+	# TA
+
+	pos base [gjTKSsa] <anchor 726 628> mark @topMarks <anchor 723 628> mark @candraMarks;
+	pos base [gjNTRa] <anchor 607 628> mark @topMarks <anchor 604 628> mark @candraMarks;
+	pos base [gjTNYa] <anchor 632 628> mark @topMarks <anchor 629 628> mark @candraMarks;
+	pos base [gjTTVa] <anchor 670 628> mark @topMarks <anchor 667 628> mark @candraMarks;
+	pos base [gjTTYa] <anchor 722 628> mark @topMarks <anchor 719 628> mark @candraMarks;
+	pos base [gjTSNa] <anchor 950 628> mark @topMarks <anchor 947 628> mark @candraMarks;
+	pos base [gjTSYa] <anchor 1017 628> mark @topMarks <anchor 1014 628> mark @candraMarks;
+	pos base [gjTSVa] <anchor 960 628> mark @topMarks <anchor 957 628> mark @candraMarks;
+
+	# NA
+
+	pos base [gjNTSa] <anchor 926 628> mark @topMarks <anchor 923 628> mark @candraMarks;
+	pos base [gjNTYa] <anchor 852 628> mark @topMarks <anchor 849 628> mark @candraMarks;
+	pos base [gjNDVa] <anchor 492 628> mark @topMarks <anchor 489 628> mark @candraMarks;
+	pos base [gjNDRa] <anchor 492 628> mark @topMarks <anchor 489 628> mark @candraMarks;
+	pos base [gjNNYa] <anchor 674 628> mark @topMarks <anchor 671 628> mark @candraMarks;
+	pos base [gjNMYa] <anchor 874 628> mark @topMarks <anchor 871 628> mark @candraMarks;
+
+	# BA
+
+	pos base [gjBJYa] <anchor 1302 628> mark @topMarks <anchor 1299 628> mark @candraMarks;
+
+	# LA
+
+	pos base [gjLKYa] <anchor 1072 628> mark @topMarks <anchor 1069 628> mark @candraMarks;
+	pos base [gjLDRa] <anchor 599 628> mark @topMarks <anchor 596 628> mark @candraMarks;
+	pos base [gjLVDda] <anchor 794 628> mark @topMarks <anchor 752 628> mark @candraMarks;
+
+	# SSA
+
+	pos base [gjSsKRa] <anchor 521 628> mark @topMarks <anchor 479 628> mark @candraMarks;
+	pos base [gjSsTtYa] <anchor 1022 628> mark @topMarks <anchor 1019 628> mark @candraMarks;
+	pos base [gjSsTtRa] <anchor 546 628> mark @topMarks <anchor 479 628> mark @candraMarks;
+	pos base [gjSsTthYa] <anchor 1032 628> mark @topMarks <anchor 1029 628> mark @candraMarks;
+	pos base [gjSsTthRa] <anchor 535 628> mark @topMarks <anchor 496 628> mark @candraMarks;
+	pos base [gjSsMYa] <anchor 932 628> mark @topMarks <anchor 929 628> mark @candraMarks;
+	pos base [gjSsTtVa] <anchor 1022 628> mark @topMarks <anchor 1019 628> mark @candraMarks;
+
+	# SA
+
+	pos base [gjSKVa] <anchor 1104 628> mark @topMarks <anchor 1101 628> mark @candraMarks;
+	pos base [gjSKRa] <anchor 654 628> mark @topMarks <anchor 612 628> mark @candraMarks;
+	pos base [gjSTtRa] <anchor 659 628> mark @topMarks <anchor 592 628> mark @candraMarks;
+	pos base [gjSTRa] <anchor 717 628> mark @topMarks <anchor 714 628> mark @candraMarks;
+	pos base [gjSThYa] <anchor 1072 628> mark @topMarks <anchor 1069 628> mark @candraMarks;
+	pos base [gjSMYa] <anchor 1052 628> mark @topMarks <anchor 1049 628> mark @candraMarks;
+
+
+#----------------------------------------------------------------------------
+
 
 
 	# PRECOMPOSED CONSONANT-MATRA FORMS
