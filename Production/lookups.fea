@@ -1000,4 +1000,48 @@ lookup blwm {
 	pos base [gjSa] <anchor 382 0> mark @bottomMarks;
 	pos base [gjHa] <anchor 166 0> mark @bottomMarks;
 
+
+#----------------------------------------------------------------------------
+
+	# RAKAR FORMS
+
+	pos base [gjKRa] <anchor 126 0> mark @bottomMarks;
+	pos base [gjKhRa] <anchor 414 0> mark @bottomMarks;
+	pos base [gjGRa] <anchor 312 0> mark @bottomMarks;
+	pos base [gjGhRa] <anchor 291 0> mark @bottomMarks;
+	pos base [gjNgRa] <anchor 160 -200> mark @bottomMarks;
+
+	pos base [gjCRa] <anchor 363 0> mark @bottomMarks;
+	pos base [gjChRa] <anchor 215 -186> mark @bottomMarks;
+	pos base [gjJRa] <anchor 356 0> mark @bottomMarks;
+	pos base [gjJhRa] <anchor 291 0> mark @bottomMarks;
+	pos base [gjNyRa] <anchor 378 0> mark @bottomMarks;
+
+	pos base [gjTtRa] <anchor 175 -175> mark @bottomMarks;
+	pos base [gjTthRa] <anchor 175 -175> mark @bottomMarks;
+	pos base [gjDdRa] <anchor 155 -175> mark @bottomMarks;
+	pos base [gjDdhRa] <anchor 175 -175> mark @bottomMarks;
+	pos base [gjNnRa] <anchor 489 -50> mark @bottomMarks;
+
+	pos base [gjTRa] <anchor 258 0> mark @bottomMarks;
+	pos base [gjThRa] <anchor 300 0> mark @bottomMarks;
+	pos base [gjDRa] <anchor 252 -60> mark @bottomMarks;
+	pos base [gjDhRa] <anchor 301 0> mark @bottomMarks;
+	pos base [gjNRa] <anchor 226 0> mark @bottomMarks;
+
+	pos base [gjPRa] <anchor 269 0> mark @bottomMarks;
+#	pos base [gjPha] <anchor 200 -60> mark @bottomMarks;
+	pos base [gjBRa] <anchor 407 0> mark @bottomMarks;
+	pos base [gjBhRa] <anchor 446 0> mark @bottomMarks;
+	pos base [gjMRa] <anchor 285 0> mark @bottomMarks;
+
+	pos base [gjYRa] <anchor 280 0> mark @bottomMarks;
+	pos base [gjLRa] <anchor 374 0> mark @bottomMarks;
+	pos base [gjVRa] <anchor 248 0> mark @bottomMarks;
+
+	pos base [gjShRa] <anchor 334 0> mark @bottomMarks;
+	pos base [gjSsRa] <anchor 291 0> mark @bottomMarks;
+	pos base [gjSRa] <anchor 422 0> mark @bottomMarks;
+	pos base [gjHRa] <anchor 180 -180> mark @bottomMarks;
+
 } blwm;
