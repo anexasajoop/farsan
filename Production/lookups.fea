@@ -985,7 +985,7 @@ lookup abvm {
 	pos base [gjTtTta] <anchor 309 628> mark @topMarks <anchor 242 628> mark @candraMarks;
 	pos base [gjTtTtha] <anchor 309 628> mark @topMarks <anchor 242 628> mark @candraMarks;
 	pos base [gjTtYa] <anchor 783 628> mark @topMarks <anchor 780 628> mark @candraMarks;
-	pos base [gjTtVa] <anchor 309 628> mark @topMarks <anchor 242 628> mark @candraMarks;
+	pos base [gjTtVa] <anchor 340 628> mark @topMarks <anchor 273 628> mark @candraMarks;
 
 	# TTHA
 
@@ -994,14 +994,14 @@ lookup abvm {
 
 	# DDA
 
-	pos base [gjDdDda] <anchor 294 628> mark @topMarks <anchor 252 628> mark @candraMarks;
-	pos base [gjDdDdha] <anchor 294 628> mark @topMarks <anchor 252 628> mark @candraMarks;
+	pos base [gjDdDda] <anchor 324 628> mark @topMarks <anchor 282 628> mark @candraMarks;
+	pos base [gjDdDdha] <anchor 324 628> mark @topMarks <anchor 282 628> mark @candraMarks;
 	pos base [gjDdYa] <anchor 746 628> mark @topMarks <anchor 743 628> mark @candraMarks;
-	pos base [gjDdVa] <anchor 294 628> mark @topMarks <anchor 252 628> mark @candraMarks;
+	pos base [gjDdVa] <anchor 359 628> mark @topMarks <anchor 317 628> mark @candraMarks;
 
 	# DDHA
 
-	pos base [gjDdhDdha] <anchor 309 628> mark @topMarks <anchor 234 628> mark @candraMarks;
+	pos base [gjDdhDdha] <anchor 319 628> mark @topMarks <anchor 244 628> mark @candraMarks;
 	pos base [gjDdhYa] <anchor 783 628> mark @topMarks <anchor 780 628> mark @candraMarks;
 
 	# TA
@@ -1028,7 +1028,7 @@ lookup abvm {
 	pos base [gjNJha] <anchor 697 628> mark @topMarks <anchor 697 628> mark @candraMarks;
 	pos base [gjNTta] <anchor 519 628> mark @topMarks <anchor 452 628> mark @candraMarks;
 	pos base [gjNTa] <anchor 594 628> mark @topMarks <anchor 591 628> mark @candraMarks;
-	pos base [gjNNa] <anchor 387 628> mark @topMarks <anchor 385 628> mark @candraMarks;
+	pos base [gjNNa] <anchor 386 628> mark @topMarks <anchor 383 628> mark @candraMarks;
 	pos base [gjNSha] <anchor 696 628> mark @topMarks <anchor 693 628> mark @candraMarks;
 	pos base [gjNSa] <anchor 708 628> mark @topMarks <anchor 705 628> mark @candraMarks;
 	pos base [gjNHa] <anchor 471 628> mark @topMarks <anchor 471 628> mark @candraMarks;
@@ -1316,5 +1316,208 @@ lookup blwm {
 	pos base [gjSsRa] <anchor 291 0> mark @bottomMarks;
 	pos base [gjSRa] <anchor 422 0> mark @bottomMarks;
 	pos base [gjHRa] <anchor 180 -180> mark @bottomMarks;
+
+
+#----------------------------------------------------------------------------
+
+
+	# BICONSONANTAL CONJUNCTS FORMS
+
+	# KA
+
+	pos base [gjKKa] <anchor 392 0> mark @bottomMarks;
+	pos base [gjKCha] <anchor 576 0> mark @bottomMarks;
+	pos base [gjKJa] <anchor 666 0> mark @bottomMarks;
+	pos base [gjKJha] <anchor 626 0> mark @bottomMarks;
+	pos base [gjKTta] <anchor 536 0> mark @bottomMarks;
+	pos base [gjKDda] <anchor 486 0> mark @bottomMarks;
+	pos base [gjKTa] <anchor 625 0> mark @bottomMarks;
+	pos base [gjKDa] <anchor 571 0> mark @bottomMarks;
+	pos base [gjKNa] <anchor 590 0> mark @bottomMarks;
+	pos base [gjKPha] <anchor 644 628> mark @bottomMarks;
+#	pos base [gjKSsa] <anchor 466 628> mark @bottomMarks;
+
+	# KHA
+
+	pos base [gjKhKha] <anchor 784 0> mark @bottomMarks;
+	pos base [gjKhTa] <anchor 671 0> mark @bottomMarks;
+	pos base [gjKhDa] <anchor 600 0> mark @bottomMarks;
+	pos base [gjKhMa] <anchor 690 0> mark @bottomMarks;
+
+	# NGA
+
+	pos base [gjNgKa] <anchor 106 -263> mark @bottomMarks;
+	pos base [gjNgMa] <anchor 627 0> mark @bottomMarks;
+
+	# CA
+
+	pos base [gjCCha] <anchor 546 0> mark @bottomMarks;
+	pos base [gjCNa] <anchor 569 0> mark @bottomMarks;
+
+	# CHA
+
+	pos base [gjChYa] <anchor 861 0> mark @bottomMarks;
+	pos base [gjChVa] <anchor 276 -273> mark @bottomMarks;
+
+	# JA
+
+	pos base [gjJJha] <anchor 806 0> mark @bottomMarks;
+	pos base [gjJNya] <anchor 381 0> mark @bottomMarks;
+
+	# NYA
+
+	pos base [gjNyJa] <anchor 676 0> mark @bottomMarks;
+
+	# TTA
+
+	pos base [gjTtTta] <anchor 166 -235> mark @bottomMarks;
+	pos base [gjTtTtha] <anchor 166 -235> mark @bottomMarks;
+	pos base [gjTtYa] <anchor 661 0> mark @bottomMarks;
+	pos base [gjTtVa] <anchor 251 -273> mark @bottomMarks;
+
+	# TTHA
+
+	pos base [gjTthTtha] <anchor 169 -235> mark @bottomMarks;
+	pos base [gjTthYa] <anchor 664 0> mark @bottomMarks;
+
+	# DDA
+
+	pos base [gjDdDda] <anchor 115 -263> mark @bottomMarks;
+	pos base [gjDdDdha] <anchor 171 -167> mark @bottomMarks;
+	pos base [gjDdYa] <anchor 624 0> mark @bottomMarks;
+	pos base [gjDdVa] <anchor 251 -233> mark @bottomMarks;
+
+	# DDHA
+
+	pos base [gjDdhDdha] <anchor 176 -227> mark @bottomMarks;
+	pos base [gjDdhYa] <anchor 661 0> mark @bottomMarks;
+
+	# TA
+
+	pos base [gjTTa] <anchor 334 0> mark @bottomMarks;
+	pos base [gjTNa] <anchor 506 0> mark @bottomMarks;
+	pos base [gjTSha] <anchor 582 0> mark @bottomMarks;
+	pos base [gjTSa] <anchor 587 0> mark @bottomMarks;
+
+	# DA
+
+	pos base [gjDGha] <anchor 397 -62> mark @bottomMarks;
+	pos base [gjDDa] <anchor 201 0> mark @bottomMarks;
+	pos base [gjDDha] <anchor 400 -62> mark @bottomMarks;
+	pos base [gjDNa] <anchor 252 -77> mark @bottomMarks;
+	pos base [gjDBha] <anchor 440 -97> mark @bottomMarks;
+	pos base [gjDVa] <anchor 295 -77> mark @bottomMarks;
+	pos base [gjDMa] <anchor 324 0> mark @bottomMarks;
+	pos base [gjDYa] <anchor 334 0> mark @bottomMarks;
+
+	# NA
+
+	pos base [gjNGa] <anchor 545 0> mark @bottomMarks;
+	pos base [gjNJha] <anchor 509 0> mark @bottomMarks;
+	pos base [gjNTta] <anchor 386 0> mark @bottomMarks;
+	pos base [gjNTa] <anchor 475 0> mark @bottomMarks;
+	pos base [gjNNa] <anchor 257 0> mark @bottomMarks;
+	pos base [gjNSha] <anchor 577 0> mark @bottomMarks;
+	pos base [gjNSa] <anchor 589 0> mark @bottomMarks;
+	pos base [gjNHa] <anchor 373 0> mark @bottomMarks;
+
+	# PA
+
+	pos base [gjPKa] <anchor 406 0> mark @bottomMarks;
+	pos base [gjPTta] <anchor 416 0> mark @bottomMarks;
+	pos base [gjPNa] <anchor 506 0> mark @bottomMarks;
+#	pos base [gjPPha] <anchor 373 0> mark @bottomMarks;
+	pos base [gjPMa] <anchor 525 0> mark @bottomMarks;
+	pos base [gjPHa] <anchor 401 0> mark @bottomMarks;
+
+	# PHA
+
+	pos base [gjPhJa] <anchor 671 0> mark @bottomMarks;
+	pos base [gjPhTta] <anchor 542 0> mark @bottomMarks;
+	pos base [gjPhTa] <anchor 631 0> mark @bottomMarks;
+	pos base [gjPhNa] <anchor 595 0> mark @bottomMarks;
+#	pos base [gjPhPha] <anchor 406 0> mark @bottomMarks;
+
+	# BA
+
+	pos base [gjBKa] <anchor 516 0> mark @bottomMarks;
+	pos base [gjBJa] <anchor 716 0> mark @bottomMarks;
+	pos base [gjBJha] <anchor 703 0> mark @bottomMarks;
+	pos base [gjBDda] <anchor 516 0> mark @bottomMarks;
+	pos base [gjBDa] <anchor 611 0> mark @bottomMarks;
+	pos base [gjBNa] <anchor 636 0> mark @bottomMarks;
+	pos base [gjBHa] <anchor 556 0> mark @bottomMarks;
+
+	# BHA
+
+	pos base [gjBhNa] <anchor 664 0> mark @bottomMarks;
+	pos base [gjBhYa] <anchor 720 0> mark @bottomMarks;
+
+	# MA
+
+	pos base [gjMKa] <anchor 376 0> mark @bottomMarks;
+	pos base [gjMDa] <anchor 481 0> mark @bottomMarks;
+	pos base [gjMNa] <anchor 506 0> mark @bottomMarks;
+#	pos base [gjMPha] <anchor 664 0> mark @bottomMarks;
+	pos base [gjMSha] <anchor 633 0> mark @bottomMarks;
+	pos base [gjMHa] <anchor 449 0> mark @bottomMarks;
+
+	# LA
+
+	pos base [gjLKa] <anchor 426 0> mark @bottomMarks;
+	pos base [gjLGa] <anchor 672 0> mark @bottomMarks;
+	pos base [gjLTta] <anchor 486 0> mark @bottomMarks;
+	pos base [gjLTtha] <anchor 492 0> mark @bottomMarks;
+	pos base [gjLDda] <anchor 426 0> mark @bottomMarks;
+	pos base [gjLDdha] <anchor 496 0> mark @bottomMarks;
+	pos base [gjLPa] <anchor 589 0> mark @bottomMarks;
+#	pos base [gjLPha] <anchor 376 0> mark @bottomMarks;
+	pos base [gjLHa] <anchor 466 0> mark @bottomMarks;
+
+
+	# SSA
+
+	pos base [gjSsKa] <anchor 353 0> mark @bottomMarks;
+	pos base [gjSsGa] <anchor 606 0> mark @bottomMarks;
+	pos base [gjSsTta] <anchor 413 0> mark @bottomMarks;
+	pos base [gjSsTtha] <anchor 422 0> mark @bottomMarks;
+#	pos base [gjSsPha] <anchor 466 0> mark @bottomMarks;
+	pos base [gjSsMa] <anchor 555 0> mark @bottomMarks;
+
+	# SA
+
+	pos base [gjSKa] <anchor 486 0> mark @bottomMarks;
+	pos base [gjSJa] <anchor 676 0> mark @bottomMarks;
+	pos base [gjSTta] <anchor 526 0> mark @bottomMarks;
+	pos base [gjSDda] <anchor 486 0> mark @bottomMarks;
+	pos base [gjSTha] <anchor 686 0> mark @bottomMarks;
+	pos base [gjSNa] <anchor 606 0> mark @bottomMarks;
+#	pos base [gjSPha] <anchor 555 0> mark @bottomMarks;
+	pos base [gjSMa] <anchor 645 0> mark @bottomMarks;
+	pos base [gjSYa] <anchor 670 0> mark @bottomMarks;
+
+	# LA
+
+	pos base [gjLDa] <anchor 531 0> mark @bottomMarks;
+
+	# LLA
+
+	pos base [gjLlYa] <anchor 650 0> mark @bottomMarks;
+
+	# VA
+
+	pos base [gjVJa] <anchor 566 0> mark @bottomMarks;
+	pos base [gjVDda] <anchor 326 0> mark @bottomMarks;
+	pos base [gjVNa] <anchor 486 0> mark @bottomMarks;
+	pos base [gjVHa] <anchor 376 0> mark @bottomMarks;
+
+	# HA
+
+	pos base [gjHNa] <anchor 166 0> mark @bottomMarks;
+	pos base [gjHMa] <anchor 667 0> mark @bottomMarks;
+	pos base [gjHYa] <anchor 671 0> mark @bottomMarks;
+	pos base [gjHVa] <anchor 196 0> mark @bottomMarks;
+
+
 
 } blwm;
