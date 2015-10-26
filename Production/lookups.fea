@@ -191,13 +191,13 @@ lookup vatu_old {
 	sub gjKha gjRakar by gjKhRa;
 	sub gjGa gjRakar by gjGRa;
 	sub gjGha gjRakar by gjGhRa;
-#	sub gjNga gjRakar by gjNgRa;
+	sub gjNga gjRakar by gjNgRa;
 
 	sub gjCa gjRakar by gjCRa;
 	sub gjCha gjRakar by gjChRa;
 	sub gjJa gjRakar by  gjJRa;
 	sub gjJha gjRakar by gjJhRa;
-#	sub gjNya gjRakar by gjNyRa;
+	sub gjNya gjRakar by gjNyRa;
 
 	sub gjTta gjRakar by gjTtRa;
 	sub gjTtha gjRakar by gjTthRa;
@@ -839,6 +839,8 @@ lookup dist {
 
 lookup abvm {
 
+	# BASIC CONSONANTS
+
 	pos base [gjAasign] <anchor 165 628> mark @topMarks <anchor 162 628> mark @candraMarks;
 
 	pos base [gjKa] <anchor 294 628> mark @topMarks <anchor 252 628> mark @candraMarks; 
@@ -881,6 +883,54 @@ lookup abvm {
 	pos base [gjSsa] <anchor 413 628> mark @topMarks <anchor 410 628> mark @candraMarks;
 	pos base [gjSa] <anchor 501 628> mark @topMarks <anchor 498 628> mark @candraMarks;
 	pos base [gjHa] <anchor 294 628> mark @topMarks <anchor 252 628> mark @candraMarks;
+
+
+#----------------------------------------------------------------------------
+
+
+	# RAKAR FORMS
+
+	pos base [gjKRa] <anchor 294 628> mark @topMarks <anchor 252 628> mark @candraMarks; 
+	pos base [gjKhRa] <anchor 532 628> mark @topMarks <anchor 529 628> mark @candraMarks;
+	pos base [gjGRa] <anchor 431 628> mark @topMarks <anchor 428 628> mark @candraMarks;
+	pos base [gjGhRa] <anchor 411 628> mark @topMarks <anchor 408 628> mark @candraMarks;
+	pos base [gjNgRa] <anchor 294 628> mark @topMarks <anchor 252 628> mark @candraMarks;
+
+	pos base [gjCRa] <anchor 483 628> mark @topMarks <anchor 480 628> mark @candraMarks;
+	pos base [gjChRa] <anchor 464 628> mark @topMarks <anchor 302 628> mark @candraMarks;
+	pos base [gjJRa] <anchor 624 628> mark @topMarks <anchor 422 628> mark @candraMarks;
+	pos base [gjJhRa] <anchor 474 628> mark @topMarks <anchor 453 628> mark @candraMarks;
+	pos base [gjNyRa] <anchor 497 628> mark @topMarks <anchor 494 628> mark @candraMarks;
+
+	pos base [gjTtRa] <anchor 309 628> mark @topMarks <anchor 242 628> mark @candraMarks;
+	pos base [gjTthRa] <anchor 289 628> mark @topMarks <anchor 250 628> mark @candraMarks;
+	pos base [gjDdRa] <anchor 294 628> mark @topMarks <anchor 252 628> mark @candraMarks;
+	pos base [gjDdhRa] <anchor 309 628> mark @topMarks <anchor 234 628> mark @candraMarks;
+	pos base [gjNnRa] <anchor 608 628> mark @topMarks <anchor 605 628> mark @candraMarks;
+
+	pos base [gjTRa] <anchor 377 628> mark @topMarks <anchor 374 628> mark @candraMarks;
+	pos base [gjThRa] <anchor 422 628> mark @topMarks <anchor 419 628> mark @candraMarks;
+	pos base [gjDRa] <anchor 252 628> mark @topMarks <anchor 252 628> mark @candraMarks;
+	pos base [gjDhRa] <anchor 423 628> mark @topMarks <anchor 420 628> mark @candraMarks;
+	pos base [gjNRa] <anchor 345 628> mark @topMarks <anchor 342 628> mark @candraMarks;
+
+	pos base [gjPRa] <anchor 388 628> mark @topMarks <anchor 385 628> mark @candraMarks;
+	pos base [gjPhRa] <anchor 298 628> mark @topMarks <anchor 295 628> mark @candraMarks;
+	pos base [gjBRa] <anchor 529 628> mark @topMarks <anchor 526 628> mark @candraMarks;
+	pos base [gjBhRa] <anchor 565 628> mark @topMarks <anchor 562 628> mark @candraMarks;
+	pos base [gjMRa] <anchor 404 628> mark @topMarks <anchor 401 628> mark @candraMarks;
+
+	pos base [gjYRa] <anchor 402 628> mark @topMarks <anchor 399 628> mark @candraMarks;
+	pos base [gjLRa] <anchor 493 628> mark @topMarks <anchor 490 628> mark @candraMarks;
+	pos base [gjVRa] <anchor 370 628> mark @topMarks <anchor 367 628> mark @candraMarks;
+
+	pos base [gjShRa] <anchor 453 628> mark @topMarks <anchor 450 628> mark @candraMarks;
+	pos base [gjSsRa] <anchor 413 628> mark @topMarks <anchor 410 628> mark @candraMarks;
+	pos base [gjSRa] <anchor 541 628> mark @topMarks <anchor 438 628> mark @candraMarks;
+	pos base [gjHRa] <anchor 294 628> mark @topMarks <anchor 252 628> mark @candraMarks;
+
+
+#----------------------------------------------------------------------------
 
 
 	# PRECOMPOSED CONSONANT-MATRA FORMS
