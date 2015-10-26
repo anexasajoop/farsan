@@ -1519,5 +1519,76 @@ lookup blwm {
 	pos base [gjHVa] <anchor 196 0> mark @bottomMarks;
 
 
+#----------------------------------------------------------------------------
+
+	
+	# TRI and QUADRICONSONANTAL CONJUNCTS FORMS
+
+	# KA
+
+	pos base [gjKTYa] <anchor 850 0> mark @bottomMarks;
+	pos base [gjKTVa] <anchor 828 0> mark @bottomMarks;
+	pos base [gjKTRa] <anchor 598 0> mark @bottomMarks;
+	pos base [gjKPRa] <anchor 639 0> mark @bottomMarks;
+	pos base [gjKSsMa] <anchor 625 0> mark @bottomMarks;
+	pos base [gjKSsMYa] <anchor 910 0> mark @bottomMarks;
+	pos base [gjKSTta] <anchor 896 0> mark @bottomMarks;
+	pos base [gjKSDda] <anchor 856 0> mark @bottomMarks;
+	pos base [gjKSTa] <anchor 985 0> mark @bottomMarks;
+
+	#CA
+
+	pos base [gjCChVa] <anchor 620 -273> mark @bottomMarks;
+
+	# TA
+
+	pos base [gjTKSsa] <anchor 607 0> mark @bottomMarks;
+	pos base [gjNTRa] <anchor 488 0> mark @bottomMarks;
+	pos base [gjTNYa] <anchor 810 0> mark @bottomMarks;
+	pos base [gjTTVa] <anchor 548 0> mark @bottomMarks;
+	pos base [gjTTYa] <anchor 600 0> mark @bottomMarks;
+	pos base [gjTSNa] <anchor 831 0> mark @bottomMarks;
+	pos base [gjTSYa] <anchor 895 0> mark @bottomMarks;
+	pos base [gjTSVa] <anchor 838 0> mark @bottomMarks;
+
+	# NA
+
+	pos base [gjNTSa] <anchor 807 0> mark @bottomMarks;
+	pos base [gjNTYa] <anchor 730 0> mark @bottomMarks;
+	pos base [gjNDVa] <anchor 465 -77> mark @bottomMarks;
+	pos base [gjNDRa] <anchor 465 -77> mark @bottomMarks;
+	pos base [gjNNYa] <anchor 552 0> mark @bottomMarks;
+	pos base [gjNMYa] <anchor 752 0> mark @bottomMarks;
+
+	# BA
+
+	pos base [gjBJYa] <anchor 1180 0> mark @bottomMarks;
+
+	# LA
+
+	pos base [gjLKYa] <anchor 950 0> mark @bottomMarks;
+	pos base [gjLDRa] <anchor 572 -77> mark @bottomMarks;
+	pos base [gjLVDda] <anchor 626 0> mark @bottomMarks;
+
+	# SSA
+
+	pos base [gjSsKRa] <anchor 353 0> mark @bottomMarks;
+	pos base [gjSsTtYa] <anchor 900 0> mark @bottomMarks;
+	pos base [gjSsTtRa] <anchor 415 -194> mark @bottomMarks;
+	pos base [gjSsTthYa] <anchor 910 0> mark @bottomMarks;
+	pos base [gjSsTthRa] <anchor 425 -194> mark @bottomMarks;
+	pos base [gjSsMYa] <anchor 810 0> mark @bottomMarks;
+	pos base [gjSsTtVa] <anchor 489 -273> mark @bottomMarks;
+
+	# SA
+
+	pos base [gjSKVa] <anchor 982 0> mark @bottomMarks;
+	pos base [gjSKRa] <anchor 486 0> mark @bottomMarks;
+	pos base [gjSTtRa] <anchor 535 -194> mark @bottomMarks;
+	pos base [gjSTRa] <anchor 598 0> mark @bottomMarks;
+	pos base [gjSThYa] <anchor 950 0> mark @bottomMarks;
+	pos base [gjSMYa] <anchor 930 0> mark @bottomMarks;
+
+
 
 } blwm;
