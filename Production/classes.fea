@@ -61,7 +61,7 @@
 
 @ILETTERS9 = [
 
-	gjKJha gjCCha gjBJha gjBhYa gjVJa
+	gjKCha gjKJha gjCCha gjBJha gjBhYa gjVJa
 
 ];
 
@@ -187,6 +187,193 @@
 	gjSsa
 	gjSa
 	gjHa
+
+];
+
+@RAKARFORMS = [
+
+	gjKRa
+	gjKhRa
+	gjGRa
+	gjGhRa
+	gjNgRa
+
+	gjCRa
+	gjChRa
+	gjJRa
+	gjJhRa
+	gjNyRa
+
+	gjTtRa
+	gjTthRa
+	gjDdRa
+	gjDdhRa
+	gjNnRa
+
+	gjTRa
+	gjThRa
+	gjDRa
+	gjDhRa
+	gjNRa
+
+	gjPRa
+	gjPhRa
+	gjBRa
+	gjBhRa
+	gjMRa
+
+	gjYRa
+	gjLRa
+	gjVRa
+	gjShRa
+	gjSsRa
+	gjSRa
+	gjHRa
+
+];
+
+@CONJUNCTFORMS = [
+
+	gjKKa
+	gjKCha
+	gjKJa
+	gjKJha
+	gjKTta
+	gjKDda
+	gjKTa
+	gjKDa
+	gjKNa
+	gjKPha
+	gjKSsa
+
+	gjKhKha
+	gjKhTa
+	gjKhDa
+	gjKhMa
+
+	gjNgKa
+	gjNgMa
+
+	gjCCha
+	gjCNa
+
+	gjChYa
+	gjChVa
+
+	gjJJha
+	gjJNya
+
+	gjNyJa
+
+	gjTtTta
+	gjTthTtha
+	gjTtYa
+	gjTtVa
+
+	gjTthTtha
+	gjTthYa
+
+	gjDdDda
+	gjDdDdha
+	gjDdYa
+	gjDdVa
+
+	gjDdhDdha
+	gjDdhYa
+
+	gjTTa
+	gjTNa
+	gjTSha
+	gjTSa
+
+	gjDGha
+	gjDDa
+	gjDDha
+	gjDNa
+	gjDBha
+	gjDMa
+	gjDYa
+	gjDVa
+
+	gjNGa
+	gjNJha
+	gjNTta
+	gjNTa
+	gjNNa
+	gjNSha
+	gjNSa
+	gjNHa
+
+	gjPKa
+	gjPTta
+	gjPNa
+	gjPPha
+	gjPMa
+	gjPHa
+
+	gjPhJa
+	gjPhTta
+	gjPhTa
+	gjPhNa
+	gjPhPha
+
+	gjBKa
+	gjBJa
+	gjBJha
+	gjBDda
+	gjBDa
+	gjBNa
+	gjBHa
+
+	gjBhNa
+	gjBhYa
+
+	gjMKa
+	gjMDa
+	gjMNa
+	gjMPha
+	gjMSha
+	gjMHa
+
+	gjLKa
+	gjLGa
+	gjLTta
+	gjLTtha
+	gjLDda
+	gjLDdha
+	gjLPa
+	gjLPha
+	gjLHa
+	gjLDa
+
+	gjSsKa
+	gjSsGa
+	gjSsTta
+	gjSsTtha
+	gjSsPha
+	gjSsMa
+
+	gjSKa
+	gjSJa
+	gjSTta
+	gjSDda
+	gjSTha
+	gjSNa
+	gjSPha
+	gjSMa
+	gjSYa
+
+	gjLlYa
+
+	gjVJa
+	gjVDda
+	gjVNa
+	gjVHa
+
+	gjHNa
+	gjHMa
+	gjHYa
+	gjHVa
 
 ];
 

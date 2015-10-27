@@ -585,12 +585,20 @@ lookup abvs_J {
 
 lookup abvs_ikar_reph_anusvara {
 
+	sub gjIsign' @CONJUNCTFORMS gjRephAnusvara by gjIsignRephAnusvara;
+
+	sub gjIsign' @RAKARFORMS gjRephAnusvara by gjIsignRephAnusvara;
+
 	sub gjIsign' @FULLFORMS gjRephAnusvara by gjIsignRephAnusvara;
 	
 } abvs_ikar_reph_anusvara;
 
 
 lookup abvs_ikar_reph {
+
+	sub gjIsign' @CONJUNCTFORMS gjReph by gjIsignReph;
+
+	sub gjIsign' @RAKARFORMS gjReph by gjIsignReph;
 	
 	sub gjIsign' @FULLFORMS gjReph by gjIsignReph;
 
@@ -598,6 +606,8 @@ lookup abvs_ikar_reph {
 
 
 lookup abvs_removeReph {
+
+	# CONSONANTS
 	
 	sub [gjIsignReph gjIsignRephAnusvara] gjKa' [gjReph gjRephAnusvara]' by gjKa;
 	sub [gjIsignReph gjIsignRephAnusvara] gjKha' [gjReph gjRephAnusvara]' by gjKha;
@@ -639,6 +649,193 @@ lookup abvs_removeReph {
 	sub [gjIsignReph gjIsignRephAnusvara] gjSsa' [gjReph gjRephAnusvara]' by gjSsa;
 	sub [gjIsignReph gjIsignRephAnusvara] gjSa' [gjReph gjRephAnusvara]' by gjSa;
 	sub [gjIsignReph gjIsignRephAnusvara] gjHa' [gjReph gjRephAnusvara]' by gjHa;
+
+	#---------------------------------
+
+	# RAKAR FORMS
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjKRa' [gjReph gjRephAnusvara]' by gjKRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjKhRa' [gjReph gjRephAnusvara]' by gjKhRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjGRa' [gjReph gjRephAnusvara]' by gjGRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjGhRa' [gjReph gjRephAnusvara]' by gjGhRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjNgRa' [gjReph gjRephAnusvara]' by gjNgRa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjCRa' [gjReph gjRephAnusvara]' by gjCRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjChRa' [gjReph gjRephAnusvara]' by gjChRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjJRa' [gjReph gjRephAnusvara]' by gjJRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjJhRa' [gjReph gjRephAnusvara]' by gjJhRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjNyRa' [gjReph gjRephAnusvara]' by gjNyRa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjTtRa' [gjReph gjRephAnusvara]' by gjTtRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjTthRa' [gjReph gjRephAnusvara]' by gjTthRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjDdRa' [gjReph gjRephAnusvara]' by gjDdRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjDdhRa' [gjReph gjRephAnusvara]' by gjDdhRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjNnRa' [gjReph gjRephAnusvara]' by gjNnRa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjTRa' [gjReph gjRephAnusvara]' by gjTRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjThRa' [gjReph gjRephAnusvara]' by gjThRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjDRa' [gjReph gjRephAnusvara]' by gjDRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjDhRa' [gjReph gjRephAnusvara]' by gjDhRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjNRa' [gjReph gjRephAnusvara]' by gjNRa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjPRa' [gjReph gjRephAnusvara]' by gjPRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjPhRa' [gjReph gjRephAnusvara]' by gjPhRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjBRa' [gjReph gjRephAnusvara]' by gjBRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjBhRa' [gjReph gjRephAnusvara]' by gjBhRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjMRa' [gjReph gjRephAnusvara]' by gjMRa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjYRa' [gjReph gjRephAnusvara]' by gjYRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjLRa' [gjReph gjRephAnusvara]' by gjLRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjVRa' [gjReph gjRephAnusvara]' by gjVRa;	
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjShRa' [gjReph gjRephAnusvara]' by gjShRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjSsRa' [gjReph gjRephAnusvara]' by gjSsRa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjSRa' [gjReph gjRephAnusvara]' by gjSRa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjHRa' [gjReph gjRephAnusvara]' by gjHRa;
+
+
+	#---------------------------------
+
+	# CONJUNCT FORMS
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjKKa' [gjReph gjRephAnusvara]' by gjKKa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjKCha' [gjReph gjRephAnusvara]' by gjKCha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjKJa' [gjReph gjRephAnusvara]' by gjKJa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjKJha' [gjReph gjRephAnusvara]' by gjKJha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjKTta' [gjReph gjRephAnusvara]' by gjKTta;
+	sub [gjIsignReph gjIsignRephAnusvara] gjKDda' [gjReph gjRephAnusvara]' by gjKDda;
+	sub [gjIsignReph gjIsignRephAnusvara] gjKDa' [gjReph gjRephAnusvara]' by gjKDa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjKNa' [gjReph gjRephAnusvara]' by gjKNa;	
+	sub [gjIsignReph gjIsignRephAnusvara] gjKPha' [gjReph gjRephAnusvara]' by gjKPha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjKSsa' [gjReph gjRephAnusvara]' by gjKSsa;	
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjKhKha' [gjReph gjRephAnusvara]' by gjKhKha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjKhTa' [gjReph gjRephAnusvara]' by gjKhTa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjKhDa' [gjReph gjRephAnusvara]' by gjKhDa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjKhMa' [gjReph gjRephAnusvara]' by gjKhMa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjNgKa' [gjReph gjRephAnusvara]' by gjNgKa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjNgMa' [gjReph gjRephAnusvara]' by gjNgMa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjCCha' [gjReph gjRephAnusvara]' by gjCCha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjCNa' [gjReph gjRephAnusvara]' by gjCNa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjChYa' [gjReph gjRephAnusvara]' by gjChYa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjChVa' [gjReph gjRephAnusvara]' by gjChVa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjJJha' [gjReph gjRephAnusvara]' by gjJJha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjJNya' [gjReph gjRephAnusvara]' by gjJNya;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjNyJa' [gjReph gjRephAnusvara]' by gjNyJa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjTtTta' [gjReph gjRephAnusvara]' by gjTtTta;
+	sub [gjIsignReph gjIsignRephAnusvara] gjTtTtha' [gjReph gjRephAnusvara]' by gjTtTtha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjTtYa' [gjReph gjRephAnusvara]' by gjTtYa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjTtVa' [gjReph gjRephAnusvara]' by gjTtVa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjTthTtha' [gjReph gjRephAnusvara]' by gjTthTtha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjTthYa' [gjReph gjRephAnusvara]' by gjTthYa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjDdDda' [gjReph gjRephAnusvara]' by gjDdDda;
+	sub [gjIsignReph gjIsignRephAnusvara] gjDdDdha' [gjReph gjRephAnusvara]' by gjTtTtha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjDdYa' [gjReph gjRephAnusvara]' by gjDdYa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjDdVa' [gjReph gjRephAnusvara]' by gjDdVa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjDdhDdha' [gjReph gjRephAnusvara]' by gjDdhDdha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjDdhYa' [gjReph gjRephAnusvara]' by gjDdhYa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjTTa' [gjReph gjRephAnusvara]' by gjTTa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjTNa' [gjReph gjRephAnusvara]' by gjTNa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjTSha' [gjReph gjRephAnusvara]' by gjTSha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjTSa' [gjReph gjRephAnusvara]' by gjTSa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjDGha' [gjReph gjRephAnusvara]' by gjDGha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjDDa' [gjReph gjRephAnusvara]' by gjDDa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjDDha' [gjReph gjRephAnusvara]' by gjDDha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjDNa' [gjReph gjRephAnusvara]' by gjDNa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjDBha' [gjReph gjRephAnusvara]' by gjDBha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjDMa' [gjReph gjRephAnusvara]' by gjDMa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjDYa' [gjReph gjRephAnusvara]' by gjDYa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjDVa' [gjReph gjRephAnusvara]' by gjDVa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjNGa' [gjReph gjRephAnusvara]' by gjNGa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjNJha' [gjReph gjRephAnusvara]' by gjNJha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjNTta' [gjReph gjRephAnusvara]' by gjNTta;
+	sub [gjIsignReph gjIsignRephAnusvara] gjNTa' [gjReph gjRephAnusvara]' by gjNTa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjNNa' [gjReph gjRephAnusvara]' by gjNNa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjNSha' [gjReph gjRephAnusvara]' by gjNSha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjNSa' [gjReph gjRephAnusvara]' by gjNSa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjNHa' [gjReph gjRephAnusvara]' by gjNHa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjPKa' [gjReph gjRephAnusvara]' by gjPKa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjPTta' [gjReph gjRephAnusvara]' by gjPTta;
+	sub [gjIsignReph gjIsignRephAnusvara] gjPNa' [gjReph gjRephAnusvara]' by gjPNa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjPPha' [gjReph gjRephAnusvara]' by gjPPha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjPMa' [gjReph gjRephAnusvara]' by gjPMa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjPhJa' [gjReph gjRephAnusvara]' by gjPhJa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjPhTta' [gjReph gjRephAnusvara]' by gjPhTta;
+	sub [gjIsignReph gjIsignRephAnusvara] gjPhTa' [gjReph gjRephAnusvara]' by gjPhTa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjPhNa' [gjReph gjRephAnusvara]' by gjPhNa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjPhPha' [gjReph gjRephAnusvara]' by gjPhPha;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjBKa' [gjReph gjRephAnusvara]' by gjBKa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjBJa' [gjReph gjRephAnusvara]' by gjBJa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjBJha' [gjReph gjRephAnusvara]' by gjBJha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjBDda' [gjReph gjRephAnusvara]' by gjBDda;
+	sub [gjIsignReph gjIsignRephAnusvara] gjBDa' [gjReph gjRephAnusvara]' by gjBDa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjBNa' [gjReph gjRephAnusvara]' by gjBNa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjBHa' [gjReph gjRephAnusvara]' by gjBHa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjBhNa' [gjReph gjRephAnusvara]' by gjBhNa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjBhYa' [gjReph gjRephAnusvara]' by gjBhYa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjMKa' [gjReph gjRephAnusvara]' by gjMKa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjMDa' [gjReph gjRephAnusvara]' by gjMDa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjMNa' [gjReph gjRephAnusvara]' by gjMNa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjMPha' [gjReph gjRephAnusvara]' by gjMPha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjMSha' [gjReph gjRephAnusvara]' by gjMSha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjMHa' [gjReph gjRephAnusvara]' by gjMHa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjLKa' [gjReph gjRephAnusvara]' by gjLKa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjLGa' [gjReph gjRephAnusvara]' by gjLGa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjLTta' [gjReph gjRephAnusvara]' by gjLTta;
+	sub [gjIsignReph gjIsignRephAnusvara] gjLTtha' [gjReph gjRephAnusvara]' by gjLTtha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjLDda' [gjReph gjRephAnusvara]' by gjLDda;
+	sub [gjIsignReph gjIsignRephAnusvara] gjLDdha' [gjReph gjRephAnusvara]' by gjLDdha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjLPa' [gjReph gjRephAnusvara]' by gjLPa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjLPha' [gjReph gjRephAnusvara]' by gjLPha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjLHa' [gjReph gjRephAnusvara]' by gjLHa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjLDa' [gjReph gjRephAnusvara]' by gjLDa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjSsKa' [gjReph gjRephAnusvara]' by gjSsKa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjSsGa' [gjReph gjRephAnusvara]' by gjSsGa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjSsTta' [gjReph gjRephAnusvara]' by gjSsTta;
+	sub [gjIsignReph gjIsignRephAnusvara] gjSsTtha' [gjReph gjRephAnusvara]' by gjSsTtha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjSsPha' [gjReph gjRephAnusvara]' by gjSsPha;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjSKa' [gjReph gjRephAnusvara]' by gjSKa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjSJa' [gjReph gjRephAnusvara]' by gjSJa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjSTta' [gjReph gjRephAnusvara]' by gjSTta;
+	sub [gjIsignReph gjIsignRephAnusvara] gjSDda' [gjReph gjRephAnusvara]' by gjSDda;
+	sub [gjIsignReph gjIsignRephAnusvara] gjSTha' [gjReph gjRephAnusvara]' by gjSTha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjSNa' [gjReph gjRephAnusvara]' by gjSNa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjSPha' [gjReph gjRephAnusvara]' by gjSPha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjSMa' [gjReph gjRephAnusvara]' by gjSMa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjSYa' [gjReph gjRephAnusvara]' by gjSYa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjLlYa' [gjReph gjRephAnusvara]' by gjLlYa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjVJa' [gjReph gjRephAnusvara]' by gjVJa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjVDda' [gjReph gjRephAnusvara]' by gjVDda;
+	sub [gjIsignReph gjIsignRephAnusvara] gjVNa' [gjReph gjRephAnusvara]' by gjVNa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjVHa' [gjReph gjRephAnusvara]' by gjVHa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjHNa' [gjReph gjRephAnusvara]' by gjHNa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjHMa' [gjReph gjRephAnusvara]' by gjHMa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjHYa' [gjReph gjRephAnusvara]' by gjHYa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjHVa' [gjReph gjRephAnusvara]' by gjHVa;
+
 
 } abvs_removeReph;
 
