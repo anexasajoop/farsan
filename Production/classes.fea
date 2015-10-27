@@ -22,6 +22,7 @@
 	gjLa 
 	gjShRa
 	gjKSsa gjChVa gjTTa gjDMa gjDYa gjShRa gjVDda
+	gjNDVa gjNDRa
 
 ];
 
@@ -30,6 +31,7 @@
 	gjKha gjCa gjCha gjJa gjNya gjBa gjBha gjLla gjSha gjSa
 	gjKhRa gjCRa gjChRa gjNyRa gjBRa gjLRa gjSRa
 	gjJNya gjVHa gjSsKa gjSsTta gjSsTtha gjSsPha gjNTta gjPTta gjPHa gjNHa
+	gjLDRa
 
 ];
 
@@ -38,36 +40,54 @@
 	gjNna 
 	gjJRa gjNnRa gjBhRa
 	gjKKa gjTNa gjNTa gjPKa gjPNa gjPPha gjMKa gjMDa gjMNa gjMPha gjMHa gjLKa gjLTta gjLTtha gjLDda gjLDdha gjLPha gjLHa gjLDa gjVNa
+	gjSsKRa gjSsTtRa gjSsTthRa gjSsTtVa
 
 ];
 
 @ILETTERS6 = [
 
 	gjKTta gjKDda gjKDa gjKPha gjKhDa gjPMa gjPhTta gjPhPha gjBKa gjBDda gjBDa gjBHa gjSKa gjSTta gjSDda gjSPha gjNGa
+	gjNTRa gjSKRa gjSTtRa
 
 ];
 
 @ILETTERS7 = [
 
 	gjKTa gjKNa gjCNa gjDdYa gjTSha gjTSa gjNJha gjNSha gjNSa gjPhNa gjLPa gjSsGa gjSsMa gjSNa
+	gjKTRa gjTKSsa gjTtYa gjTtVa gjSTRa gjNNYa
 
 ];
 
 @ILETTERS8 = [
 
 	gjKhTa gjKhMa gjNgMa gjTtYa gjTthYa gjDdhYa gjPhTa gjBNa gjBhNa gjMSha gjLGa gjSTha gjSMa gjSYa gjLlYa gjHMa gjHYa
+	gjKPRa gjKSsMa gjLVDda
 
 ];
 
 @ILETTERS9 = [
 
 	gjKCha gjKJha gjCCha gjBJha gjBhYa gjVJa
+	gjCChVa gjNTYa
 
 ];
 
 @ILETTERS10 = [
 
 	gjKJa gjKhKha gjChYa gjJJha gjNyJa gjPhJa gjBJa gjSJa
+	gjKTVa gjTNYa gjTSNa gjTSVa gjNTSa gjNMYa gjSsMYa
+
+];
+
+@ILETTERS11 = [
+
+	gjKTYa gjKSTta gjKSDda gjTSYa gjSsTtYa gjSsTthYa
+
+];
+
+@ILETTERS12 = [
+
+	gjKSsMYa gjKSTa gjLKYa gjSKVa gjSThYa gjSMYa
 
 ];
 
@@ -139,6 +159,18 @@
 @ISIGN10 = [
 
 	gjIsign.alt10 gjIsignReph.alt10 gjIsignRephAnusvara.alt10
+
+];
+
+@ISIGN11 = [
+
+	gjIsign.alt11 gjIsignReph.alt11 gjIsignRephAnusvara.alt11
+
+];
+
+@ISIGN12 = [
+
+	gjIsign.alt12 gjIsignReph.alt12 gjIsignRephAnusvara.alt12
 
 ];
 
@@ -247,6 +279,48 @@
 ];
 
 @CONJUNCTFORMS = [
+
+	gjKTYa
+	gjKTVa
+	gjKTRa
+	gjKPRa
+	gjKSsMa
+	gjKSsMYa
+	gjKSTta
+	gjKSDda
+	gjKSTa
+	gjCChVa
+	gjTKSsa
+	gjNTRa
+	gjNTYa
+	gjTTVa
+	gjTTYa
+	gjTSNa
+	gjTSYa
+	gjTSVa
+	gjNTSa
+	gjNTYa
+	gjNDRa
+	gjNDVa
+	gjNNYa
+	gjNMYa
+	gjBJYa
+	gjLKYa
+	gjLDRa
+	gjLVDda
+	gjSsKRa
+	gjSsTtYa
+	gjSsTtRa
+	gjSsTthYa
+	gjSsTthRa
+	gjSsMYa
+	gjSsTtVa
+	gjSKVa
+	gjSKRa
+	gjSTtRa
+	gjSTRa
+	gjSThYa
+	gjSMYa
 
 	gjKKa
 	gjKCha
