@@ -914,7 +914,7 @@ lookup ikar_matching {
 
 lookup iikar_matching {
 
-	sub [gjTta gjTtha gjDdha gjRa gjHa gjTtRa gjTthRa gjDdhRa gjHRa] [gjIisign gjIisignAnusvara gjIisignRephAnusvara gjIisignReph]' by [gjIisign.alt1 gjIisignAnusvara.alt1 gjIisignRephAnusvara.alt1 gjIisignReph.alt1];
+	sub @IILETTERS [gjIisign gjIisignAnusvara gjIisignRephAnusvara gjIisignReph]' by [gjIisign.alt1 gjIisignAnusvara.alt1 gjIisignRephAnusvara.alt1 gjIisignReph.alt1];
 	
 } iikar_matching;
 

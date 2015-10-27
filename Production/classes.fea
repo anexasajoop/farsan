@@ -144,6 +144,20 @@
 
 #-----------------------------------------------------------------
 
+@IILETTERS = [
+	
+	gjTta gjTtha gjDdha gjRa gjHa gjTtRa gjTthRa gjDdhRa gjHRa
+
+	gjKTta gjTtTta gjNTta gjPTta gjPhTta gjLTta gjSsTta gjKSTta
+
+	gjTtTtha gjTthTtha gjLTtha gjSsTtha
+
+	gjDdhDdha gjDdDdha gjLDdha
+
+	gjNHa gjPHa gjBHa gjLHa gjVHa
+
+];
+
 
 
 @FULLFORMS = [
