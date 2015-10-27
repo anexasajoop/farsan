@@ -700,6 +700,16 @@ lookup ikar_matching {
 
 	sub @ISIGN' @ILETTERS5 by @ISIGN5;
 
+	sub @ISIGN' @ILETTERS6 by @ISIGN6;
+
+	sub @ISIGN' @ILETTERS7 by @ISIGN7;
+
+	sub @ISIGN' @ILETTERS8 by @ISIGN8;
+
+	sub @ISIGN' @ILETTERS9 by @ISIGN9;
+
+	sub @ISIGN' @ILETTERS10 by @ISIGN10;
+
 } ikar_matching;
 
 
