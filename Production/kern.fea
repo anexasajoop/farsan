@@ -54,6 +54,30 @@
 
 @Z_Right = [Z Zacute Zcaron Zdotaccent Zdotbelow];
 
+@Period_Left = [period comma ellipsis];
+
+@Period_Right = [period comma ellipsis];
+
+@Quote_Left = [quotedbl quotesingle];
+
+@Quote_Right = [quotedbl quotesingle];
+
+@Dash_Left = [endash emdash figuredash hyphen hyphentwo];
+
+@Dash_Right = [endash emdash figuredash hyphen hyphentwo];
+
+@Colon_Left = [colon semicolon];
+
+@Colon_Right = [colon semicolon];
+
+@RCuQuote_Left = [quoteright quotedblright];
+
+@RCuQuote_Right = [quoteright quotedblright];
+
+@LCuQuote_Left = [quoteleft quotedblleft];
+
+@LCuQuote_Right = [quoteleft quotedblleft];
+
 #-------
 
 
@@ -181,6 +205,136 @@ pos Thorn V -15;
 
 #---
 
+# Punctuation to UC
+
+pos @Period_Right @A_Left 10;
+pos @Period_Right @J_Left 50;
+pos @Period_Right AE 40;
+pos @Period_Right @T_Left -30;
+pos @Period_Right @Y_Left -70;
+pos @Period_Right @W_Left -20;
+pos @Period_Right V -20;
+pos @Period_Right Hbar -20;
+
+pos at X -15;
+pos at @B_Left -15;
+pos at @Y_Left -40;
+pos at @Z_Left -15;
+
+pos slash slash -230;
+pos slash @A_Left -90; 
+pos slash @B_Left 35;
+pos slash @E_Left 35;
+pos slash @T_Left 55;
+pos slash X 15;
+pos slash V 20;
+pos slash AE -100;
+
+pos @Quote_Right @A_Left -110;
+pos @Quote_Right @B_Left 15;
+pos @Quote_Right @E_Left 15;
+pos @Quote_Right @O_Left -30;
+pos @Quote_Right @J_Left -15;
+pos @Quote_Right @T_Left 20;
+pos @Quote_Right AE -130;
+
+pos @LCuQuote_Right @A_Left -60;
+pos @LCuQuote_Right @B_Left 25;
+pos @LCuQuote_Right @E_Left 25;
+pos @LCuQuote_Right @T_Left 30;
+pos @LCuQuote_Right AE -100;
+
+pos @RCuQuote_Right @A_Left -70;
+pos @RCuQuote_Right @B_Left 30;
+pos @RCuQuote_Right V 30;
+pos @RCuQuote_Right @W_Left 30;
+pos @RCuQuote_Right @Y_Left 20;
+pos @RCuQuote_Right @Z_Left 20;
+pos @RCuQuote_Right AE -100;
+pos @RCuQuote_Right @E_Left 30;
+pos @RCuQuote_Right Eth 20;
+
+pos @Dash_Right @B_Left -10;
+pos @Dash_Right @T_Left -35;
+pos @Dash_Right X -35;
+pos @Dash_Right @Y_Left -55;
+pos @Dash_Right @Z_Left -10;
+pos @Dash_Right AE -20;
+pos @Dash_Right Eth 20;
 
 
+
+#---
+
+# UC to Punctuation
+
+pos @D_Right @Period_Left -40;
+pos @G_Right @Period_Left -20;
+pos @O_Right @Period_Left -20;
+pos @T_Right @Period_Left -50;
+pos @W_Right @Period_Left -60;
+pos @Y_Right @Period_Left -80;
+pos @Ohorn_Right @Period_Left -55;
+pos @Uhorn_Right @Period_Left -110;
+pos F @Period_Left -60;
+pos P @Period_Left -70;
+pos V @Period_Left -60;
+pos Hbar @Period_Left -40;
+
+pos @A_Right @Quote_Left -90;
+pos @C_Right @Quote_Left 40;
+pos @D_Right @Quote_Left -30;
+pos @L_Right @Quote_Left -110;
+pos @O_Right @Quote_Left -35;
+pos @R_Right @Quote_Left -40;
+pos @T_Right @Quote_Left 20;
+pos Q @Quote_Left -45;
+
+pos @A_Right @RCuQuote_Left -50;
+pos @C_Right @RCuQuote_Left 30;
+pos @G_Right @RCuQuote_Left 20;
+pos @L_Right @RCuQuote_Left -60;
+pos @R_Right @RCuQuote_Left -10;
+pos @T_Right @RCuQuote_Left 30;
+pos P @RCuQuote_Left 20;
+pos Q @RCuQuote_Left -20;
+
+pos @A_Right @LCuQuote_Left -50;
+pos @C_Right @LCuQuote_Left 20;
+pos @L_Right @LCuQuote_Left -60;
+pos @R_Right @LCuQuote_Left -10;
+pos P @LCuQuote_Left 20;
+pos Q @LCuQuote_Left -10;
+
+pos @A_Right @Dash_Left 10;
+pos S @Dash_Left 25;
+pos @K_Right @Dash_Left -45;
+pos @L_Right @Dash_Left -45;
+pos @R_Right @Dash_Left -15;
+pos @T_Right @Dash_Left -35;
+pos @W_Right @Dash_Left -30;
+pos @Y_Right @Dash_Left -50;
+pos @Z_Right @Dash_Left -50;
+pos V @Dash_Left -45;
+pos X @Dash_Left -50;
+
+pos @C_Right at -15;
+pos @K_Right at -35;
+pos @Y_Right at -40;
+pos F at -20;
+pos V at -30;
+pos X at -30;
+
+pos @T_Right @Colon_Left -35;
+pos @Y_Right @Colon_Left -35;
+pos V @Colon_Left -15;
+
+pos @R_Right slash 15;
+pos @W_Right slash -80;
+pos @Y_Right slash -110;
+pos F slash -40;
+pos P slash -55;
+pos Q slash 25;
+pos U slash -25;
+pos V slash -100;
 
