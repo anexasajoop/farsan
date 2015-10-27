@@ -314,17 +314,6 @@ lookup cjct_new {
 
 
 lookup pres {
-	
-#	sub gjK gjTRa by gjKTRa; !
-#	sub gjK gjT gjYa by gjKTYa; !
-#	sub gjK gjT gjVa by gjKTVa; !
-#	sub gjK gjP gjRa by gjKPRa; !
-#	sub gjK gjT gjRa by gjKTRa; !
-#	sub gjK gjS gjTta by gjKSTta; !
-#	sub gjK gjS gjDda by gjKSDda; !
-#	sub gjK gjS gjTa by gjKSTa; !
-#	sub gjKSs gjM gjYa by gjKSsMYa; !
-#	sub gjKSs gjMa by gjKSsMa; !
 
 	sub gjK gjKa by gjKKa;
 	sub gjK gjCha by gjKCha;
@@ -603,6 +592,14 @@ lookup abvs_ikar_reph {
 	sub gjIsign' @FULLFORMS gjReph by gjIsignReph;
 
 } abvs_ikar_reph;
+
+lookup abvs_hf_reph {
+		sub gjIsign' gjK gjCa gjReph by gjIsignReph;
+} abvs_hf_reph;
+
+lookup abvs_hf_removeReph {
+	sub gjIsignReph gjK gjCa' gjReph' by gjCa;	
+} abvs_hf_removeReph;
 
 
 lookup abvs_removeReph {
@@ -932,6 +929,11 @@ lookup psts {
 
 } psts;
 
+lookup psts_hf_reph {
+	
+	sub @ISIGN' gjK gjCa by @ISIGN9;
+
+} psts_hf_reph;
 
 # IKAR MATCHING
 

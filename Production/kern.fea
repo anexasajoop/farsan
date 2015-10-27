@@ -1,0 +1,186 @@
+# UPPERCASE CLASSES
+
+@A_Left = [A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde];
+
+@A_Right = [A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde];
+
+@B_Left = [B D Dcaron Ddotbelow Dlinebelow P R Racute Rcaron Rcommaaccent Rdotbelow Rdotbelowmacron Rlinebelow];
+
+@C_Right = [C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent];
+
+@D_Right = [D Dcaron Dcroat Ddotbelow Dlinebelow Eth];
+
+@E_Left = [E Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde F];
+
+@G_Right = [G G_tildecomb Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron];
+
+@J_Left = [J Jcircumflex];
+
+@J_Right = [J Jcircumflex];
+
+@K_Left = [K Kcommaaccent];
+
+@K_Right = [K Kcommaaccent];
+
+@L_Right = [L Lacute Lcaron Lcommaaccent Ldot Ldotbelow Ldotbelowmacron Llinebelow Lslash];
+
+@O_Left = [C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent G G_tildecomb Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron O OE Oacute Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Oslash Otilde Q];
+
+@O_Right = [O Oacute Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohungarumlaut Omacron Oslash Otilde Schwa];
+
+@Ohorn_Right = [Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde];
+
+@R_Right = [R Racute Rcaron Rcommaaccent Rdotbelow Rdotbelowmacron Rlinebelow];
+
+@T_Left = [T Tcaron Tcedilla Tcommaaccent Tdotbelow Tlinebelow];
+
+@T_Right = [T Tcaron Tcedilla Tcommaaccent Tdotbelow Tlinebelow];
+
+@U_Left = [U Uacute Ubreve Ucaron Ucircumflex Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde];
+
+@U_Right = [U Uacute Ubreve Ucaron Ucircumflex Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udotbelow Ugrave Uhookabove Uhungarumlaut Umacron Uogonek Uring Utilde];
+
+@Uhorn_Right = [Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde];
+
+@W_Left = [W Wacute Wcircumflex Wdieresis Wgrave];
+
+@W_Right = [W Wacute Wcircumflex Wdieresis Wgrave];
+
+@Y_Left = [Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ytilde];
+
+@Y_Right = [Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ytilde];
+
+@Z_Left = [Z Zacute Zcaron Zdotaccent Zdotbelow];
+
+@Z_Right = [Z Zacute Zcaron Zdotaccent Zdotbelow];
+
+#-------
+
+
+# UC class to UC class
+
+pos @A_Right @J_Left 30;
+pos @A_Right @T_Left -20;
+pos @A_Right @W_Left -20;
+pos @A_Right @Y_Left -60;
+
+pos @C_Right @Y_Left -15;
+pos @C_Right @Z_Left -2;
+
+pos @D_Right @A_Left -10;
+pos @D_Right @T_Left -25;
+
+pos @G_Right @A_Left -5;
+
+pos @K_Right @O_Left -25;
+
+pos @L_Right @O_Left -18;
+pos @L_Right @T_Left -70;
+
+pos @O_Right @A_Left -10;
+pos @O_Right @B_Left -10;
+pos @O_Right @E_Left -8;
+pos @O_Right @T_Left -20;
+pos @O_Right @W_Left -2;
+pos @O_Right @Y_Left -30;
+pos @O_Right @Z_Left -7;
+
+pos @Ohorn_Right @A_Left -50;
+
+pos @R_Right @O_Left -12;
+pos @R_Right @T_Left -27;
+
+pos @T_Right @A_Left -40;
+pos @T_Right @O_Left -20;
+
+pos @Uhorn_Right @A_Left -85;
+
+pos @U_Right @A_Left -10;
+
+pos @W_Right @A_Left -50;
+pos @W_Right @O_Left -7;
+
+pos @Y_Right @A_Left -85;
+pos @Y_Right @O_Left -22;
+
+pos @Z_Right @O_Left -20;
+
+#---
+
+# UC class to UC
+
+pos @A_Right Hbar -35;
+pos @A_Right V -30;
+pos @A_Right AE 25;
+
+pos @C_Right X -15;
+
+pos @D_Right AE -15;
+
+pos @K_Right AE 25;
+
+pos @L_Right AE 25;
+
+pos @O_Right V -10;
+pos @O_Right X -15;
+
+pos @Ohorn_Right X -40;
+
+pos @R_Right AE 20;
+
+pos @T_Right AE -25;
+
+pos @Uhorn_Right X -80;
+
+pos @W_Right AE -50;
+
+pos @Y_Right AE -50;
+
+pos @Z_Right AE 20;
+
+#---
+
+# UC to UC class
+
+pos B @T_Left -10;
+
+pos F @A_Left -40;
+
+pos Hbar @T_Left -40;
+
+pos P @A_Left -50;
+pos P @T_Left -5;
+
+pos Q @A_Left 20;
+pos Q @O_Left -5;
+pos Q @T_Left -35;
+
+pos V @A_Left -60;
+pos V @O_Left -12;
+
+pos X @O_Left -27;
+
+pos Thorn @A_Left -25;
+pos Thorn @T_Left -50;
+pos Thorn @Y_Left -55;
+pos Thorn @Z_Left -35;
+pos Thorn @B_Left -15;
+
+#---
+
+# UC to UC
+
+pos F AE -35;
+pos Hbar AE -30;
+pos P AE -70;
+pos Q AE 40;
+pos V AE -50;
+pos Thorn X -45;
+pos Thorn V -15;
+
+
+#---
+
+
+
+

@@ -7,6 +7,7 @@ include (classes.fea);
 include (lookups.fea);
 
 
+
 #################
 # BASIC SHAPING #
 #################
@@ -151,6 +152,9 @@ feature abvs {
 	lookup abvs;
 	lookup abvs_J;
 
+  lookup abvs_hf_reph;
+  lookup abvs_hf_removeReph;
+
   lookup abvs_ikar_reph_anusvara;
   lookup abvs_ikar_reph;
   lookup abvs_removeReph;
@@ -173,6 +177,9 @@ feature psts {
 	lookup psts;
 	lookup ikar_matching;
 	lookup iikar_matching;
+
+  lookup psts_hf_reph;
+
 } psts;
 
 
@@ -210,6 +217,10 @@ feature calt {
 feature dist {
 	lookup dist;
 } dist;
+
+feature kern {
+  include (kern.fea);
+} kern;
 
 
 # ABOVE-BASE MARKS
