@@ -1,3 +1,85 @@
+# Classes of letters and conjuncts for ikar matching
+
+@ILETTERS1 = [
+
+	gjKa gjNga gjTta gjTtha gjDda gjDdha gjDa gjPha gjRa gjHa 
+	gjKRa gjNgRa gjTtRa gjTthRa gjDdRa gjDdhRa gjDRa gjPhRa gjHRa
+
+];
+
+@ILETTERS2 = [
+
+	gjNa gjVa
+	gjNRa gjVRa
+
+];
+
+@ILETTERS3 = [
+
+	gjLa 
+	gjShRa
+
+];
+
+@ILETTERS4 = [
+
+	gjKha gjCa gjCha gjJa gjNya gjBa gjBha gjLla gjSha gjSa
+	gjKhRa gjCRa gjChRa gjNyRa gjBRa gjLRa gjSRa
+
+];
+
+@ILETTERS5 = [
+
+	gjNna 
+	gjJRa gjNnRa gjBhRa
+
+];
+
+#-----------------------------------------------------------------
+
+
+# Classes of ikar matra sets for matching
+
+@ISIGN = [
+
+	gjIsign gjIsignReph gjIsignRephAnusvara
+
+];
+
+@ISIGN1 = [
+
+	gjIsign.alt1 gjIsignReph.alt1 gjIsignRephAnusvara.alt1
+
+];
+
+@ISIGN2 = [
+
+	gjIsign.alt2 gjIsignReph.alt2 gjIsignRephAnusvara.alt2
+
+];
+
+@ISIGN3 = [
+
+	gjIsign.alt3 gjIsignReph.alt3 gjIsignRephAnusvara.alt3
+
+];
+
+@ISIGN4 = [
+
+	gjIsign.alt4 gjIsignReph.alt4 gjIsignRephAnusvara.alt4
+
+];
+
+@ISIGN5 = [
+
+	gjIsign.alt5 gjIsignReph.alt5 gjIsignRephAnusvara.alt5
+
+];
+
+#-----------------------------------------------------------------
+
+
+
 @FULLFORMS = [
 
 	gjKa

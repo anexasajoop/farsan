@@ -690,15 +690,15 @@ lookup psts {
 
 lookup ikar_matching {
 
-	sub [gjIsign gjIsignReph gjIsignRephAnusvara]' [gjKa gjNga gjTta gjTtha gjDda gjDdha gjDa gjPha gjRa gjHa] by [gjIsign.alt1 gjIsignReph.alt1 gjIsignRephAnusvara.alt1];
+	sub @ISIGN' @ILETTERS1 by @ISIGN1;
 
-	sub [gjIsign gjIsignReph gjIsignRephAnusvara]' [gjNa] by [gjIsign.alt2 gjIsignReph.alt2 gjIsignRephAnusvara.alt2];
+	sub @ISIGN' @ILETTERS2 by @ISIGN2;
 
-	sub [gjIsign gjIsignReph gjIsignRephAnusvara]' [gjLa] by [gjIsign.alt3 gjIsignReph.alt3 gjIsignRephAnusvara.alt3];
+	sub @ISIGN' @ILETTERS3 by @ISIGN3;
 
-	sub [gjIsign gjIsignReph gjIsignRephAnusvara]' [gjKha gjCa gjCha gjJa gjNya gjBa gjBha gjLla gjSha gjSa] by [gjIsign.alt4 gjIsignReph.alt4 gjIsignRephAnusvara.alt4];
+	sub @ISIGN' @ILETTERS4 by @ISIGN4;
 
-	sub [gjIsign gjIsignReph gjIsignRephAnusvara]' [gjNna] by [gjIsign.alt5 gjIsignReph.alt5 gjIsignRephAnusvara.alt5];
+	sub @ISIGN' @ILETTERS5 by @ISIGN5;
 
 } ikar_matching;
 
@@ -707,7 +707,7 @@ lookup ikar_matching {
 
 lookup iikar_matching {
 
-	sub [gjTta gjTtha gjDdha gjRa gjHa] [gjIisign gjIisignAnusvara gjIisignRephAnusvara gjIisignReph]' by [gjIisign.alt1 gjIisignAnusvara.alt1 gjIisignRephAnusvara.alt1 gjIisignReph.alt1];
+	sub [gjTta gjTtha gjDdha gjRa gjHa gjTtRa gjTthRa gjDdhRa gjHRa] [gjIisign gjIisignAnusvara gjIisignRephAnusvara gjIisignReph]' by [gjIisign.alt1 gjIisignAnusvara.alt1 gjIisignRephAnusvara.alt1 gjIisignReph.alt1];
 	
 } iikar_matching;
 
