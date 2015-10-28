@@ -88,6 +88,8 @@
 
 @o2_left = [aacute abreve abrevedotbelow abrevegrave abrevehookabove acircumflex acircumflexacute acircumflexdotbelow acircumflexhookabove adieresis ahookabove amacron aring ccircumflex cdotaccent eacute ebreve ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexhookabove edieresis edotaccent ehookabove emacron gbreve gcircumflex gdotaccent oacute ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexhookabove odieresis ohookabove ohorn ohornacute ohornhookabove omacron];
 
+@a_right = [a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acaron acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove tilde adieresis adotbelow agrave ahookabove amacron aogonek aring atilde];
+
 @o3_left = [abrevetilde acaron acircumflextilde agrave atilde ccaron ecaron egrave etilde g_tildecomb gcaron ocaron ograve ohorntilde otilde];
 
 @o4_left = [acircumflexgrave ecircumflexgrave ocircumflexgrave];
@@ -100,7 +102,15 @@
 
 @i3_left = [icircumflex idieresis ihookabove imacron jcircumflex];
 
+@i1_right = [i iogonek idotbelow j];
+
+@i2_right = [igrave icaron];
+
+@i3_right = [icircumflex idieresis ihookabove imacron jcircumflex];
+
 @u1_left = [u uacute ubreve ucaron ucircumflex udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhungarumlaut umacron uogonek uring v w wacute wcircumflex wdieresis wgrave y yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave yhookabove];
+
+@w_right = [w wacute wcircumflex wdieresis wgrave];
 
 @r_right = [r racute rcommaaccent rdotbelow rdotbelowmacron];
 
@@ -385,6 +395,42 @@ pos x @o2_left -15;
 pos x @o3_left -15;
 pos x @o4_left -15;
 
+#------
+
+# LC to Punctuation CLass
+
+pos v @Period_Left -20;
+
+pos f @RCuQuote_Left 120;
+pos f @LCuQuote_Left 120;
+pos f @Quote_Left 140;
+
+#-------
+
+# Punctuation to LC Class
+
+pos slash @o1_left -130;
+pos slash @o2_left -130;
+pos slash @o3_left -130;
+pos slash @o4_left -130;
+
+pos slash @n_left -70;
+
+pos slash @f_left -27;
+
+pos slash @i1_left -13;
+pos slash @i2_left 30;
+pos slash @i3_left -13;
+
+pos slash @s_left -85;
+
+pos slash @t_left -27;
+
+pos slash @u1_left -70;
+
+pos slash @z_left -70;
+
+
 subtable;
 
 #################
@@ -633,6 +679,38 @@ pos @z_right @o2_left -12;
 pos @z_right @o3_left -12;
 pos @z_right @o4_left -12;
 pos @z_right @i3_left 30;
+
+#-------
+
+# LC Class to Punctuation Class
+
+pos @a_right @Period_Left -18;
+
+pos @i1_right @RCuQuote_Left 30;
+pos @i2_right @RCuQuote_Left 30;
+pos @i3_right @RCuQuote_Left 30;
+
+pos @i1_right @Quote_Left 40;
+pos @i2_right @Quote_Left 40;
+pos @i3_right @Quote_Left 40;
+
+pos @r_right @Period_Left -35;
+
+pos @w_right @Period_Left -15;
+
+#--------
+
+# Punctuation Class to LC Class
+
+pos @Quote_Right @o1_left -70;
+pos @Quote_Right @o2_left -70;
+pos @Quote_Right @o3_left -70;
+pos @Quote_Right @o4_left -70;
+
+pos @Quote_Right @u1_left -30;
+
+pos @RCuQuote_Right @o1_left -40;
+
 
 subtable;
 
