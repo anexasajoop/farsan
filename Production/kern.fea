@@ -24,6 +24,8 @@
 
 @L_Right = [L Lacute Lcaron Lcommaaccent Ldot Ldotbelow Ldotbelowmacron Llinebelow Lslash];
 
+@I_Right = [I Iacute Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Imacron Iogonek Itilde M Mdotbelow N Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Nlinebelow Ntilde];
+
 @O_Left = [C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent G G_tildecomb Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron O OE Oacute Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Oslash Otilde Q];
 
 @O_Right = [O Oacute Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohungarumlaut Omacron Oslash Otilde Schwa];
@@ -54,6 +56,8 @@
 
 @Z_Right = [Z Zacute Zcaron Zdotaccent Zdotbelow];
 
+# PUNCTUATION CLASSES
+
 @Period_Left = [period comma ellipsis];
 
 @Period_Right = [period comma ellipsis];
@@ -77,6 +81,34 @@
 @LCuQuote_Left = [quoteleft quotedblleft];
 
 @LCuQuote_Right = [quoteleft quotedblleft];
+
+# LOWERCASE CLASSES
+
+@o1_left = [a adotbelow ae aogonek c ccedilla d dcaron dcroat e edotbelow eogonek g o odotbelow oe oslash q];
+
+@o2_left = [aacute abreve abrevedotbelow abrevegrave abrevehookabove acircumflex acircumflexacute acircumflexdotbelow acircumflexhookabove adieresis ahookabove amacron aring ccircumflex cdotaccent eacute ebreve ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexhookabove edieresis edotaccent ehookabove emacron gbreve gcircumflex gdotaccent oacute ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexhookabove odieresis ohookabove ohorn ohornacute ohornhookabove omacron];
+
+@o3_left = [abrevetilde acaron acircumflextilde agrave atilde ccaron ecaron egrave etilde g_tildecomb gcaron ocaron ograve ohorntilde otilde];
+
+@o4_left = [acircumflexgrave ecircumflexgrave ocircumflexgrave];
+
+@n_left = [m mdotbelow n nacute ncaron ncommaaccent ndotaccent ndotbelow ntilde r racute rcommaaccent rdotbelow rdotbelowmacron p];
+
+@i1_left = [i iogonek idotbelow j];
+
+@i2_left = [igrave icaron];
+
+@i3_left = [icircumflex idieresis ihookabove imacron j];
+
+@u1_left = [u uacute ubreve ucaron ucircumflex udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhungarumlaut umacron uogonek uring v w wacute wcircumflex wdieresis wgrave y yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave yhookabove];
+
+@t_left = [t tcaron tcedilla tcommaaccent tdotbelow];
+
+@s_left = [s sacute scedilla scommaaccent sdotaccent sdotbelow];
+
+@z_left = [z zacute zdotaccent zdotbelow];
+
+@f_left = [f fi fl];
 
 #-------
 
@@ -337,4 +369,157 @@ pos P slash -55;
 pos Q slash 25;
 pos U slash -25;
 pos V slash -100;
+
+
+#---
+
+# UC to LC
+
+pos @A_Right @t_left -15;
+
+pos @C_Right @o1_left -10;
+pos @C_Right @o2_left -10;
+pos @C_Right @o3_left -10;
+pos @C_Right @o4_left -10;
+
+pos F @o1_left -26;
+pos F @o2_left -26;
+pos F @o3_left -26;
+pos F @o4_left -26;
+pos F x -30;
+
+pos @I_Right @o1_left -20;
+pos @I_Right @o2_left -20;
+pos @I_Right @o3_left -20;
+pos @I_Right @o4_left -20;
+
+pos @J_Right @o1_left -12;
+pos @J_Right @o2_left -12;
+pos @J_Right @o3_left -12;
+pos @J_Right @o4_left -12;
+pos @J_Right @u1_left -15;
+
+pos @K_Right @o1_left -25;
+pos @K_Right @o2_left -25;
+pos @K_Right @o3_left -25;
+pos @K_Right @o4_left -25;
+pos @K_Right @t_left -22;
+pos @K_Right @s_left -7;
+pos @K_Right @f_left -20;
+
+pos @L_Right @o1_left -12;
+pos @L_Right @o2_left -12;
+pos @L_Right @o3_left -12;
+pos @L_Right @o4_left -12;
+pos @L_Right @t_left -25;
+pos @L_Right @f_left -35;
+
+pos P @o1_left -27;
+pos P @o2_left -27;
+pos P @o3_left -27;
+pos P @o4_left -27;
+
+pos @R_Right @o1_left -35;
+pos @R_Right @o2_left -35;
+pos @R_Right @o3_left -35;
+pos @R_Right @o4_left -35;
+pos @R_Right f -22;
+
+pos @T_Right @o1_left -100;
+pos @T_Right @o2_left -80;
+pos @T_Right @o3_left -25;
+pos @T_Right @o4_left 20;
+pos @T_Right @n_left -45;
+pos @T_Right rcaron -20;
+pos @T_Right @i1_left -15;
+pos @T_Right @i2_left 50;
+pos @T_Right @i3_left 30;
+pos @T_Right ihookabove 10;
+pos @T_Right itilde 60;
+pos @T_Right @u1_left -35;
+pos @T_Right @s_left -60;
+pos @T_Right @z_left -50;
+pos @T_Right x -60;
+pos @T_Right f -10;
+
+pos @U_Right @o1_left -8;
+pos @U_Right @o2_left -8;
+pos @U_Right @o3_left -8;
+pos @U_Right @o4_left -8;
+
+pos V @o1_left -65;
+pos V @o2_left -65;
+pos V @o3_left -55;
+pos V @o4_left -30;
+pos V @n_left -20;
+pos V @i1_left -15;
+pos V @i2_left 35;
+pos V @i3_left 27;
+pos V itilde 50;
+pos V @u1_left -30;
+pos V @s_left -25;
+pos V @z_left -20;
+pos V x -20;
+pos V f -15;
+
+pos @W_Right @o1_left -47;
+pos @W_Right @o2_left -47;
+pos @W_Right @o3_left -47;
+pos @W_Right @o4_left -32;
+pos @W_Right @n_left -12;
+pos @W_Right @i1_left -15;
+pos @W_Right @i2_left 35;
+pos @W_Right @i3_left 27;
+pos @W_Right itilde 50;
+pos @W_Right @u1_left -25;
+pos @W_Right utilde 50;
+pos @W_Right @s_left -25;
+pos @W_Right @z_left -10;
+pos @W_Right x -10;
+
+pos X @o1_left -50;
+pos X @o2_left -50;
+pos X @o3_left -50;
+pos X @o4_left -40;
+pos X @u1_left -40;
+pos X @t_left -25;
+pos X @s_left -15;
+pos X f -20;
+
+pos @Y_Right @o1_left -87;
+pos @Y_Right @o2_left -87;
+pos @Y_Right @o3_left -75;
+pos @Y_Right @o4_left -42;
+pos @Y_Right @n_left -35;
+pos @Y_Right rcaron -30;
+pos @Y_Right @i1_left -40;
+pos @Y_Right @i2_left 10;
+pos @Y_Right itilde 50;
+pos @Y_Right @u1_left -60;
+pos @Y_Right @t_left -25;
+pos @Y_Right @s_left -55;
+pos @Y_Right @z_left -45;
+pos @Y_Right x -50;
+pos @Y_Right f -15;
+
+pos @Z_Right @o1_left -27;
+pos @Z_Right @o2_left -27;
+pos @Z_Right @o3_left -27;
+pos @Z_Right @o4_left -27;
+pos @Z_Right @u1_left -25;
+pos @Z_Right @t_left -20;
+pos @Z_Right f -10;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
