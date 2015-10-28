@@ -137,6 +137,23 @@
 # SINGLE TO SINGLE
 ###################
 
+# Numeral to Numeral
+
+pos zero seven -40;
+pos seven one 30;
+pos seven four -20;
+pos two seven -40;
+pos three seven -30;
+pos four three -20;
+pos four seven -40;
+pos five seven 38;
+pos five nine -18;
+pos six seven -50;
+pos six two -15;
+pos eight seven -30;
+
+#-------
+
 
 # UC to UC
 
