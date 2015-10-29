@@ -1,16 +1,66 @@
+####################
+# SINGLE TO SINGLE #
+####################
+
+# Numeral to Numeral
+
+pos zero seven -40;
+pos seven one 30;
+pos seven four -20;
+pos two seven -40;
+pos three seven -30;
+pos four three -20;
+pos four seven -40;
+pos five seven -38;
+pos five nine -18;
+pos six seven -50;
+pos six two -15;
+pos eight seven -30;
+
+#-------
+
+# UC to LC
+
+pos V itilde 50;
+
+#-------
+
+# LC to LC
+
+pos aogonek j 150;
+pos f eth 50;
+pos iogonek j 150;
+pos iacute rcaron 10;
+pos scaron imacron 30;
+pos uogonek j 150;
+
+subtable;
+
+##################
+# CLASS TO CLASS #
+##################
+
 # UPPERCASE CLASSES
 
 @A_Left = [A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde];
 
 @A_Right = [A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde];
 
+@AE = [AE];
+
 @B_Left = [B D Dcaron Ddotbelow Dlinebelow P R Racute Rcaron Rcommaaccent Rdotbelow Rdotbelowmacron Rlinebelow];
+
+@B_Right = [B];
 
 @C_Right = [C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent];
 
 @D_Right = [D Dcaron Dcroat Ddotbelow Dlinebelow Eth];
 
 @E_Left = [E Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde F];
+
+@Eth = [Eth];
+
+@F = [F];
 
 @G_Right = [G G_tildecomb Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron];
 
@@ -24,6 +74,8 @@
 
 @L_Right = [L Lacute Lcaron Lcommaaccent Ldot Ldotbelow Ldotbelowmacron Llinebelow Lslash];
 
+@Hbar = [Hbar];
+
 @I_Right = [I Iacute Icaron Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Imacron Iogonek Itilde M Mdotbelow N Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Nlinebelow Ntilde];
 
 @O_Left = [C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent G G_tildecomb Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron O OE Oacute Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Oslash Otilde Q];
@@ -32,11 +84,19 @@
 
 @Ohorn_Right = [Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde];
 
+@P = [P];
+
+@Q = [Q];
+
 @R_Right = [R Racute Rcaron Rcommaaccent Rdotbelow Rdotbelowmacron Rlinebelow];
+
+@S = [S Sacute Scedilla Scommaaccent Sdotaccent Sdotbelow Scaron];
 
 @T_Left = [T Tcaron Tcedilla Tcommaaccent Tdotbelow Tlinebelow];
 
 @T_Right = [T Tcaron Tcedilla Tcommaaccent Tdotbelow Tlinebelow];
+
+@Thorn = [Thorn];
 
 @U_Left = [U Uacute Ubreve Ucaron Ucircumflex Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde];
 
@@ -44,9 +104,13 @@
 
 @Uhorn_Right = [Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde];
 
+@V = [V];
+
 @W_Left = [W Wacute Wcircumflex Wdieresis Wgrave];
 
 @W_Right = [W Wacute Wcircumflex Wdieresis Wgrave];
+
+@X = [X];
 
 @Y_Left = [Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ytilde];
 
@@ -55,6 +119,7 @@
 @Z_Left = [Z Zacute Zcaron Zdotaccent Zdotbelow];
 
 @Z_Right = [Z Zacute Zcaron Zdotaccent Zdotbelow];
+
 
 # PUNCTUATION CLASSES
 
@@ -82,6 +147,10 @@
 
 @LCuQuote_Right = [quoteleft quotedblleft];
 
+@at = [at];
+
+@slash = [slash];
+
 # LOWERCASE CLASSES
 
 @o1_left = [a adotbelow ae aogonek c ccedilla d dcaron dcroat e edotbelow eogonek g o odotbelow oe oslash q];
@@ -89,6 +158,8 @@
 @o2_left = [aacute abreve abrevedotbelow abrevegrave abrevehookabove acircumflex acircumflexacute acircumflexdotbelow acircumflexhookabove adieresis ahookabove amacron aring ccircumflex cdotaccent eacute ebreve ecircumflex ecircumflexacute ecircumflexdotbelow ecircumflexhookabove edieresis edotaccent ehookabove emacron gbreve gcircumflex gdotaccent oacute ocircumflex ocircumflexacute ocircumflexdotbelow ocircumflexhookabove odieresis ohookabove ohorn ohornacute ohornhookabove omacron];
 
 @a_right = [a aacute abreve abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acaron acircumflex acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove tilde adieresis adotbelow agrave ahookabove amacron aogonek aring atilde];
+
+@f = [f];
 
 @o3_left = [abrevetilde acaron acircumflextilde agrave atilde ccaron ecaron egrave etilde g_tildecomb gcaron ocaron ograve ohorntilde otilde];
 
@@ -108,11 +179,23 @@
 
 @i3_right = [icircumflex idieresis ihookabove imacron jcircumflex];
 
+@iacute = [iacute];
+
+@itilde = [itilde];
+
+@ihookabove = [ihookabove];
+
 @u1_left = [u uacute ubreve ucaron ucircumflex udieresis udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow ugrave uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhungarumlaut umacron uogonek uring v w wacute wcircumflex wdieresis wgrave y yacute ycircumflex ydieresis ydotaccent ydotbelow ygrave yhookabove];
+
+@utilde = [utilde];
 
 @w_right = [w wacute wcircumflex wdieresis wgrave];
 
+@x = [x];
+
 @r_right = [r racute rcommaaccent rdotbelow rdotbelowmacron];
+
+@rcaron = [rcaron];
 
 @k_right = [k kcommaaccent kgreenlandic];
 
@@ -122,491 +205,113 @@
 
 @s_left = [s sacute scedilla scommaaccent sdotaccent sdotbelow];
 
+@scaron = [scaron];
+
 @z_left = [z zacute zdotaccent zdotbelow];
 
 @z_right = [z zacute zdotaccent zcaron zdotbelow];
 
 @f_left = [f fi fl];
 
-#-------
-#-------
-
-
-
-###################
-# SINGLE TO SINGLE
-###################
-
-# Numeral to Numeral
-
-pos zero seven -40;
-pos seven one 30;
-pos seven four -20;
-pos two seven -40;
-pos three seven -30;
-pos four three -20;
-pos four seven -40;
-pos five seven 38;
-pos five nine -18;
-pos six seven -50;
-pos six two -15;
-pos eight seven -30;
-
-#-------
-
-
-# UC to UC
-
-pos F AE -35;
-pos Hbar AE -30;
-pos P AE -70;
-pos Q AE 40;
-pos V AE -50;
-pos Thorn X -45;
-pos Thorn V -15;
-
-#-------
-
-# UC to Punctuation
-
-pos at X -15;
-pos F at -20;
-pos V at -30;
-pos X at -30;
-pos F slash -40;
-pos P slash -55;
-pos Q slash 25;
-pos U slash -25;
-pos V slash -100;
-
-#-------
-
-# Punctuation to UC
-
-pos slash X 15;
-pos slash V 20;
-pos slash AE -100;
-pos slash slash -230;
-
-#-------
-
-# UC to LC
-
-pos F x -30;
-pos V x -20;
-pos V f -15;
-pos X f -20;
-pos V itilde 50;
-
-#-------
-
-# LC to LC
-
-pos aogonek j 150;
-pos f eth 50;
-pos iogonek j 150;
-pos iacute rcaron 10;
-pos scaron imacron 30;
-pos uogonek j 150;
-
-subtable;
-
-##################
-# CLASS TO SINGLE
-##################
-
-# UC class to UC
-
-pos @A_Right Hbar -35;
-pos @A_Right V -30;
-pos @A_Right AE 25;
-
-pos @C_Right X -15;
-
-pos @D_Right AE -15;
-
-pos @K_Right AE 25;
-
-pos @L_Right AE 25;
-
-pos @O_Right V -10;
-pos @O_Right X -15;
-
-pos @Ohorn_Right X -40;
-
-pos @R_Right AE 20;
-
-pos @T_Right AE -25;
-
-pos @Uhorn_Right X -80;
-
-pos @W_Right AE -50;
-
-pos @Y_Right AE -50;
-
-pos @Z_Right AE 20;
-
-#-------
-
-# Punctuation Class to UC 
-
-pos @Period_Right AE 40;
-pos @Period_Right V -20;
-pos @Period_Right Hbar -20;
-pos @Quote_Right AE -130;
-pos @LCuQuote_Right AE -100;
-pos @RCuQuote_Right V 30;
-pos @RCuQuote_Right AE -100;
-pos @RCuQuote_Right Eth 20;
-pos @Dash_Right X -35;
-pos @Dash_Right AE -20;
-pos @Dash_Right Eth 20;
-pos @C_Right at -15;
-pos @K_Right at -35;
-pos @Y_Right at -40;
-
-#-------
-
-# UC Class to Puntuation
-
-pos @R_Right slash 15;
-pos @W_Right slash -80;
-pos @Y_Right slash -110;
-
-#-------
-
-# UC Class to LC
-
-pos @R_Right f -22;
-
-pos @T_Right x -60;
-pos @T_Right f -10;
-pos @T_Right rcaron -20;
-pos @T_Right itilde 60;
-pos @T_Right ihookabove 10;
-
-pos @W_Right x -10;
-pos @W_Right itilde 50;
-pos @W_Right utilde 50;
-
-pos @Y_Right x -50;
-pos @Y_Right f -15;
-pos @Y_Right rcaron -30;
-pos @Y_Right itilde 50;
-
-pos @Z_Right f -10;
-
-subtable;
-
-##################
-# SINGLE TO CLASS
-##################
-
-# UC to UC class
-
-pos B @T_Left -10;
-
-pos F @A_Left -40;
-
-pos Hbar @T_Left -40;
-
-pos P @A_Left -50;
-pos P @T_Left -5;
-
-pos Q @A_Left 20;
-pos Q @O_Left -5;
-pos Q @T_Left -35;
-
-pos V @A_Left -60;
-pos V @O_Left -12;
-
-pos X @O_Left -27;
-
-pos Thorn @A_Left -25;
-pos Thorn @T_Left -50;
-pos Thorn @Y_Left -55;
-pos Thorn @Z_Left -35;
-pos Thorn @B_Left -15;
-
-#---
-
-# Punctuation to UC Class
-
-pos at @B_Left -15;
-pos at @Y_Left -40;
-pos at @Z_Left -15;
-pos slash @A_Left -90; 
-pos slash @B_Left 35;
-pos slash @E_Left 35;
-pos slash @T_Left 55;
-
-#---
-
-# UC to Punctuation Class
-
-pos F @Period_Left -60;
-pos P @Period_Left -70;
-pos V @Period_Left -60;
-pos Hbar @Period_Left -40;
-pos Q @Quote_Left -45;
-pos P @RCuQuote_Left 20;
-pos Q @RCuQuote_Left -20;
-pos P @LCuQuote_Left 20;
-pos Q @LCuQuote_Left -10;
-pos S @Dash_Left 25;
-pos V @Dash_Left -45;
-pos X @Dash_Left -50;
-pos V @Colon_Left -15;
+@v = [v];
 
 #---------
 
-# UC to LC Class
+# A
 
-pos F @o1_left -26;
-pos F @o2_left -26;
-pos F @o3_left -26;
-pos F @o4_left -26;
-
-pos P @o1_left -27;
-pos P @o2_left -27;
-pos P @o3_left -27;
-pos P @o4_left -27;
-
-pos V @o1_left -65;
-pos V @o2_left -65;
-pos V @o3_left -55;
-pos V @o4_left -30;
-pos V @n_left -20;
-pos V @i1_left -15;
-pos V @i2_left 35;
-pos V @i3_left 27;
-pos V @u1_left -30;
-pos V @s_left -25;
-pos V @z_left -20;
-
-pos X @o1_left -50;
-pos X @o2_left -50;
-pos X @o3_left -50;
-pos X @o4_left -40;
-pos X @u1_left -40;
-pos X @t_left -25;
-pos X @s_left -15;
-
-#------
-
-# LC to LC Class
-
-
-pos f @o1_left -7;
-pos f @o2_left -7;
-pos f @o3_left -7;
-pos f @i2_left 110;
-pos f @i3_left 65;
-
-pos iacute @n_left 10;
-
-pos scaron @i3_left 10;
-
-pos x @o1_left -15;
-pos x @o2_left -15;
-pos x @o3_left -15;
-pos x @o4_left -15;
-
-#------
-
-# LC to Punctuation CLass
-
-pos v @Period_Left -20;
-
-pos f @RCuQuote_Left 120;
-pos f @LCuQuote_Left 120;
-pos f @Quote_Left 140;
-
-#-------
-
-# Punctuation to LC Class
-
-pos slash @o1_left -130;
-pos slash @o2_left -130;
-pos slash @o3_left -130;
-pos slash @o4_left -130;
-
-pos slash @n_left -70;
-
-pos slash @f_left -27;
-
-pos slash @i1_left -13;
-pos slash @i2_left 30;
-pos slash @i3_left -13;
-
-pos slash @s_left -85;
-
-pos slash @t_left -27;
-
-pos slash @u1_left -70;
-
-pos slash @z_left -70;
-
-
-subtable;
-
-#################
-# CLASS TO CLASS
-#################
-
-# UC class to UC class
-
+pos @A_Right @t_left -15;
 pos @A_Right @J_Left 30;
 pos @A_Right @T_Left -20;
 pos @A_Right @W_Left -20;
 pos @A_Right @Y_Left -60;
+pos @A_Right @V -30;
+pos @A_Right @Hbar -35;
+pos @A_Right @AE 25;
+pos @A_Right @Quote_Left -90;
+pos @A_Right @RCuQuote_Left -50;
+pos @A_Right @LCuQuote_Left -50;
+pos @A_Right @Dash_Left 10;
+
+
+
+# B
+
+pos @B_Right @T_Left -10;
+
+# C
 
 pos @C_Right @Y_Left -15;
 pos @C_Right @Z_Left -2;
-
-pos @D_Right @A_Left -10;
-pos @D_Right @T_Left -25;
-
-pos @G_Right @A_Left -5;
-
-pos @K_Right @O_Left -25;
-
-pos @L_Right @O_Left -18;
-pos @L_Right @T_Left -70;
-
-pos @O_Right @A_Left -10;
-pos @O_Right @B_Left -10;
-pos @O_Right @E_Left -8;
-pos @O_Right @T_Left -20;
-pos @O_Right @W_Left -2;
-pos @O_Right @Y_Left -30;
-pos @O_Right @Z_Left -7;
-
-pos @Ohorn_Right @A_Left -50;
-
-pos @R_Right @O_Left -12;
-pos @R_Right @T_Left -27;
-
-pos @T_Right @A_Left -40;
-pos @T_Right @O_Left -20;
-
-pos @Uhorn_Right @A_Left -85;
-
-pos @U_Right @A_Left -10;
-
-pos @W_Right @A_Left -50;
-pos @W_Right @O_Left -7;
-
-pos @Y_Right @A_Left -85;
-pos @Y_Right @O_Left -22;
-
-pos @Z_Right @O_Left -20;
-
-
-#---
-
-
-# Punctuation Class to UC Class
-
-pos @Period_Right @A_Left 10;
-pos @Period_Right @J_Left 50;
-pos @Period_Right @T_Left -30;
-pos @Period_Right @Y_Left -70;
-pos @Period_Right @W_Left -20;
-
-pos @Quote_Right @A_Left -110;
-pos @Quote_Right @B_Left 15;
-pos @Quote_Right @E_Left 15;
-pos @Quote_Right @O_Left -30;
-pos @Quote_Right @J_Left -15;
-pos @Quote_Right @T_Left 20;
-
-pos @LCuQuote_Right @A_Left -60;
-pos @LCuQuote_Right @B_Left 25;
-pos @LCuQuote_Right @E_Left 25;
-pos @LCuQuote_Right @T_Left 30;
-
-pos @RCuQuote_Right @A_Left -70;
-pos @RCuQuote_Right @B_Left 30;
-pos @RCuQuote_Right @W_Left 30;
-pos @RCuQuote_Right @Y_Left 20;
-pos @RCuQuote_Right @Z_Left 20;
-pos @RCuQuote_Right @E_Left 30;
-
-pos @Dash_Right @B_Left -10;
-pos @Dash_Right @T_Left -35;
-pos @Dash_Right @Y_Left -55;
-pos @Dash_Right @Z_Left -10;
-
-
-#---
-
-
-# UC Class to Punctuation Class
-
-pos @D_Right @Period_Left -40;
-pos @G_Right @Period_Left -20;
-pos @O_Right @Period_Left -20;
-pos @T_Right @Period_Left -50;
-pos @W_Right @Period_Left -60;
-pos @Y_Right @Period_Left -80;
-pos @Ohorn_Right @Period_Left -55;
-pos @Uhorn_Right @Period_Left -110;
-
-pos @A_Right @Quote_Left -90;
-pos @C_Right @Quote_Left 40;
-pos @D_Right @Quote_Left -30;
-pos @L_Right @Quote_Left -110;
-pos @O_Right @Quote_Left -35;
-pos @R_Right @Quote_Left -40;
-pos @T_Right @Quote_Left 20;
-
-pos @A_Right @RCuQuote_Left -50;
-pos @C_Right @RCuQuote_Left 30;
-pos @G_Right @RCuQuote_Left 20;
-pos @L_Right @RCuQuote_Left -60;
-pos @R_Right @RCuQuote_Left -10;
-pos @T_Right @RCuQuote_Left 30;
-
-pos @A_Right @LCuQuote_Left -50;
-pos @C_Right @LCuQuote_Left 20;
-pos @L_Right @LCuQuote_Left -60;
-pos @R_Right @LCuQuote_Left -10;
-
-pos @A_Right @Dash_Left 10;
-pos @K_Right @Dash_Left -45;
-pos @L_Right @Dash_Left -45;
-pos @R_Right @Dash_Left -15;
-pos @T_Right @Dash_Left -35;
-pos @W_Right @Dash_Left -30;
-pos @Y_Right @Dash_Left -50;
-pos @Z_Right @Dash_Left -50;
-
-pos @T_Right @Colon_Left -35;
-pos @Y_Right @Colon_Left -35;
-
-
-#---------
-
-# UC Class to LC Class
-
-pos @A_Right @t_left -15;
-
+pos @C_Right @X -15;
 pos @C_Right @o1_left -10;
 pos @C_Right @o2_left -10;
 pos @C_Right @o3_left -10;
 pos @C_Right @o4_left -10;
+pos @C_Right @Quote_Left 40;
+pos @C_Right @RCuQuote_Left 30;
+pos @C_Right @LCuQuote_Left 20;
+pos @C_Right @at -15;
+
+
+
+# D
+
+pos @D_Right @A_Left -10;
+pos @D_Right @T_Left -25;
+pos @D_Right @AE -15;
+pos @D_Right @Period_Left -40;
+pos @D_Right @Quote_Left -30;
+
+
+
+# E
+
+# F
+
+pos @F @AE -35;
+pos @F @A_Left -40;
+pos @F @o1_left -26;
+pos @F @o2_left -26;
+pos @F @o3_left -26;
+pos @F @o4_left -26;
+pos @F @Period_Left -60;
+pos @F @at -20;
+pos @F @slash -40;
+pos @F @x -30;
+
+
+
+# G
+
+pos @G_Right @A_Left -5;
+pos @G_Right @Period_Left -20;
+pos @G_Right @RCuQuote_Left 20;
+
+
+
+# H
+
+pos @Hbar @AE -30;
+pos @Hbar @T_Left -40;
+pos @Hbar @Period_Left -40;
+
+
+# I
 
 pos @I_Right @o1_left -20;
 pos @I_Right @o2_left -20;
 pos @I_Right @o3_left -20;
 pos @I_Right @o4_left -20;
 
+# J
+
 pos @J_Right @o1_left -12;
 pos @J_Right @o2_left -12;
 pos @J_Right @o3_left -12;
 pos @J_Right @o4_left -12;
 pos @J_Right @u1_left -15;
+
+# K
 
 pos @K_Right @o1_left -25;
 pos @K_Right @o2_left -25;
@@ -615,6 +320,14 @@ pos @K_Right @o4_left -25;
 pos @K_Right @t_left -22;
 pos @K_Right @s_left -7;
 pos @K_Right @f_left -20;
+pos @K_Right @O_Left -25;
+pos @K_Right @AE 25;
+pos @K_Right @Dash_Left -45;
+pos @K_Right @at -35;
+
+
+
+# L
 
 pos @L_Right @o1_left -12;
 pos @L_Right @o2_left -12;
@@ -622,11 +335,92 @@ pos @L_Right @o3_left -12;
 pos @L_Right @o4_left -12;
 pos @L_Right @t_left -25;
 pos @L_Right @f_left -35;
+pos @L_Right @O_Left -18;
+pos @L_Right @T_Left -70;
+pos @L_Right @AE 25;
+pos @L_Right @Quote_Left -110;
+pos @L_Right @RCuQuote_Left -60;
+pos @L_Right @LCuQuote_Left -60;
+pos @L_Right @Dash_Left -45;
+
+
+
+# M
+
+# N
+
+# O
+
+pos @O_Right @A_Left -10;
+pos @O_Right @B_Left -10;
+pos @O_Right @E_Left -8;
+pos @O_Right @T_Left -20;
+pos @O_Right @W_Left -2;
+pos @O_Right @Y_Left -30;
+pos @O_Right @Z_Left -7;
+pos @O_Right @V -10;
+pos @O_Right @X -15;
+pos @O_Right @Period_Left -20;
+pos @O_Right @Quote_Left -35;
+
+
+pos @Ohorn_Right @A_Left -50;
+pos @Ohorn_Right @X -40;
+pos @Ohorn_Right @Period_Left -55;
+
+
+# P
+
+pos @P @AE -70;
+pos @P @A_Left -50;
+pos @P @T_Left -5;
+pos @P @o1_left -27;
+pos @P @o2_left -27;
+pos @P @o3_left -27;
+pos @P @o4_left -27;
+pos @P @Period_Left -70;
+pos @P @RCuQuote_Left 20;
+pos @P @LCuQuote_Left 20;
+pos @P @slash -55;
+
+
+
+# Q
+
+pos @Q @AE 40;
+pos @Q @A_Left 20;
+pos @Q @O_Left -5;
+pos @Q @T_Left -35;
+pos @Q @Quote_Left -45;
+pos @Q @RCuQuote_Left -20;
+pos @Q @LCuQuote_Left -10;
+pos @Q @slash 25;
+
+
+
+# R
 
 pos @R_Right @o1_left -35;
 pos @R_Right @o2_left -35;
 pos @R_Right @o3_left -35;
 pos @R_Right @o4_left -35;
+pos @R_Right @f -22;
+pos @R_Right @O_Left -12;
+pos @R_Right @T_Left -27;
+pos @R_Right @AE 20;
+pos @R_Right @Quote_Left -40;
+pos @R_Right @RCuQuote_Left -10;
+pos @R_Right @LCuQuote_Left -10;
+pos @R_Right @Dash_Left -15;
+pos @R_Right @slash 15;
+
+
+# S
+
+pos @S @Dash_Left 25;
+
+
+# T
 
 pos @T_Right @o1_left -100;
 pos @T_Right @o2_left -80;
@@ -639,11 +433,61 @@ pos @T_Right @i3_left 30;
 pos @T_Right @u1_left -35;
 pos @T_Right @s_left -60;
 pos @T_Right @z_left -50;
+pos @T_Right @x -60;
+pos @T_Right @f -10;
+pos @T_Right @rcaron -20;
+pos @T_Right @itilde 60;
+pos @T_Right @ihookabove 10;
+pos @T_Right @A_Left -40;
+pos @T_Right @O_Left -20;
+pos @T_Right @AE -25;
+pos @T_Right @Period_Left -50;
+pos @T_Right @Quote_Left 20;
+pos @T_Right @RCuQuote_Left 30;
+pos @T_Right @Dash_Left -35;
+pos @T_Right @Colon_Left -35;
+
+
+# U
 
 pos @U_Right @o1_left -8;
 pos @U_Right @o2_left -8;
 pos @U_Right @o3_left -8;
 pos @U_Right @o4_left -8;
+pos @U_Right @A_Left -10;
+pos @Uhorn_Right @A_Left -85;
+pos @Uhorn_Right @X -80;
+pos @Uhorn_Right @Period_Left -110;
+pos @U_Right @slash -25;
+
+
+# V
+
+pos @V @AE -50;
+pos @V @A_Left -60;
+pos @V @O_Left -12;
+pos @V @o1_left -65;
+pos @V @o2_left -65;
+pos @V @o3_left -55;
+pos @V @o4_left -30;
+pos @V @n_left -20;
+pos @V @i1_left -15;
+pos @V @i2_left 35;
+pos @V @i3_left 27;
+pos @V @u1_left -30;
+pos @V @s_left -25;
+pos @V @z_left -20;
+pos @V @Period_Left -60;
+pos @V @Dash_Left -45;
+pos @V @Colon_Left -15;
+pos @V @at -30;
+pos @V @slash -150;
+pos @V @x -20;
+pos @V @f -15;
+
+
+
+# W
 
 pos @W_Right @o1_left -47;
 pos @W_Right @o2_left -47;
@@ -656,6 +500,36 @@ pos @W_Right @i3_left 27;
 pos @W_Right @u1_left -25;
 pos @W_Right @s_left -25;
 pos @W_Right @z_left -10;
+pos @W_Right @x -10;
+pos @W_Right @itilde 50;
+pos @W_Right @utilde 50;
+pos @W_Right @A_Left -50;
+pos @W_Right @O_Left -7;
+pos @W_Right @AE -50;
+pos @W_Right @Period_Left -60;
+pos @W_Right @Dash_Left -30;
+pos @W_Right @slash -80;
+
+
+
+# X
+
+pos @X @O_Left -27;
+pos @X @o1_left -50;
+pos @X @o2_left -50;
+pos @X @o3_left -50;
+pos @X @o4_left -40;
+pos @X @u1_left -40;
+pos @X @t_left -25;
+pos @X @s_left -15;
+pos @X @Dash_Left -50;
+pos @X @at -30;
+pos @X @f -20;
+
+
+
+
+# Y
 
 pos @Y_Right @o1_left -87;
 pos @Y_Right @o2_left -87;
@@ -668,6 +542,22 @@ pos @Y_Right @u1_left -60;
 pos @Y_Right @t_left -25;
 pos @Y_Right @s_left -55;
 pos @Y_Right @z_left -45;
+pos @Y_Right @x -50;
+pos @Y_Right @f -15;
+pos @Y_Right @rcaron -30;
+pos @Y_Right @itilde 50;
+pos @Y_Right @A_Left -85;
+pos @Y_Right @O_Left -22;
+pos @Y_Right @AE -50;
+pos @Y_Right @Period_Left -80;
+pos @Y_Right @Dash_Left -50;
+pos @Y_Right @Colon_Left -35;
+pos @Y_Right @at -40;
+pos @Y_Right @slash -110;
+
+
+
+# Z
 
 pos @Z_Right @o1_left -27;
 pos @Z_Right @o2_left -27;
@@ -675,21 +565,84 @@ pos @Z_Right @o3_left -27;
 pos @Z_Right @o4_left -27;
 pos @Z_Right @u1_left -25;
 pos @Z_Right @t_left -20;
+pos @Z_Right @f -10;
+pos @Z_Right @O_Left -20;
+pos @Z_Right @AE 20;
+pos @Z_Right @Dash_Left -50;
 
 
-#-------
+# THORN
 
-# LC Class to LC Class
+pos @Thorn @A_Left -25;
+pos @Thorn @T_Left -50;
+pos @Thorn @Y_Left -55;
+pos @Thorn @Z_Left -35;
+pos @Thorn @B_Left -15;
+pos @Thorn @X -45;
+pos @Thorn @V -15;
+
+subtable;
+
+# a
+
+pos @a_right @Period_Left -18;
+
+# f
+
+pos @f @o1_left -7;
+pos @f @o2_left -7;
+pos @f @o3_left -7;
+pos @f @i2_left 110;
+pos @f @i3_left 65;
+pos @f @RCuQuote_Left 120;
+pos @f @LCuQuote_Left 120;
+pos @f @Quote_Left 140;
+
+# i
+
+pos @iacute @n_left 10;
+pos @i1_right @RCuQuote_Left 30;
+pos @i2_right @RCuQuote_Left 30;
+pos @i3_right @RCuQuote_Left 30;
+pos @i1_right @Quote_Left 40;
+pos @i2_right @Quote_Left 40;
+pos @i3_right @Quote_Left 40;
+
+# r
 
 pos @r_right @o1_left -16;
 pos @r_right @o2_left -16;
 pos @r_right @o3_left -16;
 pos @r_right @o4_left -16;
+pos @r_right @Period_Left -35;
+
+# s
+
+pos @scaron @i3_left 10;
+
+# t
 
 pos @t_right @o1_left -13;
 pos @t_right @o2_left -13;
 pos @t_right @o3_left -13;
 pos @t_right @o4_left -13;
+
+# v
+
+pos @v @Period_Left -20;
+
+#w
+
+pos @w_right @Period_Left -15;
+
+# x
+
+pos @x @o1_left -15;
+pos @x @o2_left -15;
+pos @x @o3_left -15;
+pos @x @o4_left -15;
+
+# z
 
 pos @z_right @o1_left -12;
 pos @z_right @o2_left -12;
@@ -697,43 +650,104 @@ pos @z_right @o3_left -12;
 pos @z_right @o4_left -12;
 pos @z_right @i3_left 30;
 
-#-------
 
-# LC Class to Punctuation Class
+subtable;
 
-pos @a_right @Period_Left -18;
+#---
 
-pos @i1_right @RCuQuote_Left 30;
-pos @i2_right @RCuQuote_Left 30;
-pos @i3_right @RCuQuote_Left 30;
+# Period
 
-pos @i1_right @Quote_Left 40;
-pos @i2_right @Quote_Left 40;
-pos @i3_right @Quote_Left 40;
+pos @Period_Right @A_Left 10;
+pos @Period_Right @J_Left 50;
+pos @Period_Right @T_Left -30;
+pos @Period_Right @Y_Left -70;
+pos @Period_Right @W_Left -20;
+pos @Period_Right @AE 40;
+pos @Period_Right @V -20;
+pos @Period_Right @Hbar -20;
 
-pos @r_right @Period_Left -35;
+# Quote
 
-pos @w_right @Period_Left -15;
-
-#--------
-
-# Punctuation Class to LC Class
-
+pos @Quote_Right @A_Left -110;
+pos @Quote_Right @B_Left 15;
+pos @Quote_Right @E_Left 15;
+pos @Quote_Right @O_Left -30;
+pos @Quote_Right @J_Left -15;
+pos @Quote_Right @T_Left 20;
 pos @Quote_Right @o1_left -70;
 pos @Quote_Right @o2_left -70;
 pos @Quote_Right @o3_left -70;
 pos @Quote_Right @o4_left -70;
-
 pos @Quote_Right @u1_left -30;
+pos @Quote_Right @AE -130;
 
+
+# Left Curly Quote
+
+pos @LCuQuote_Right @A_Left -60;
+pos @LCuQuote_Right @B_Left 25;
+pos @LCuQuote_Right @E_Left 25;
+pos @LCuQuote_Right @T_Left 30;
+pos @LCuQuote_Right @AE -100;
+
+
+# Right Curly Quote
+
+pos @RCuQuote_Right @A_Left -70;
+pos @RCuQuote_Right @B_Left 30;
+pos @RCuQuote_Right @W_Left 30;
+pos @RCuQuote_Right @Y_Left 20;
+pos @RCuQuote_Right @Z_Left 20;
+pos @RCuQuote_Right @E_Left 30;
 pos @RCuQuote_Right @o1_left -40;
+pos @RCuQuote_Right @V 30;
+pos @RCuQuote_Right @AE -100;
+pos @RCuQuote_Right @Eth 20;
+
+
+# Dash
+
+pos @Dash_Right @B_Left -10;
+pos @Dash_Right @T_Left -35;
+pos @Dash_Right @Y_Left -55;
+pos @Dash_Right @Z_Left -10;
+pos @Dash_Right @X -35;
+pos @Dash_Right @AE -20;
+pos @Dash_Right @Eth 20;
+
+
+# At
+
+pos @at @B_Left -15;
+pos @at @Y_Left -40;
+pos @at @Z_Left -15;
+pos @at @X -15;
+
+
+
+# Slash
+
+pos @slash @A_Left -90; 
+pos @slash @B_Left 35;
+pos @slash @E_Left 35;
+pos @slash @T_Left 55;
+pos @slash @o1_left -130;
+pos @slash @o2_left -130;
+pos @slash @o3_left -130;
+pos @slash @o4_left -130;
+pos @slash @n_left -70;
+pos @slash @f_left -27;
+pos @slash @i1_left -13;
+pos @slash @i2_left 30;
+pos @slash @i3_left -13;
+pos @slash @s_left -85;
+pos @slash @t_left -27;
+pos @slash @u1_left -70;
+pos @slash @z_left -70;
+pos @slash @X 15;
+pos @slash @V 20;
+pos @slash @AE -100;
+pos @slash @slash -230;
 
 
 subtable;
-
-
-
-
-
-
-
