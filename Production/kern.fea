@@ -173,7 +173,7 @@ subtable;
 
 @i3_left = [icircumflex idieresis ihookabove imacron jcircumflex];
 
-@i1_right = [i iogonek idotbelow j];
+@i1_right = [i iogonek idotbelow j fi];
 
 @i2_right = [igrave icaron];
 
@@ -211,7 +211,7 @@ subtable;
 
 @z_right = [z zacute zdotaccent zcaron zdotbelow];
 
-@f_left = [f fi fl];
+@f_left = [f fi fl fb fh fk ft fj];
 
 @v = [v];
 

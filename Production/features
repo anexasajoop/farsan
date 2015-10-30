@@ -238,3 +238,18 @@ feature abvm {
 feature blwm {
 	lookup blwm;
 } blwm;
+
+
+###################
+
+feature liga {
+  
+  sub f i by fi;
+  sub f l by fl;
+  sub f b by fb;
+  sub f h by fh;
+  sub f k by fk;
+  sub f t by ft;
+  sub f j by fj;
+
+} liga;
