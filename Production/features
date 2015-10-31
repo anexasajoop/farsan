@@ -150,6 +150,7 @@ feature pres {
 feature abvs {
 #	lookup abvs_ra_matra_vocalic_liquids;
 	lookup abvs;
+  lookup abvs_ikar;
 	lookup abvs_J;
 
   lookup abvs_hf_reph;

@@ -893,6 +893,7 @@ lookup abvs_ikar {
 	sub @IKAR @ikarANUSVARA1 gjAnusvara' by gjAnusvara.alt1;
 	sub @IKAR @ikarANUSVARA2 gjAnusvara' by gjAnusvara.alt2;
 	sub @IKAR @ikarANUSVARA3 gjAnusvara' by gjAnusvara.alt3;
+	sub @IKAR @ikarANUSVARA4 gjAnusvara' by gjAnusvara.alt1;
 
 } abvs_ikar;
 
