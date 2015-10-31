@@ -243,6 +243,62 @@ feature blwm {
 
 ###################
 
+
+feature frac {
+
+  sub one slash four by onequarter;
+  sub one slash two by onehalf;
+  sub three slash four by threequarters;
+  sub one slash three by onethird;
+  sub two slash three by twothirds;
+  sub one slash eight by oneeighth;
+  sub three slash eight by threeeighths;
+  sub five slash eight by fiveeighths;
+  sub seven slash eight by seveneighths;
+
+} frac;
+
+feature ordn {
+
+  sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+  sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+
+} ordn;
+
+feature sups {
+
+  sub one by onesuperior;
+  sub two by twosuperior;
+  sub three by threesuperior;
+  sub four by foursuperior;
+  sub five by fivesuperior;
+  sub six by sixsuperior;
+  sub seven by sevensuperior;
+  sub eight by eightsuperior;
+  sub nine by ninesuperior;
+  sub zero by zerosuperior;
+  sub parenleft by parenleftsuperior;
+  sub parenright by parenrightsuperior;
+
+} sups;
+
+feature sinf {
+
+  sub one by oneinferior;
+  sub two by twoinferior;
+  sub three by threeinferior;
+  sub four by fourinferior;
+  sub five by fiveinferior;
+  sub six by sixinferior;
+  sub seven by seveninferior;
+  sub eight by eightinferior;
+  sub nine by nineinferior;
+  sub zero by zeroinferior;
+  sub parenleft by parenleftinferior;
+  sub parenright by parenrightinferior;
+
+} sinf;
+
 feature liga {
   
   sub f i by fi;
