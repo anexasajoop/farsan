@@ -774,6 +774,36 @@ lookup abvs_hf_reph_anusvara {
 		sub gjIsign' gjSs gjSsa gjRephAnusvara by gjIsignRephAnusvara;
 		sub gjIsign' gjSs gjPRa gjRephAnusvara by gjIsignRephAnusvara;
 
+		sub gjIsign' gjS gjKha gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjS gjCa gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjS gjCha gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjS gjTa gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjS gjTha gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjS gjDa gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjS gjPa gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjS gjBa gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjS gjLa gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjS gjSa gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjS gjVa gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjS gjPRa gjRephAnusvara by gjIsignRephAnusvara;
+
+		sub gjIsign' gjN gjKa gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjN gjDda gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjN gjPha gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjN gjCa gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjN gjCha gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjN gjJa gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjN gjTha gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjN gjDa gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjN gjDha gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjN gjBha gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjN gjMa gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjN gjYa gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjN gjLa gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjN gjVa gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjN gjDhRa gjRephAnusvara by gjIsignRephAnusvara;
+		sub gjIsign' gjN gjPRa gjRephAnusvara by gjIsignRephAnusvara;
+
 
 } abvs_hf_reph_anusvara;
 
@@ -958,6 +988,36 @@ lookup abvs_hf_reph {
 		sub gjIsign' gjSs gjSsa gjReph by gjIsignReph;
 		sub gjIsign' gjSs gjPRa gjReph by gjIsignReph;
 
+		sub gjIsign' gjS gjKha gjReph by gjIsignReph;
+		sub gjIsign' gjS gjCa gjReph by gjIsignReph;
+		sub gjIsign' gjS gjCha gjReph by gjIsignReph;
+		sub gjIsign' gjS gjTa gjReph by gjIsignReph;
+		sub gjIsign' gjS gjTha gjReph by gjIsignReph;
+		sub gjIsign' gjS gjDa gjReph by gjIsignReph;
+		sub gjIsign' gjS gjPa gjReph by gjIsignReph;
+		sub gjIsign' gjS gjBa gjReph by gjIsignReph;
+		sub gjIsign' gjS gjLa gjReph by gjIsignReph;
+		sub gjIsign' gjS gjSa gjReph by gjIsignReph;
+		sub gjIsign' gjS gjVa gjReph by gjIsignReph;
+		sub gjIsign' gjS gjPRa gjReph by gjIsignReph;
+
+		sub gjIsign' gjN gjKa gjReph by gjIsignReph;
+		sub gjIsign' gjN gjDda gjReph by gjIsignReph;
+		sub gjIsign' gjN gjPha gjReph by gjIsignReph;
+		sub gjIsign' gjN gjCa gjReph by gjIsignReph;
+		sub gjIsign' gjN gjCha gjReph by gjIsignReph;
+		sub gjIsign' gjN gjJa gjReph by gjIsignReph;
+		sub gjIsign' gjN gjTha gjReph by gjIsignReph;
+		sub gjIsign' gjN gjDa gjReph by gjIsignReph;
+		sub gjIsign' gjN gjDha gjReph by gjIsignReph;
+		sub gjIsign' gjN gjBha gjReph by gjIsignReph;
+		sub gjIsign' gjN gjMa gjReph by gjIsignReph;
+		sub gjIsign' gjN gjYa gjReph by gjIsignReph;
+		sub gjIsign' gjN gjLa gjReph by gjIsignReph;
+		sub gjIsign' gjN gjVa gjReph by gjIsignReph;
+		sub gjIsign' gjN gjDhRa gjReph by gjIsignReph;
+		sub gjIsign' gjN gjPRa gjReph by gjIsignReph;
+
 } abvs_hf_reph;
 
 lookup abvs_hf_removeReph {
@@ -1139,6 +1199,38 @@ lookup abvs_hf_removeReph {
 	sub [gjIsignReph gjIsignRephAnusvara] gjSs gjVa' [gjReph gjRephAnusvara]' by gjVa;
 	sub [gjIsignReph gjIsignRephAnusvara] gjSs gjSsa' [gjReph gjRephAnusvara]' by gjSsa;
 	sub [gjIsignReph gjIsignRephAnusvara] gjSs gjPRa' [gjReph gjRephAnusvara]' by gjPRa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjS gjKha' [gjReph gjRephAnusvara]' by gjKha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjS gjCa' [gjReph gjRephAnusvara]' by gjCa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjS gjCha' [gjReph gjRephAnusvara]' by gjCha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjS gjTa' [gjReph gjRephAnusvara]' by gjTa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjS gjTha' [gjReph gjRephAnusvara]' by gjTha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjS gjDa' [gjReph gjRephAnusvara]' by gjDa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjS gjPa' [gjReph gjRephAnusvara]' by gjPa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjS gjBa' [gjReph gjRephAnusvara]' by gjBa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjS gjLa' [gjReph gjRephAnusvara]' by gjLa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjS gjSa' [gjReph gjRephAnusvara]' by gjSa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjS gjVa' [gjReph gjRephAnusvara]' by gjVa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjS gjPRa' [gjReph gjRephAnusvara]' by gjPRa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjN gjCa' [gjReph gjRephAnusvara]' by gjCa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjN gjCha' [gjReph gjRephAnusvara]' by gjCha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjN gjJa' [gjReph gjRephAnusvara]' by gjJa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjN gjTha' [gjReph gjRephAnusvara]' by gjTha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjN gjDa' [gjReph gjRephAnusvara]' by gjDa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjN gjDha' [gjReph gjRephAnusvara]' by gjDha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjN gjBha' [gjReph gjRephAnusvara]' by gjBha;
+	sub [gjIsignReph gjIsignRephAnusvara] gjN gjMa' [gjReph gjRephAnusvara]' by gjMa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjN gjYa' [gjReph gjRephAnusvara]' by gjYa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjN gjLa' [gjReph gjRephAnusvara]' by gjLa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjN gjVa' [gjReph gjRephAnusvara]' by gjVa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjN gjDhRa' [gjReph gjRephAnusvara]' by gjDhRa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjN gjPRa' [gjReph gjRephAnusvara]' by gjPRa;
+
+	sub [gjIsignReph gjIsignRephAnusvara] gjN gjKa' [gjReph gjRephAnusvara]' by gjKa;
+	sub [gjIsignReph gjIsignRephAnusvara] gjN gjDda' [gjReph gjRephAnusvara]' by gjDda;
+	sub [gjIsignReph gjIsignRephAnusvara] gjN gjPha' [gjReph gjRephAnusvara]' by gjPha;
+
 
 } abvs_hf_removeReph;
 
@@ -1650,6 +1742,33 @@ lookup psts_hf_reph {
 	sub @ISIGN' gjSs gjVa by @ISIGN6;
 	sub @ISIGN' gjSs gjSsa by @ISIGN6;
 	sub @ISIGN' gjSs gjPRa by @ISIGN6;
+
+	sub @ISIGN' gjS gjKha by @ISIGN10;
+	sub @ISIGN' gjS gjCa by @ISIGN9;
+	sub @ISIGN' gjS gjCha by @ISIGN9;
+	sub @ISIGN' gjS gjTa by @ISIGN7;
+	sub @ISIGN' gjS gjTha by @ISIGN7;
+	sub @ISIGN' gjS gjDa by @ISIGN6;
+	sub @ISIGN' gjS gjPa by @ISIGN7;
+	sub @ISIGN' gjS gjBa by @ISIGN10;
+	sub @ISIGN' gjS gjLa by @ISIGN9;
+	sub @ISIGN' gjS gjSa by @ISIGN9;
+	sub @ISIGN' gjS gjVa by @ISIGN7;
+	sub @ISIGN' gjS gjPRa by @ISIGN7;
+
+	sub @ISIGN' gjN gjCa by @ISIGN7;
+	sub @ISIGN' gjN gjCha by @ISIGN7;
+	sub @ISIGN' gjN gjJa by @ISIGN8;
+	sub @ISIGN' gjN gjTha by @ISIGN6;
+	sub @ISIGN' gjN gjDa by @ISIGN4;
+	sub @ISIGN' gjN gjDha by @ISIGN6;
+	sub @ISIGN' gjN gjBha by @ISIGN8;
+	sub @ISIGN' gjN gjMa by @ISIGN5;
+	sub @ISIGN' gjN gjYa by @ISIGN6;
+	sub @ISIGN' gjN gjLa by @ISIGN6;
+	sub @ISIGN' gjN gjVa by @ISIGN5;
+	sub @ISIGN' gjN gjDhRa by @ISIGN6;
+	sub @ISIGN' gjN gjPRa by @ISIGN6;
 
 } psts_hf_reph;
 
