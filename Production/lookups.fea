@@ -1539,6 +1539,21 @@ lookup blws {
 	sub gjRa gjUsign  by gjRa_mU;
 	sub gjRa gjUusign by gjRa_mUu;
 
+	sub gjKPha gjUsign  by gjKPha_mU;
+	sub gjKPha gjUusign by gjKPha_mUu;
+	sub gjPPha gjUsign  by gjPPha_mU;
+	sub gjPPha gjUusign by gjPPha_mUu;
+	sub gjPhPha gjUsign  by gjPhPha_mU;
+	sub gjPhPha gjUusign by gjPhPha_mUu;
+	sub gjMPha gjUsign  by gjMPha_mU;
+	sub gjMPha gjUusign by gjMPha_mUu;
+	sub gjLPha gjUsign  by gjLPha_mU;
+	sub gjLPha gjUusign by gjLPha_mUu;
+	sub gjSsPha gjUsign  by gjSsPha_mU;
+	sub gjSsPha gjUusign by gjSsPha_mUu;
+	sub gjSPha gjUsign  by gjSPha_mU;
+	sub gjSPha gjUusign by gjSPha_mUu;
+
 	sub gjPha gjUsign  by gjPha_mU;
 	sub gjPha gjUusign by gjPha_mUu;
 	sub gjPha gjRvocalsign  by gjPha_mR;
@@ -2155,6 +2170,21 @@ lookup abvm {
 	pos base [gjPhTa] <anchor 750 628> mark @topMarks <anchor 747 628> mark @candraMarks;
 	pos base [gjPhNa] <anchor 714 628> mark @topMarks <anchor 711 628> mark @candraMarks;
 	pos base [gjPhPha] <anchor 665 628> mark @topMarks <anchor 623 628> mark @candraMarks;
+
+	pos base [gjKPha_mU] <anchor 592 628> mark @candraMarks;
+	pos base [gjKPha_mUu] <anchor 592 628> mark @candraMarks;
+	pos base [gjPPha_mU] <anchor 524 628> mark @candraMarks;
+	pos base [gjPPha_mUu] <anchor 524 628> mark @candraMarks;
+	pos base [gjPhPha_mU] <anchor 616 628> mark @candraMarks;
+	pos base [gjPhPha_mUu] <anchor 616 628> mark @candraMarks;
+	pos base [gjMPha_mU] <anchor 499 628> mark @candraMarks;
+	pos base [gjMPha_mUu] <anchor 499 628> mark @candraMarks;
+	pos base [gjLPha_mU] <anchor 547 628> mark @candraMarks;
+	pos base [gjLPha_mUu] <anchor 547 628> mark @candraMarks;
+	pos base [gjSsPha_mU] <anchor 474 628> mark @candraMarks;
+	pos base [gjSsPha_mUu] <anchor 474 628> mark @candraMarks;
+	pos base [gjSPha_mU] <anchor 607 628> mark @candraMarks;
+	pos base [gjSPha_mUu] <anchor 607 628> mark @candraMarks;
 
 	# BA
 
