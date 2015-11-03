@@ -545,6 +545,7 @@
 	gjSa
 #	gjHa
 
+	gjKNa gjKTRa gjKTa gjGRa gjGhRa
 	gjTtRa gjTthRa gjDdhRa gjHRa
 	gjNgKa gjTtTta gjTtTtha gjTtVa gjTthTtha gjDdDda gjDdDdha gjDdVa gjDdhDdha gjHNa gjHVa
 	gjDDa gjDNa gjDVa gjDGha gjDDha
@@ -559,7 +560,9 @@
 	gjNDRa gjNDVa
 	 gjSsTtha gjSsTthRa
 	gjLDRa
-	gjLTta gjLTtha gjLDdha gjLHa 
+	gjLTta gjLTtha 
+	gjKTta gjKCha gjKPha gjKDda gjKSTta gjKSDda 
+	gjLDdha gjLHa 
 	gjSsTta gjSsTtRa
 	gjPTta gjPHa gjNHa
 
@@ -570,24 +573,23 @@
 	gjShRa
 	gjKSsa gjChVa gjTTa gjDMa gjDYa gjShRa
 
-	gjKhRa gjCRa gjChRa gjNyRa gjBRa gjLRa gjSRa
+	gjKhRa gjCRa gjChRa gjNyRa gjBRa gjLRa gjSRa gjJRa gjNnRa gjBhRa
 	gjJNya gjVHa gjSsKa gjSsPha gjNTta  
 	
-
-	gjJRa gjNnRa gjBhRa
-	gjKKa gjTNa gjNTa gjPKa gjPNa gjPPha gjMKa gjMDa gjMNa gjMPha gjMHa gjVNa
+	gjKKa    
+	gjTNa gjNTa gjPKa gjPNa gjPPha gjMKa gjMDa gjMNa gjMPha gjMHa gjVNa
 	gjSsKRa  gjSsTtVa 
 
 	gjKhTa gjKhMa gjNgMa gjTtYa gjTthYa gjDdhYa gjPhTa gjBNa gjBhNa gjMSha gjLGa gjSTha gjSMa gjSYa gjLlYa gjHMa gjHYa
 	gjKPRa gjKSsMa gjLVDda
 
-	gjKCha gjKJha gjCCha gjBJha gjBhYa gjVJa
+	 gjKJha gjCCha gjBJha gjBhYa gjVJa
 	gjCChVa gjNTYa
 
 	gjKJa gjKhKha gjChYa gjJJha gjNyJa gjPhJa gjBJa gjSJa
 	gjKTVa gjTNYa gjTSNa gjTSVa gjNTSa gjNMYa gjSsMYa
 
-	gjKTYa gjKSTta gjKSDda gjTSYa gjSsTtYa gjSsTthYa
+	gjKTYa gjTSYa gjSsTtYa gjSsTthYa
 
 	gjKSsMYa gjKSTa gjLKYa gjSKVa gjSThYa gjSMYa
 

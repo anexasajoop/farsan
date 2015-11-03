@@ -1530,6 +1530,52 @@ lookup abvs_ikar {
 
 } abvs_ikar;
 
+lookup abvs_hf_anusvara {
+	
+	sub @IKAR gjK gjCa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjK gjNna gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjK gjTha gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjK gjPa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjK gjMa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjK gjYa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjK gjLa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjK gjVa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjK gjSha gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjK gjSa gjAnusvara' by gjAnusvara.alt1;
+
+	sub @IKAR gjKh gjTta gjAnusvara' by gjAnusvara.alt3;
+	sub @IKAR gjKh gjDda gjAnusvara' by gjAnusvara.alt3;
+	sub @IKAR gjKh gjDha gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjKh gjNa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjKh gjYa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjKh gjVa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjKh gjSha gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjKh gjSa gjAnusvara' by gjAnusvara.alt1;
+
+	sub @IKAR gjG gjGa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjG gjGha gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjG gjJha gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjG gjNna gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjG gjDa gjAnusvara' by gjAnusvara.alt3;
+	sub @IKAR gjG gjDha gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjG gjNa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjG gjPa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjG gjBa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjG gjBha gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjG gjMa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjG gjYa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjG gjLa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjG gjVa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjG gjSa gjAnusvara' by gjAnusvara.alt1;
+
+	sub @IKAR gjGh gjGha gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjGh gjNa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjGh gjMa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjGh gjYa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjGh gjVa gjAnusvara' by gjAnusvara.alt1;
+
+} abvs_hf_anusvara;
+
 
 # BELOW-BASE SUBSTITUTIONS
 ###########################
@@ -1603,7 +1649,7 @@ lookup psts_hf_reph {
 
 	sub @ISIGN' gjG gjGa by @ISIGN7;
 	sub @ISIGN' gjG gjGha by @ISIGN7;
-	sub @ISIGN' gjG gjJa by @ISIGN9;
+#	sub @ISIGN' gjG gjJa by @ISIGN9;
 	sub @ISIGN' gjG gjJha by @ISIGN8;
 	sub @ISIGN' gjG gjNna by @ISIGN9;
 	sub @ISIGN' gjG gjDa by @ISIGN5;

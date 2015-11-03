@@ -156,6 +156,7 @@ feature abvs {
   lookup abvs_hf_reph;
   lookup abvs_hf_reph_anusvara;
   lookup abvs_hf_removeReph;
+  lookup abvs_hf_anusvara;
 
   lookup abvs_ikar_reph_anusvara;
   lookup abvs_ikar_reph;
