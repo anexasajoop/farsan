@@ -1630,6 +1630,68 @@ lookup abvs_hf_anusvara {
 	sub @IKAR gjTh gjYa gjAnusvara' by gjAnusvara.alt1;
 	sub @IKAR gjTh gjVa gjAnusvara' by gjAnusvara.alt1;
 
+	sub @IKAR gjDh gjDha gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjDh gjNa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjDh gjMa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjDh gjYa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjDh gjVa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjDh gjN gjYa gjAnusvara' by gjAnusvara.alt1;
+
+	sub @IKAR gjN gjKa gjAnusvara' by gjAnusvara.alt3;
+	sub @IKAR gjN gjCa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjN gjTta gjAnusvara' by gjAnusvara.alt3;
+	sub @IKAR gjN gjDda gjAnusvara' by gjAnusvara.alt3;
+	sub @IKAR gjN gjTha gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjN gjDa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjN gjDha gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjN gjPha gjAnusvara' by gjAnusvara.alt3;
+	sub @IKAR gjN gjBha gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjN gjMa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjN gjYa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjN gjLa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjN gjVa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjN gjDhRa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjN gjPRa gjAnusvara' by gjAnusvara.alt1;
+
+	sub @IKAR gjP gjCa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjP gjTa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjP gjPa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjP gjYa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjP gjLa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjP gjSha gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjP gjSa gjAnusvara' by gjAnusvara.alt1;
+
+	sub @IKAR gjPh gjTha gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjPh gjPa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjPh gjLa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjPh gjSha gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjPh gjSa gjAnusvara' by gjAnusvara.alt1;
+
+	sub @IKAR gjB gjDha gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjB gjBa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjB gjBha gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjB gjYa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjB gjLa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjB gjVa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjB gjSha gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjB gjSa gjAnusvara' by gjAnusvara.alt1;
+
+	sub @IKAR gjBh gjNna gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjBh gjBha gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjBh gjLa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjBh gjVa gjAnusvara' by gjAnusvara.alt1;
+
+	sub @IKAR gjM gjTa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjM gjBha gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjM gjMa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjM gjYa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjM gjVa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjM gjLa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjM gjSa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjM gjPRa gjAnusvara' by gjAnusvara.alt1;
+	sub @IKAR gjM gjNna gjAnusvara' by gjAnusvara.alt1;
+
+
 } abvs_hf_anusvara;
 
 
