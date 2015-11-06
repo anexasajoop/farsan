@@ -162,6 +162,8 @@ feature abvs {
   lookup abvs_ikar_reph;
   lookup abvs_removeReph;
 
+  lookup abvs_vowels;
+
 } abvs;
 
 

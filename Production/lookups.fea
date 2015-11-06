@@ -572,6 +572,15 @@ lookup abvs_J {
 
 } abvs_J;
 
+lookup abvs_vowels {
+	
+	sub gjE gjAnusvara by gjEAnusvara;
+	sub gjAi gjAnusvara by gjAiAnusvara;
+	sub gjO gjAnusvara by gjOAnusvara;
+	sub gjAu gjAnusvara by gjAuAnusvara;
+
+} abvs_vowels;
+
 lookup abvs_ikar_reph_anusvara {
 
 	sub gjIsign' @CONJUNCTFORMS gjRephAnusvara by gjIsignRephAnusvara;
@@ -2468,6 +2477,14 @@ lookup abvm {
 	pos base [gjHMa] <anchor 786 628> mark @topMarks <anchor 783 628> mark @candraMarks;
 	pos base [gjHYa] <anchor 793 628> mark @topMarks <anchor 790 628> mark @candraMarks;
 	pos base [gjHVa] <anchor 294 628> mark @topMarks <anchor 294 628> mark @candraMarks;
+
+	# VOWELS
+
+	pos base [gjI] <anchor 227 628> mark @candraMarks;
+	pos base [gjIi] <anchor 227 628> mark @candraMarks;
+	pos base [gjU] <anchor 380 775> mark @candraMarks;
+	pos base [gjUu] <anchor 414 775> mark @candraMarks;
+	pos base [gjRvocal] <anchor 377 628> mark @candraMarks;
 
 
 #----------------------------------------------------------------------------
