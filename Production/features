@@ -2,6 +2,11 @@ languagesystem DFLT dflt;
 languagesystem gjr2 dflt;
 languagesystem gujr dflt;
 
+
+table GDEF {
+} GDEF;
+
+
 include (markclasses.fea);
 include (classes.fea);
 include (lookups.fea);
